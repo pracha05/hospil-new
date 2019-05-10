@@ -8,40 +8,40 @@
 	
 	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 	<!-- Bootstrap 3.3.7 -->
-	<link rel="stylesheet" href="dist/css/bootstrap.min.css">
-	<link href="dist/css/bootstrapValidator.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="../dist/css/bootstrap.min.css">
+	<link href="../dist/css/bootstrapValidator.min.css" rel="stylesheet">
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
 	<!-- Ionicons -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
-	<link rel="stylesheet" href="dist/css/dataTables.bootstrap.css">
-	<link rel="stylesheet" href="dist/css/daterangepicker.css">
+	<link rel="stylesheet" href="../dist/css/dataTables.bootstrap.css">
+	<link rel="stylesheet" href="../dist/css/daterangepicker.css">
 	<!-- bootstrap datepicker -->
-	<link rel="stylesheet" href="dist/css/datepicker3.css">
-	<link rel="stylesheet" href="dist/css/bootstrap-timepicker.min.css">
-	<link rel="stylesheet" href="dist/css/bootstrap-colorpicker.min.css">
-	<link rel="stylesheet" href="dist/css/select2.min.css">
+	<link rel="stylesheet" href="../dist/css/datepicker3.css">
+	<link rel="stylesheet" href="../dist/css/bootstrap-timepicker.min.css">
+	<link rel="stylesheet" href="../dist/css/bootstrap-colorpicker.min.css">
+	<link rel="stylesheet" href="../dist/css/select2.min.css">
 	<!-- Theme style -->
-	<link rel="stylesheet" href="dist/css/fullcalendar.min.css">
-	<link rel="stylesheet" href="dist/css/AdminLTE.min.css">
+	<link rel="stylesheet" href="../dist/css/fullcalendar.min.css">
+	<link rel="stylesheet" href="../dist/css/AdminLTE.min.css">
 	<!-- AdminLTE Skins. Choose a skin from the css/skins
        folder instead of downloading all of them to reduce the load. -->
-	<link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
-	<link rel="stylesheet" href="dist/css/style.css">
+	<link rel="stylesheet" href="../dist/css/skins/_all-skins.min.css">
+	<link rel="stylesheet" href="../dist/css/style.css">
 	<!-- iCheck -->
-	<link rel="stylesheet" href="dist/css/blue.css">
+	<link rel="stylesheet" href="../dist/css/blue.css">
 	<!-- Morris chart -->
-	<link rel="stylesheet" href="dist/css/morris.css">
+	<link rel="stylesheet" href="../dist/css/morris.css">
 	<!-- jvectormap -->
-	<link rel="stylesheet" href="dist/css/jquery-jvectormap-1.2.2.css">
+	<link rel="stylesheet" href="../dist/css/jquery-jvectormap-1.2.2.css">
 	
 	<!-- bootstrap wysihtml5 - text editor -->
-	<link rel="stylesheet" href="dist/css/bootstrap3-wysihtml5.min.css">
+	<link rel="stylesheet" href="../dist/css/bootstrap3-wysihtml5.min.css">
 	<!-- jQuery 2.2.3 -->
-	<script src="dist/js/jquery-2.2.3.min.js"></script>
+	<script src="../dist/js/jquery-2.2.3.min.js"></script>
 	<!-- Bootstrap 3.3.7 -->
-	<script src="dist/js/bootstrap.min.js"></script>
-	<script src="dist/js/bootstrapValidator.min.js"></script>
+	<script src="../dist/js/bootstrap.min.js"></script>
+	<script src="../dist/js/bootstrapValidator.min.js"></script>
 </head>
 
 <body class="hold-transition skin-blue fixed sidebar-mini">
@@ -51,7 +51,7 @@
 			<!-- Logo -->
 			<a href="dashboard.php" class="logo">
 				<!-- mini logo for sidebar mini 50x50 pixels --> <span class="logo-mini"><b>H</b></span>
-				<!-- logo for regular state and mobile devices --> <span class="logo-lg"><img style="height:50px;" class="img-responsive" src="dist/img/logo-gif.gif"></span>
+				<!-- logo for regular state and mobile devices --> <span class="logo-lg"><img style="height:50px;" class="img-responsive" src="../dist/img/logo-gif.gif"></span>
 			</a>
 			<!-- Header Navbar: style can be found in header.less -->
 			<nav class="navbar navbar-static-top">
@@ -147,7 +147,7 @@
 				<!-- Sidebar user panel -->
 				<div class="user-panel bg-profile">
 					<div class="pull-left image">
-						<img src="dist\img\user.png" class="img-circle" alt="User Image">
+						<img src="../dist\img\user.png" class="img-circle" alt="User Image">
 					</div>
 					<div class="pull-left info">
 						<p>Hospil Admin</p> <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
@@ -165,71 +165,55 @@
 						</a>
 					</li>
 					<li class="treeview">
-						<a href="#"> <i class="fa fa-user-plus"></i>  <span>General Master</span>
+						<a href="#"> <i class="fa fa-user-plus"></i>  <span>Billing</span>
 							<span class="pull-right-container">
 							  <i class="fa fa-angle-left pull-right"></i>
 							</span>
 						</a>
 						<ul class="treeview-menu" style="display: none;">
-							<li> <a href="add-state.php"> States</a>
+							<li> <a href="consultations.php">consultations</a>
 							</li>
-							<li><a href="add-district.php">District</a></li>
-							<li><a href="add-city.php">City</a></li>
-							<li><a href="add-department.php">Department</a></li>
-							<li><a href="add-speciality.php">Specialty</a></li>
-							<li><a href="add-doctor.php">Doctors</a></li>
-							<li><a href="referral-doctor.php">Refferal Doctor</a></li>
-							<li><a href="organization.php">Organization</a></li>
-							<li><a href="users.php">Users</a></li>
-							<li><a href="user-rights.php">Users Rights</a></li>
-							<li><a href="roles.php">Roles</a></li>
+							<li><a href="op-procedure.php">op procedure</a></li>
+							<li><a href="payments.php">payments</a></li>
+							<li><a href="concessions.php">concessions</a></li>
+							<li><a href="printslip.php">print slips</a></li>
 						</ul>
 					</li>
 					<li class="treeview">
-						<a href="#"> <i class="fa fa-user-plus"></i>  <span>OP Module</span>
+						<a href="#"> <i class="fa fa-user-plus"></i>  <span>Diagnostics</span>
 							<span class="pull-right-container">
 							  <i class="fa fa-angle-left pull-right"></i>
 							</span>
 						</a>
 						<ul class="treeview-menu" style="display: none;">
-							<li> <a href="#">Services </a>
+							<li> <a href="investigation.php">investigations </a>
 							</li>
-							<li><a href="#">OP Packages </a></li>
+							<li><a href="payment.php">payments</a></li>
+							<li><a href="printslips.php">printslips</a></li>
+							<li><a href="#">requistion</a></li>
+							<li><a href="refund_cancel.php">refunds/cancellation</a></li>
 						</ul>
 					</li>
 					<li class="treeview">
-						<a href="#"> <i class="fa fa-user-plus"></i>  <span>IP Module</span>
+						<a href="#"> <i class="fa fa-user-plus"></i>  <span>IP Admissions</span>
 							<span class="pull-right-container">
 							  <i class="fa fa-angle-left pull-right"></i>
 							</span>
 						</a>
 						<ul class="treeview-menu" style="display: none;">
-							<li> <a href="floors.php">floors </a></li>
-							<li><a href="room-type.php">Room Type </a></li>
-							<li><a href="rooms.php">Rooms </a></li>
-							<li><a href="beds.php">Beds </a></li>
-							<li><a href="services-types.php">IP services types </a></li>
-							<li><a href="services-master.php">Services Master </a></li>
-							
-							<li><a href="machine-equipment.php">Machine Equipment</a></li>
-							<li><a href="operation-type.php">Operation Type</a></li>
-							<li><a href="operation-master.php">Operation Master</a></li>
-							<li><a href="#">Theatre master</a></li>
-							<li><a href="#">Packages</a></li>
-							<li><a href="discharge_template.php">Discharge Template</a></li>
-							<li><a href="discharge_parameter.php">Discharge Parameter</a></li>
-							<li><a href="#">Design Template </a></li>
+							<li> <a href="ipadmission.php">IP admissions</a></li>
+							<li><a href="ipadvance.php">Ip advances</a></li>
 						</ul>
 					</li>
 					<li class="treeview">
-						<a href="#"> <i class="fa fa-user-plus"></i>  <span>Lab</span>
+						<a href="#"> <i class="fa fa-user-plus"></i>  <span>Reports</span>
 							<span class="pull-right-container">
 							  <i class="fa fa-angle-left pull-right"></i>
 							</span>
 						</a>
 						<ul class="treeview-menu" style="display: none;">
-							<li> <a href="investigations.php">Investigations </a></li>
-							<li><a href="packages.php">Packages</a></li>
+							<li> <a href="investigations.php">Day collection</a></li>
+							<li><a href="packages.php">Shift collection</a></li>
 						</ul>
 					</li>
 				</ul>
