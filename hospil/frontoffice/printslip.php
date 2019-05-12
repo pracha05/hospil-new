@@ -36,7 +36,7 @@
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Bill No</label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Age" />
+									<input type="text" class="form-control" name="shopname" placeholder="Enter Bill No" />
 									</div>
 								</div>
 								<div class="form-group col-md-6">
@@ -87,26 +87,26 @@
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Total Amount</label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Consultant doctor" />
+									<input type="text" class="form-control" name="shopname" placeholder="Total Amount" />
 									</div>
 								</div>
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Amount Paid</label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Doctor share" />
+									<input type="text" class="form-control" name="shopname" placeholder="Amount Paid" />
 									</div>
 								</div>
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Balance </label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Hospital share" />
+									<input type="text" class="form-control" name="shopname" placeholder="Balance" />
 									</div>
 								</div>	
 								
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Concession  </label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Concession amount " />
+									<input type="text" class="form-control" name="shopname" placeholder="Enter Concession " />
 									</div>
 								</div>
 								

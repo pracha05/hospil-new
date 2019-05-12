@@ -192,9 +192,10 @@
 							</span>
 						</a>
 						<ul class="treeview-menu" style="display: none;">
-							<li> <a href="#">Services </a>
+							<li> <a href="procedure_type.php">Procedure Type </a>
 							</li>
-							<li><a href="#">OP Packages </a></li>
+							<li><a href="procedure.php">Procedures</a></li>
+							<li><a href="op_packages.php">OP Packages </a></li>
 						</ul>
 					</li>
 					<li class="treeview">

@@ -2,12 +2,12 @@
 <div class="content-wrapper">
 	<section class="content-header mb-4">
 		<h1>
-       Add Consultations 
+       Procedure Type 
       </h1>
 		<ol class="breadcrumb">
 			<li><a href="#"><i class="fa fa-dashboard"></i> Home</a>
 			</li>
-			<li class="active">Consultations</li>
+			<li class="active">Procedure Type</li>
 		</ol>
 	</section>
 	<section class="content">
@@ -16,167 +16,66 @@
 			<div class="col-md-12">
 				<!-- general form elements -->
 				<div class=" ">
+				
 					<div style="padding:20px;">
 						<form id="defaultForm" method="post" class="form-horizontal" action="">
-							<div class=" row ">
-								<div class=" col-md-12 ">
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Uhid</label>
-										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter uhid" />
-										</div>
-									</div>
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Patient name</label>
-										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter patient name" />
-										</div>
+							
+						<div class=" row ">
+							<div class=" col-md-12 ">
+							<div class="col-md-6">
+							<div class="form-group">
+									<label class="col-lg-4 control-label">Procedure Name</label>
+									<div class="col-md-8">
+										<input type="text" class="form-control" name="shopname" placeholder="Enter uhid" />
 									</div>
 								</div>
-								<div class=" col-md-12 ">
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Date of birth</label>
-										<div class="col-md-8">
-											<div class="input-group date">
-												<div class="input-group-addon"> <i class="fa fa-calendar"></i>
-												</div>
-												<input type="text" class="form-control pull-right" id="datepicker">
-											</div>
-										</div>
-									</div>
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">age</label>
-										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter age" />
-										</div>
-									</div>
-								</div>
-								<div class=" col-md-12 ">
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Gender</label>
-										<div class="col-md-8">
-											<label class="radio-inline">
-												<input type="radio" name="optradio" checked>Male</label>
-											<label class="radio-inline">
-												<input type="radio" name="optradio">Female</label>
-										</div>
-									</div>
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Guardian</label>
-										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter Guardian" />
-										</div>
+						  <div class="form-group">
+							<label class="col-lg-4 control-label">Procedure Type</label>
+							<div class="col-lg-8">
+							<select class="form-control select2" multiple="multiple" data-placeholder="Select Roll" >
+							  <option>Nursing</option>
+							  <option>Dentist</option>
+							  <option>Diag</option>
+							
+							</select>
+						  </div>
+						  </div>
+						  <div class="form-group">
+									<label class="col-lg-4 control-label">Procedure Code</label>
+									<div class="col-md-8">
+										<input type="text" class="form-control" name="shopname" placeholder="Enter uhid" />
 									</div>
 								</div>
-								<div class=" col-md-12 ">
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Address</label>
-										<div class="col-md-8">
-											<textarea class="form-control"></textarea>
-										</div>
-									</div>
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Phone</label>
-										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter Phone" />
-										</div>
+								<div class="form-group">
+									<label class="col-lg-4 control-label">Description</label>
+									<div class="col-md-8">
+										<textarea class="form-control"></textarea>
 									</div>
 								</div>
-								<div class=" col-md-12 ">
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Case type</label>
-										<div class="col-md-8">
-											<select class="form-control">
-												<option>normal</option>
-												<option>emergency</option>
-												<option>case type1</option>
-												<option>case type1</option>
-											</select>
-										</div>
-									</div>
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Visit type</label>
-										<div class="col-md-8">
-											<select class="form-control">
-												<option>visittype1</option>
-												<option>visittype1</option>
-												<option>visittype1</option>
-												<option>visittype1</option>
-												<option>visittype1</option>
-											</select>
-										</div>
+								<div class="form-group">
+									<label class="col-lg-4 control-label">Charge</label>
+									<div class="col-md-8">
+										<input type="text" class="form-control" name="shopname" placeholder="Enter uhid" />
 									</div>
 								</div>
-								<div class=" col-md-12 ">
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">PRO</label>
-										<div class="col-md-8">
-											<select class="form-control">
-												<option>pro</option>
-												<option>pro</option>
-												<option>pro</option>
-											</select>
-										</div>
-									</div>
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Payment Type</label>
-										<div class="col-md-8">
-											<select class="form-control">
-												<option>cash</option>
-												<option>card</option>
-												<option>pro</option>
-											</select>
-										</div>
-									</div>
-								</div>
-								<div class=" col-md-12 ">
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Consultation Type</label>
-										<div class="col-md-8">
-											<select class="form-control">
-												<option>normal</option>
-												<option>pro</option>
-												<option>pro</option>
-											</select>
-										</div>
-									</div>
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Doctors</label>
-										<div class="col-md-8">
-											<select class="form-control">
-												<option>general</option>
-												<option>emergency</option>
-												<option>machine1</option>
-												<option>machine1</option>
-											</select>
-										</div>
-									</div>
-								</div>
-								<div class=" col-md-12 ">
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Consultation Fee</label>
-										<div class="col-md-8 bootstrap-timepicker">
-											<label class="radio-inline">
-												<input type="radio" name="optradio" checked>normal</label>
-											<label class="radio-inline">
-												<input type="radio" name="optradio">Emergency</label>
-										</div>
-									</div>
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Consultation Fee</label>
-										<div class="col-md-8 bootstrap-timepicker">
-											<input type="text" class="form-control" name="shopname" placeholder="Consultation Fee" />
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="clearfix">&nbsp;</div>
+								
+						</div>
+								
+						</div>
+				
+								
+							
+						<div class="clearfix">&nbsp;</div>
+							
 							<div class="form-group">
 								<div class="col-lg-12 text-center">
-									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add Consultation</button>
+							
+									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add Procedure</button>
 								</div>
 							</div>
 						</form>
+						
+						
 						<div class="clearfix">&nbsp;</div>
 					</div>
 				</div>
@@ -186,9 +85,8 @@
 		<!--/.col (right) -->
 </div>
 <!-- /.row -->
-</section>
-<script type="text/javascript">
-	var i=1;
+</section> <script type="text/javascript">
+	      var i=1;
      $("#add_row").click(function(){
       $('#addr'+i).html("<td>"+ (i+1) +"</td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Specialty Name' class='form-control input-md mt-2'  /></div></div> </td>");
 
@@ -203,6 +101,7 @@
      });
 </script>
 </div>
+
 <script type="text/javascript">
 	$(document).ready(function() {
 		 //Timepicker

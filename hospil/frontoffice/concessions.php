@@ -2,12 +2,12 @@
 <div class="content-wrapper">
 	<section class="content-header mb-4">
 		<h1>
-       Add Payment 
+concessions
       </h1>
 		<ol class="breadcrumb">
 			<li><a href="#"><i class="fa fa-dashboard"></i> Home</a>
 			</li>
-			<li class="active">payment</li>
+			<li class="active">concessions</li>
 		</ol>
 	</section>
 	<section class="content">
@@ -71,54 +71,55 @@
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Total Amount</label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Consultant doctor" />
+									<input type="text" class="form-control" name="shopname" placeholder="Total Amount" />
 									</div>
 								</div>
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Amount Paid</label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Doctor share" />
+									<input type="text" class="form-control" name="shopname" placeholder="Amount Paid" />
 									</div>
 								</div>
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Balance </label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Hospital share" />
+									<input type="text" class="form-control" name="shopname" placeholder="Balance" />
 									</div>
 								</div>	
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Previous Concession </label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Previous Concession" />
+									<input type="text" class="form-control" name="shopname" placeholder="Previous Concession" />
 									</div>
 								</div>
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Concession amount </label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Concession amount " />
+									<input type="text" class="form-control" name="shopname" placeholder="Concession amount " />
 									</div>
 								</div>
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Concession Given by </label>
 									<div class="col-md-8">
 									<select class="form-control">
-											<option>Speciality1</option>
-											<option>Speciality1</option>
-											<option>Speciality1</option>
-											<option>Speciality1</option>
+											<option>Concession</option>
+											<option>Concession</option>
+											<option>Concession</option>
+											<option>Concession</option>
+											<option>Concession</option>
 										</select>
 									</div>
 								</div>
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Reason</label>
 									<div class="col-md-8 bootstrap-timepicker">
-									<input type="text" class="form-control" name="shopname" placeholder="Doctor share in spl" />
+									<input type="text" class="form-control" name="shopname" placeholder="Enter Reason" />
 									</div>
 								</div>
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">User Code</label>
 									<div class="col-md-8 bootstrap-timepicker">
-									<input type="text" class="form-control" name="shopname" placeholder="Doctor share in spl" />
+									<input type="text" class="form-control" name="shopname" placeholder="Enter User Code" />
 									</div>
 								</div>	
 								

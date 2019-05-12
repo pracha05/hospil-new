@@ -55,7 +55,7 @@
 							<div class="form-group">
 								<div class="col-lg-12 text-center">
 							
-									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add discharge</button>
+									<button type="submit" class="btn btn-primary" name="signup" value="Sign up">Add discharge</button>
 								</div>
 							</div>
 						</form>

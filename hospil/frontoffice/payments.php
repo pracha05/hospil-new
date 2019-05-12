@@ -44,6 +44,8 @@
 										</select>
 									</div>
 								</div>
+								</div>
+								<div class=" col-md-12 ">
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Category</label>
 									
@@ -70,6 +72,8 @@
 									</div>
 									
 								</div>
+								</div>
+								<div class=" col-md-12 ">
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Patient name</label>
 									<div class="col-md-8">
@@ -87,6 +91,8 @@
                 </div>
 									</div>
 								</div>
+								</div>
+								<div class=" col-md-12 ">
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">age</label>
 									<div class="col-md-8">
@@ -104,34 +110,40 @@
 										</label>
 									</div>
 								</div>
+								</div>
+								<div class=" col-md-12 ">
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Total Amount</label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Consultant doctor" />
+									<input type="text" class="form-control" name="shopname" placeholder="Total Amount" />
 									</div>
 								</div>
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Amount Paid</label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Doctor share" />
+									<input type="text" class="form-control" name="shopname" placeholder="Amount Paid" />
 									</div>
 								</div>
+								</div>
+								<div class=" col-md-12 ">
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Balance </label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Hospital share" />
+									<input type="text" class="form-control" name="shopname" placeholder="Balance" />
 									</div>
 								</div>	
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Concession </label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Doctor share in spl" />
+									<input type="text" class="form-control" name="shopname" placeholder="Concession" />
 									</div>
 								</div>
+								</div>
+								<div class=" col-md-12 ">
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Pay Amount</label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Hospital share in spl" />
+									<input type="text" class="form-control" name="shopname" placeholder="Pay Amount" />
 									</div>
 								</div>
 								<div class="form-group col-md-6">
@@ -145,10 +157,12 @@
 										</select>
 									</div>
 								</div>
+								</div>
+								<div class=" col-md-12 ">
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">User Code</label>
 									<div class="col-md-8 bootstrap-timepicker">
-									<input type="text" class="form-control" name="shopname" placeholder="Doctor share in spl" />
+									<input type="text" class="form-control" name="shopname" placeholder="User Code" />
 									</div>
 								</div>	
 								

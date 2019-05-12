@@ -39,10 +39,10 @@
 									
 									<div class="col-md-8">
 										<select class="form-control">
-											<option>Speciality1</option>
-											<option>Speciality1</option>
-											<option>Speciality1</option>
-											<option>Speciality1</option>
+											<option>Category</option>
+											<option>Category</option>
+											<option>Category</option>
+											<option>Category</option>
 										</select>
 									</div>
 									</div>
@@ -52,10 +52,10 @@
 									<div class="col-md-8">
 									
 										<select class="form-control">
-											<option>Speciality1</option>
-											<option>Speciality1</option>
-											<option>Speciality1</option>
-											<option>Speciality1</option>
+											<option>Organization</option>
+											<option>Organization</option>
+											<option>Organization</option>
+											<option>Organization</option>
 										</select>
 									</div>
 									
@@ -70,44 +70,44 @@
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Bill Amount</label>
 									<div class="col-md-8">
-										<input type="text" class="form-control" name="shopname" placeholder="ENter bill amount" />
+										<input type="text" class="form-control" name="shopname" placeholder="Enter bill amount" />
 									</div>
 								</div>
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Total Amount</label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Consultant doctor" />
+									<input type="text" class="form-control" name="shopname" placeholder="Total Amount" />
 									</div>
 								</div>
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Amount Paid</label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Doctor share" />
+									<input type="text" class="form-control" name="shopname" placeholder="Amount Paid" />
 									</div>
 								</div>
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Amount Due </label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Hospital share" />
+									<input type="text" class="form-control" name="shopname" placeholder="Amount Due " />
 									</div>
 								</div>	
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Concession Amount</label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Doctor share in spl" />
+									<input type="text" class="form-control" name="shopname" placeholder="Concession Amount" />
 									</div>
 								</div>
 								
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Refund Amount</label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Hospital share in spl" />
+									<input type="text" class="form-control" name="shopname" placeholder="Refund Amount" />
 									</div>
 								</div>
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Current Payment</label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Hospital share in spl" />
+									<input type="text" class="form-control" name="shopname" placeholder="Current Payment" />
 									</div>
 								</div>
 								<div class="form-group col-md-6">
@@ -124,7 +124,7 @@
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">User Code</label>
 									<div class="col-md-8 bootstrap-timepicker">
-									<input type="text" class="form-control" name="shopname" placeholder="Doctor share in spl" />
+									<input type="text" class="form-control" name="shopname" placeholder="User Code" />
 									</div>
 								</div>	
 								
