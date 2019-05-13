@@ -26,7 +26,7 @@
 									<label class="col-lg-4 control-label">&nbsp;</label>
 									<div class="col-md-8">
 															<label class="radio-inline">
-										  <input type="radio" name="optradio1" checked>Op
+										  <input type="radio" name="optradio" checked>Op
 										</label>
 										<label class="radio-inline">
 										  <input type="radio" name="optradio">Other
@@ -96,10 +96,10 @@
 									<label class="col-lg-4 control-label">Gender</label>
 									<div class="col-md-8">
 										<label class="radio-inline">
-										  <input type="radio" name="optradio" checked>Male
+										  <input type="radio" name="optradio1" checked>Male
 										</label>
 										<label class="radio-inline">
-										  <input type="radio" name="optradio">Female
+										  <input type="radio" name="optradio1">Female
 										</label>
 									</div>
 								</div>

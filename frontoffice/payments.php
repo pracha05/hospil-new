@@ -146,10 +146,10 @@
 									<label class="col-lg-4 control-label">Mode of pay</label>
 									<div class="col-md-8">
 									<select class="form-control">
-											<option>Speciality1</option>
-											<option>Speciality1</option>
-											<option>Speciality1</option>
-											<option>Speciality1</option>
+											<option>card</option>
+											<option>cash</option>
+											<option>cash</option>
+											<option>cash</option>
 										</select>
 									</div>
 								</div>

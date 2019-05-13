@@ -142,9 +142,11 @@
 									<label class="col-lg-4 control-label">Consultant Doctor</label>
 									<div class="col-md-8">
 									<select class="form-control">
-											<option>cash</option>
-											<option>card</option>
-											<option>pro</option>
+											<option>Doctor</option>
+											<option>Doctor</option>
+											<option>Doctor</option>
+											<option>Doctor</option>
+											<option>Doctor</option>
 										</select>
 									</div>
 								</div>

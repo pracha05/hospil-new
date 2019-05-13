@@ -34,7 +34,7 @@
 								<div class="form-group ">
 									<label class="col-lg-4 control-label">Service type code</label>
 									<div class="col-md-8">
-										<input type="text" class="form-control" placeholder="Enter Order No">
+										<input type="text" class="form-control" placeholder="Enter Service type code">
 									</div>
 								</div> 
 							

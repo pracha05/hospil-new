@@ -156,9 +156,9 @@
 										<label class="col-lg-4 control-label">Consultation Fee</label>
 										<div class="col-md-8 bootstrap-timepicker">
 											<label class="radio-inline">
-												<input type="radio" name="optradio" checked>normal</label>
+												<input type="radio" name="optradio1" checked>normal</label>
 											<label class="radio-inline">
-												<input type="radio" name="optradio">Emergency</label>
+												<input type="radio" name="optradio1">Emergency</label>
 										</div>
 									</div>
 									<div class="form-group col-md-6">

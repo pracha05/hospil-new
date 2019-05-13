@@ -2,12 +2,12 @@
 <div class="content-wrapper">
 	<section class="content-header mb-4">
 		<h1>
-     Add Users
+   Machine equipment 
       </h1>
 		<ol class="breadcrumb">
 			<li><a href="#"><i class="fa fa-dashboard"></i> Home</a>
 			</li>
-			<li class="active">Users</li>
+			<li class="active">Machine equipment </li>
 		</ol>
 	</section>
 	<section class="content">
@@ -22,82 +22,59 @@
 							
 						<div class=" row ">
 							<div class=" col-md-6 ">
+								
+							
+								
 								 <div class="form-group ">
-									<label class="col-lg-4 control-label">User name</label>
+									<label class="col-lg-4 control-label">Machine equipment name</label>
 									<div class="col-md-8">
-										<input type="text" class="form-control" name="shopname" placeholder="Enter User name" />
+										<input type="text" class="form-control" placeholder="Enter Machine equipment name">
+									</div>
+								</div> 
+								<div class="form-group ">
+									<label class="col-lg-4 control-label">Code</label>
+									<div class="col-md-8">
+										<input type="text" class="form-control" placeholder="Enter Service code">
+									</div>
+								</div> 
+								<div class="form-group ">
+									<label class="col-lg-4 control-label">&nbsp;</label>
+									<div class="col-md-8">
+										<label class="radio-inline">
+										  <input type="radio" name="optradio" checked>Day wise
+										</label>
+										<label class="radio-inline">
+										  <input type="radio" name="optradio">Monthly wise
+										</label>
+									</div>
+								</div> 
+								<div class="form-group ">
+									<label class="col-lg-4 control-label">Rate </label>
+									<div class="col-md-8">
+										<input type="text" class="form-control" placeholder="Enter Rate">
+									</div>
+								</div> 
+								
+								<div class="form-group ">
+									<label class="col-lg-4 control-label">Description</label>
+									<div class="col-md-8">
+										<textarea class="form-control"></textarea>
 									</div>
 								</div> 
 							
-								<div class="form-group ">
-									<label class="col-lg-4 control-label">Phone Number</label>
-									<div class="col-md-8">
-									<input type="password" class="form-control" name="shopname" placeholder="Enter password" />
-									</div>
-								</div>
-								<div class="form-group ">
-									<label class="col-lg-4 control-label">User code</label>
-									<div class="col-md-8">
-									<input type="password" class="form-control" name="shopname" placeholder="Enter User code" />
-									</div>
-								</div>
-								<div class="form-group ">
-									<label class="col-lg-4 control-label">&nbsp;</label>
-									<div class="col-md-8">
-										<label class="checkbox-inline">
-										  <input type="checkbox" value=""> OP
-										</label>
-										<label class="checkbox-inline">
-										  <input type="checkbox" value=""> IP
-										</label>
-										<label class="checkbox-inline">
-										  <input type="checkbox" value=""> Diagnostic
-										</label>
-									</div>
-								</div>
 							
-							 
-							  	<div class="form-group ">
-								 <h4 class="text-center">User Privileges</h4>
-									<label class="col-lg-4 control-label">&nbsp;</label>
-									<div class="col-md-8">
-										<label class="checkbox-inline">
-										  <input type="checkbox" value="">Allow Multiple Concession
-										</label>
-									</div>
-								</div>
 							
-							 <div class="form-group ">
-									
-									<label class="col-lg-5 control-label">Max. Concession Allowed</label>
-									<div class="col-md-3">
-										<label class="checkbox-inline">
-										  <input type="text" value="" class="form-control">
-									</div>
-								</div>
 						</div>
-						<div class="col-md-6">
-						  <div class="form-group">
-							<label class="col-lg-4 control-label">Roll Name</label>
-							<div class="col-lg-8">
-							<select class="form-control select2" multiple="multiple" data-placeholder="Select Roll" >
-							  <option>IP</option>
-							  <option>OP</option>
-							  <option>Diag</option>
-							
-							</select>
-						  </div>
-						  </div>
-						</div>
+						 
 				
 								
 							
 						<div class="clearfix">&nbsp;</div>
 							
 							<div class="form-group">
-								<div class="col-lg-6 text-center">
+								<div class="col-md-6 text-center">
 							
-									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add User</button>
+									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add Machine equipment</button>
 								</div>
 							</div>
 						</form>
@@ -135,6 +112,10 @@
 	    $(".timepicker").timepicker({
 	      showInputs: false
 	    });
+		 //Colorpicker
+    $(".my-colorpicker1").colorpicker();
+    //color picker with addon
+    $(".my-colorpicker2").colorpicker();
 	    // Generate a simple captcha
 	    function randomNumber(min, max) {
 	        return Math.floor(Math.random() * (max - min + 1) + min);

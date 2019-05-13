@@ -2,12 +2,12 @@
 <div class="content-wrapper">
 	<section class="content-header mb-4">
 		<h1>
-     Organization
+     Add Users
       </h1>
 		<ol class="breadcrumb">
 			<li><a href="#"><i class="fa fa-dashboard"></i> Home</a>
 			</li>
-			<li class="active">Organization</li>
+			<li class="active">Users</li>
 		</ol>
 	</section>
 	<section class="content">
@@ -23,57 +23,71 @@
 						<div class=" row ">
 							<div class=" col-md-6 ">
 								 <div class="form-group ">
-									<label class="col-lg-4 control-label">Organization name</label>
+									<label class="col-lg-4 control-label">User name</label>
 									<div class="col-md-8">
-										<input type="text" class="form-control" name="shopname" placeholder="Enter Doctor name" />
+										<input type="text" class="form-control" name="shopname" placeholder="Enter User name" />
 									</div>
 								</div> 
 							
 								<div class="form-group ">
 									<label class="col-lg-4 control-label">Phone Number</label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Phone Number" />
-									</div>
-								</div>
-									<div class="form-group ">
-									<label class="col-lg-4 control-label">Address</label>
-									<div class="col-md-8">
-									<textarea class="form-control"></textarea>
-									</div>
-								</div>
-									<div class="form-group ">
-									<label class="col-lg-4 control-label">Credit facility</label>
-									<div class="col-md-8">
-										<select class="form-control">
-											<option>Credit facility</option>
-											<option>Credit facility</option>
-											<option>Credit facility</option>
-											<option>Credit facility</option>
-										</select>
+									<input type="password" class="form-control" name="shopname" placeholder="Enter Phone Number" />
 									</div>
 								</div>
 								<div class="form-group ">
-									<label class="col-lg-4 control-label">Contact person</label>
+									<label class="col-lg-4 control-label">User code</label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Contact person " />
+									<input type="password" class="form-control" name="shopname" placeholder="Enter User code" />
 									</div>
 								</div>
-								
 								<div class="form-group ">
-									<label class="col-lg-4 control-label">From</label>
-									<div class="col-md-8 bootstrap-timepicker">
-									<input type="text" class="form-control timepicker" name="shopname"  />
-									</div>
-								</div>	
-								<div class="form-group ">
-									<label class="col-lg-4 control-label">To</label>
-									<div class="col-md-8 bootstrap-timepicker">
-									<input type="text" class="form-control timepicker" name="shopname"  />
+									<label class="col-lg-4 control-label">&nbsp;</label>
+									<div class="col-md-8">
+										<label class="checkbox-inline">
+										  <input type="checkbox" value=""> OP
+										</label>
+										<label class="checkbox-inline">
+										  <input type="checkbox" value=""> IP
+										</label>
+										<label class="checkbox-inline">
+										  <input type="checkbox" value=""> Diagnostic
+										</label>
 									</div>
 								</div>
-								
-								
-								
+							
+							 
+							  	<div class="form-group ">
+								 <h4 class="text-center">User Privileges</h4>
+									<label class="col-lg-4 control-label">&nbsp;</label>
+									<div class="col-md-8">
+										<label class="checkbox-inline">
+										  <input type="checkbox" value="">Allow Multiple Concession
+										</label>
+									</div>
+								</div>
+							
+							 <div class="form-group ">
+									
+									<label class="col-lg-5 control-label">Max. Concession Allowed</label>
+									<div class="col-md-3">
+										<label class="checkbox-inline">
+										  <input type="text" value="" class="form-control">
+									</div>
+								</div>
+						</div>
+						<div class="col-md-6">
+						  <div class="form-group">
+							<label class="col-lg-4 control-label">Roll Name</label>
+							<div class="col-lg-8">
+							<select class="form-control select2" multiple="multiple" data-placeholder="Select Roll Name" >
+							  <option>IP</option>
+							  <option>OP</option>
+							  <option>Diag</option>
+							
+							</select>
+						  </div>
+						  </div>
 						</div>
 				
 								
@@ -83,7 +97,7 @@
 							<div class="form-group">
 								<div class="col-lg-6 text-center">
 							
-									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add Organization</button>
+									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add User</button>
 								</div>
 							</div>
 						</form>

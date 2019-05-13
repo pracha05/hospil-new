@@ -35,7 +35,7 @@
 							<div class="form-group">
 							<label class="col-lg-4 control-label">Module name</label>
 							<div class="col-lg-8">
-							<select class="form-control select2" multiple="multiple" data-placeholder="Select Roll" >
+							<select class="form-control select2" multiple="multiple" data-placeholder="Select Module name" >
 							  <option>Admin</option>
 							  <option>OP</option>
 							  <option>Diag</option>

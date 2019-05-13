@@ -8,19 +8,19 @@
 	<!-- Tell the browser to be responsive to screen width -->
 	<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
 	<!-- Bootstrap 3.3.7 -->
-	<link rel="stylesheet" href="dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="dist/css/style.css">
+	<link rel="stylesheet" href="../dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="../dist/css/style.css">
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
 	<!-- Ionicons -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
 	<!-- Theme style -->
-	<link rel="stylesheet" href="dist/css/AdminLTE.min.css">
-	<link rel="stylesheet" href="dist/css/blue.css">
+	<link rel="stylesheet" href="../dist/css/AdminLTE.min.css">
+	<link rel="stylesheet" href="../dist/css/blue.css">
 </head>
 <body class="login-page login-bg">
 	<div class="login-box  ">
-		<div class="login-logo"> <a href="#"><img class="img-responsive" src="dist/img/logo-gif.gif"></a>
+		<div class="login-logo"> <a href="#"><img class="img-responsive" src="../dist/img/logo-gif.gif"></a>
 		</div>
 		<!-- /.login-logo -->
 		<div class="login-box-body">
@@ -47,11 +47,11 @@
 	</div>
 	<!-- /.login-box -->
 	<!-- jQuery 2.2.3 -->
-	<script src="dist/js/jquery-2.2.3.min.js"></script>
+	<script src="../dist/js/jquery-2.2.3.min.js"></script>
 	<!-- Bootstrap 3.3.7 -->
-	<script src="dist/js/bootstrap.min.js"></script>
+	<script src="../dist/js/bootstrap.min.js"></script>
 	<!-- iCheck -->
-	<script src="dist/js/icheck.min.js"></script>
+	<script src="../dist/js/icheck.min.js"></script>
 	<script>
 		$(function () {
 		    $('input').iCheck({

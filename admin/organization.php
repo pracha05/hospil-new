@@ -2,12 +2,12 @@
 <div class="content-wrapper">
 	<section class="content-header mb-4">
 		<h1>
-   Machine equipment 
+     Organization
       </h1>
 		<ol class="breadcrumb">
 			<li><a href="#"><i class="fa fa-dashboard"></i> Home</a>
 			</li>
-			<li class="active">Machine equipment </li>
+			<li class="active">Organization</li>
 		</ol>
 	</section>
 	<section class="content">
@@ -22,50 +22,59 @@
 							
 						<div class=" row ">
 							<div class=" col-md-6 ">
-								
-							
-								
 								 <div class="form-group ">
-									<label class="col-lg-4 control-label">Machine equipment name</label>
+									<label class="col-lg-4 control-label">Organization name</label>
 									<div class="col-md-8">
-										<input type="text" class="form-control" placeholder="Enter Machine equipment name">
+										<input type="text" class="form-control" name="shopname" placeholder="Enter Organization name" />
 									</div>
 								</div> 
+							
 								<div class="form-group ">
-									<label class="col-lg-4 control-label">Code</label>
+									<label class="col-lg-4 control-label">Phone Number</label>
 									<div class="col-md-8">
-										<input type="text" class="form-control" placeholder="Enter Service code">
+									<input type="text" class="form-control" name="shopname" placeholder="Enter Phone Number" />
 									</div>
-								</div> 
+								</div>
+									<div class="form-group ">
+									<label class="col-lg-4 control-label">Address</label>
+									<div class="col-md-8">
+									<textarea class="form-control"></textarea>
+									</div>
+								</div>
+									<div class="form-group ">
+									<label class="col-lg-4 control-label">Credit facility</label>
+									<div class="col-md-8">
+										<select class="form-control">
+											<option>Credit facility</option>
+											<option>Credit facility</option>
+											<option>Credit facility</option>
+											<option>Credit facility</option>
+										</select>
+									</div>
+								</div>
 								<div class="form-group ">
-									<label class="col-lg-4 control-label">&nbsp;</label>
+									<label class="col-lg-4 control-label">Contact person</label>
 									<div class="col-md-8">
-										<label class="radio-inline">
-										  <input type="radio" name="optradio" checked>Day wise
-										</label>
-										<label class="radio-inline">
-										  <input type="radio" name="optradio">Monthly wise
-										</label>
+									<input type="text" class="form-control" name="shopname" placeholder="Enter Contact person " />
 									</div>
-								</div> 
-								<div class="form-group ">
-									<label class="col-lg-4 control-label">Rate </label>
-									<div class="col-md-8">
-										<input type="text" class="form-control" placeholder="Enter Rate">
-									</div>
-								</div> 
+								</div>
 								
 								<div class="form-group ">
-									<label class="col-lg-4 control-label">Description</label>
-									<div class="col-md-8">
-										<textarea class="form-control"></textarea>
+									<label class="col-lg-4 control-label">From</label>
+									<div class="col-md-8 bootstrap-timepicker">
+									<input type="text" class="form-control timepicker" name="shopname"  />
 									</div>
-								</div> 
-							
-							
-							
+								</div>	
+								<div class="form-group ">
+									<label class="col-lg-4 control-label">To</label>
+									<div class="col-md-8 bootstrap-timepicker">
+									<input type="text" class="form-control timepicker" name="shopname"  />
+									</div>
+								</div>
+								
+								
+								
 						</div>
-						 
 				
 								
 							
@@ -74,7 +83,7 @@
 							<div class="form-group">
 								<div class="col-lg-6 text-center">
 							
-									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add Machine equipment</button>
+									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add Organization</button>
 								</div>
 							</div>
 						</form>
@@ -112,10 +121,6 @@
 	    $(".timepicker").timepicker({
 	      showInputs: false
 	    });
-		 //Colorpicker
-    $(".my-colorpicker1").colorpicker();
-    //color picker with addon
-    $(".my-colorpicker2").colorpicker();
 	    // Generate a simple captcha
 	    function randomNumber(min, max) {
 	        return Math.floor(Math.random() * (max - min + 1) + min);

@@ -1,30 +1,30 @@
 <footer class="main-footer">
 	<div class="pull-right hidden-xs"> <b>by</b> prachatech</div> <strong>Hospil </strong>
 </footer>
-<script src="dist/js/jquery.dataTables.min.js"></script>
-<script src="dist/js/dataTables.bootstrap.min.js"></script>
+<script src="../dist/js/jquery.dataTables.min.js"></script>
+<script src="../dist/js/dataTables.bootstrap.min.js"></script>
 
-<script src="dist/js/select2.full.min.js"></script>
-<script src="dist/js/jquery.inputmask.js"></script>
-<script src="dist/js/jquery.inputmask.date.extensions.js"></script>
-<script src="dist/js/jquery.inputmask.extensions.js"></script>
+<script src="../dist/js/select2.full.min.js"></script>
+<script src="../dist/js/jquery.inputmask.js"></script>
+<script src="../dist/js/jquery.inputmask.date.extensions.js"></script>
+<script src="../dist/js/jquery.inputmask.extensions.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.11.2/moment.min.js"></script>
-<script src="dist/js/daterangepicker.js"></script>
-<script src="dist/js/bootstrap-datepicker.js"></script>
-<script src="dist/js/bootstrap-timepicker.min.js"></script>
-<script src="dist/js/bootstrap-colorpicker.min.js"></script>
+<script src="../dist/js/daterangepicker.js"></script>
+<script src="../dist/js/bootstrap-datepicker.js"></script>
+<script src="../dist/js/bootstrap-timepicker.min.js"></script>
+<script src="../dist/js/bootstrap-colorpicker.min.js"></script>
 <!-- Slimscroll -->
-<script src="dist/js/jquery.slimscroll.min.js"></script>
+<script src="../dist/js/jquery.slimscroll.min.js"></script>
 <!-- FastClick -->
-<script src="dist/js/fastclick.js"></script>
+<script src="../dist/js/fastclick.js"></script>
 <!-- AdminLTE App -->
-<script src="dist/js/app.min.js"></script>
+<script src="../dist/js/app.min.js"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="dist/js/demo.js"></script>
+<script src="../dist/js/demo.js"></script>
 <!-- fullCalendar 2.2.5 -->
-<script src="dist/js/fullcalendar.min.js"></script>
-<script src="dist/js/bootstrap3-wysihtml5.all.min.js"></script>
-<script src="dist/js/icheck.min.js"></script>
+<script src="../dist/js/fullcalendar.min.js"></script>
+<script src="../dist/js/bootstrap3-wysihtml5.all.min.js"></script>
+<script src="../dist/js/icheck.min.js"></script>
 <script>
 	$(function () {
 	    //Initialize Select2 Elements
