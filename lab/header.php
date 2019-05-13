@@ -171,41 +171,33 @@
 						
 					</li>
 					<li class="treeview">
-						<a href="#"> <i class="fa fa-user-plus"></i>  <span>Authentication</span>
-							<span class="pull-right-container">
-							  <i class="fa fa-angle-left pull-right"></i>
-							</span>
+						<a href="sample_collection.php"> <i class="fa fa-user-plus"></i>  <span>Sample collection </span>
+							
 						</a>
-						<ul class="treeview-menu" style="display: none;">
-							<li> <a href="investigation.php">investigations </a>
-							</li>
-							<li><a href="payment.php">payments</a></li>
-							<li><a href="printslips.php">printslips</a></li>
-							<li><a href="#">requistion</a></li>
-							<li><a href="refund_cancel.php">refunds/cancellation</a></li>
-						</ul>
+						
+					</li>
+					<li class="treeview">
+						<a href="reportsentry.php"> <i class="fa fa-user-plus"></i>  <span>Reports entry</span>
+							
+						</a>
+						
+					</li>
+					<li class="treeview">
+						<a href="authentication.php"> <i class="fa fa-user-plus"></i>  <span>Authentication</span>
+							
+						</a>
+						
 					</li>
 					<li class="treeview">
 						<a href="#"> <i class="fa fa-user-plus"></i>  <span>Dispatch</span>
-							<span class="pull-right-container">
-							  <i class="fa fa-angle-left pull-right"></i>
-							</span>
+							
 						</a>
-						<ul class="treeview-menu" style="display: none;">
-							<li> <a href="ipadmission.php">IP admissions</a></li>
-							<li><a href="ipadvance.php">Ip advances</a></li>
-						</ul>
+						
 					</li>
 					<li class="treeview">
-						<a href="#"> <i class="fa fa-user-plus"></i>  <span>Lab report dispatch </span>
-							<span class="pull-right-container">
-							  <i class="fa fa-angle-left pull-right"></i>
-							</span>
+						<a href="labreport.php"> <i class="fa fa-user-plus"></i>  <span>Lab report dispatch </span>
+						
 						</a>
-						<ul class="treeview-menu" style="display: none;">
-							<li> <a href="day_collection.php">Day collection</a></li>
-							<li><a href="shift_collection.php">Shift collection</a></li>
-						</ul>
 					</li>
 					<li class="treeview">
 						<a href="#"> <i class="fa fa-user-plus"></i>  <span>Patient Database</span>
