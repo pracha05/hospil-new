@@ -1,146 +1,85 @@
 <?php include( "header.php"); ?>
+<head>
+<link rel="stylesheet" href="../dist/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="../dist/css/buttons.dataTables.min.css">
+</head>
 <div class="content-wrapper">
-	<section class="content-header mb-4">
-		<h1>
-       op procedure 
-      </h1>
-		<ol class="breadcrumb">
-			<li><a href="#"><i class="fa fa-dashboard"></i> Home</a>
-			</li>
-			<li class="active">op procedure</li>
-		</ol>
-	</section>
-	<section class="content">
+	
+	<section class="content ">
 		<div class="row">
 			<!-- left column -->
-			<div class="col-md-12">
+			<div class="col-md-12 bg-white">
 				<!-- general form elements -->
 				<div class=" ">
-				
 					<div style="padding:20px;">
-						<form id="defaultForm" method="post" class="form-horizontal" action="">
-							
-						<div class=" row ">
-							<div class=" col-md-12 ">
-								 <div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Patient Type</label>
-									<div class="col-md-8">
-									<select class="form-control">
-											<option>op</option>
-											<option>ip</option>
-											<option>Speciality1</option>
-											<option>Speciality1</option>
-										</select>
-										
-									</div>
-								</div> 
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Uhid no</label>
-									<div class="col-md-8">
-										<input type="text" class="form-control" name="shopname" placeholder="Enter uhid no" />
-									</div>
-								</div>
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Op no</label>
-									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter op no" />
-									</div>
-								</div>
-									<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Patient Name</label>
-									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Patient name" />
-									</div>
-								</div>
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Date of birth</label>
-									<div class="col-md-8">
-												
-                  <input type="text" class="form-control pull-right datepicker" >
-               
-							
-									</div>
-								</div>
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">age</label>
-									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Age" />
-									</div>
-								</div>
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Guardian</label>
-									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Guardian" />
-									</div>
-								</div>
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Address</label>
-									<div class="col-md-8">
-									<textarea class="form-control"></textarea>
-									</div>
-								</div>
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Phone </label>
-									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Phone" />
-									</div>
-								</div>
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Payment Type</label>
-									<div class="col-md-8">
-									<select class="form-control">
-											<option>cash</option>
-											<option>card</option>
-											<option>pro</option>
-										</select>
-									</div>
-								</div>
-								
-								
-								
-								
-								
+					<div class="row table-responsive">
+						<table id="example" class="display" style="width:100%">
+        <thead>
+		
+            <tr>
+                <th>&nbsp;</th>
+                <th>Grand total</th>
+                <th>Concession</th>
+                <th>Credit Card</th>
+                <th>Cheque/DD</th>
+                <th>Refund</th>
+                <th>Dues</th>
+                <th>Cash</th>
+                <th>Previous Refunds</th>
+                <th>By Cash</th>
+                <th>By Card</th>
+                <th>By Cheque</th>
+                <th>Total Cash in hand</th>
+            </tr>
+			
+        </thead>
+        <tbody>
+           
+            <tr>
+                <th>Donna Snider</th>
+                <td>Customer Support</td>
+                <td>New York</td>
+                <td>27</td>
+                <td>2011/01/25</td>
+                <td>$112,000</td>
+                <td>$112,000</td>
+                <td>$112,000</td>
+                <td>$112,000</td>
+                <td>$112,000</td>
+                <td>$112,000</td>
+                <td>$112,000</td>
+                <td>$112,000</td>
+            </tr>
+        </tbody>
+
+    </table>	
+	</div>
+						<div class="clearfix">&nbsp;</div>
 						</div>
-				
-								
-							
-						<div class="clearfix">&nbsp;</div>
-							
-							<div class="form-group">
-								<div class="col-lg-12 text-center">
-							
-									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add op</button>
-								</div>
-							</div>
-						</form>
-						
-						
-						<div class="clearfix">&nbsp;</div>
 					</div>
+					<!-- /.box -->
 				</div>
-				<!-- /.box -->
 			</div>
+			<!--/.col (right) -->
 		</div>
-		<!--/.col (right) -->
+		<!-- /.row -->
+	</section>
+	<script type="text/javascript">
+		var i=1;
+	     $("#add_row").click(function(){
+	      $('#addr'+i).html("<td>"+ (i+1) +"</td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Specialty Name' class='form-control input-md mt-2'  /></div></div> </td>");
+	
+	      $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
+	      i++; 
+	  });
+	     $("#delete_row").click(function(){
+	         if(i>1){
+	         $("#addr"+(i-1)).html('');
+	         i--;
+	         }
+	     });
+	</script>
 </div>
-<!-- /.row -->
-</section> <script type="text/javascript">
-	      var i=1;
-     $("#add_row").click(function(){
-      $('#addr'+i).html("<td>"+ (i+1) +"</td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Specialty Name' class='form-control input-md mt-2'  /></div></div> </td>");
-
-      $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
-      i++; 
-  });
-     $("#delete_row").click(function(){
-         if(i>1){
-         $("#addr"+(i-1)).html('');
-         i--;
-         }
-     });
-</script>
-</div>
-
 <script type="text/javascript">
 	$(document).ready(function() {
 		 //Timepicker
@@ -368,4 +307,20 @@
 	    });
 	});
 </script>
+
+
+
+
 <?php include( "footer.php"); ?>
+<script src="../dist/js/dataTables.buttons.min.js"></script>
+<script src="../dist/js/buttons.print.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#example').DataTable( {
+        dom: 'Bfrtip',
+        buttons: [
+            'print'
+        ]
+    } );
+} );
+</script>

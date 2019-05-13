@@ -2,12 +2,12 @@
 <div class="content-wrapper">
 	<section class="content-header mb-4">
 		<h1>
-       op procedure 
+       Day Collection
       </h1>
 		<ol class="breadcrumb">
 			<li><a href="#"><i class="fa fa-dashboard"></i> Home</a>
 			</li>
-			<li class="active">op procedure</li>
+			<li class="active">Day Collection</li>
 		</ol>
 	</section>
 	<section class="content">
@@ -18,87 +18,65 @@
 				<div class=" ">
 				
 					<div style="padding:20px;">
-						<form id="defaultForm" method="post" class="form-horizontal" action="">
+						<form id="defaultForm" method="post" class="form-horizontal" action="view_daycollection.php">
 							
 						<div class=" row ">
-							<div class=" col-md-12 ">
-								 <div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Patient Type</label>
+							<div class=" col-md-8">
+								 <div class="form-group">
+									<label class="col-lg-4 control-label">&nbsp;</label>
 									<div class="col-md-8">
-									<select class="form-control">
-											<option>op</option>
-											<option>ip</option>
-											<option>Speciality1</option>
-											<option>Speciality1</option>
-										</select>
+											<label class="radio-inline">
+												<input type="radio" name="optradio" checked>Details</label>
+											<label class="radio-inline">
+												<input type="radio" name="optradio">Summary </label>
+										</div>
+								</div> 
+								<div class="form-group ">
+									<label class="col-lg-4 control-label">Types</label>
+									<div class="col-md-8">
+										<label class="checkbox-inline">
+										  <input type="checkbox" value=""> Check all
+										</label>
+									</div>
+								</div>
+								<div class="form-group">
+									<label class="col-lg-4 control-label">&nbsp;</label>
+									<div class="col-md-8">
+									<div class="row checkbox_typessection">
+										<label class=" col-md-4">
+										  <input type="checkbox" value=""> Op Consultation
+										</label>
+										<label class=" col-md-4">
+										  <input type="checkbox" value=""> Op Procedure
+										</label>
+										<label class=" col-md-4">
+										  <input type="checkbox" value=""> Lab
+										</label>
+											<label class=" col-md-4">
+										  <input type="checkbox" value=""> Ip Admission
+										</label>
+										<label class=" col-md-4">
+										  <input type="checkbox" value=""> Ip Procedure
+										</label>
+										<label class=" col-md-4">
+										  <input type="checkbox" value=""> Ip Operation
+										</label>
+											<label class=" col-md-4">
+										  <input type="checkbox" value=""> Other Charges
+										</label>
+										<label class=" col-md-4">
+										  <input type="checkbox" value=""> Misc charges
+										</label>
+										<label class=" col-md-4">
+										  <input type="checkbox" value=""> Equipment charges 
+										</label>
+											<label class=" col-md-4">
+										  <input type="checkbox" value=""> FNB chargers 
+										</label>
 										
 									</div>
-								</div> 
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Uhid no</label>
-									<div class="col-md-8">
-										<input type="text" class="form-control" name="shopname" placeholder="Enter uhid no" />
 									</div>
 								</div>
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Op no</label>
-									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter op no" />
-									</div>
-								</div>
-									<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Patient Name</label>
-									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Patient name" />
-									</div>
-								</div>
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Date of birth</label>
-									<div class="col-md-8">
-												
-                  <input type="text" class="form-control pull-right datepicker" >
-               
-							
-									</div>
-								</div>
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">age</label>
-									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Age" />
-									</div>
-								</div>
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Guardian</label>
-									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Guardian" />
-									</div>
-								</div>
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Address</label>
-									<div class="col-md-8">
-									<textarea class="form-control"></textarea>
-									</div>
-								</div>
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Phone </label>
-									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Phone" />
-									</div>
-								</div>
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Payment Type</label>
-									<div class="col-md-8">
-									<select class="form-control">
-											<option>cash</option>
-											<option>card</option>
-											<option>pro</option>
-										</select>
-									</div>
-								</div>
-								
-								
-								
-								
 								
 						</div>
 				
@@ -107,9 +85,9 @@
 						<div class="clearfix">&nbsp;</div>
 							
 							<div class="form-group">
-								<div class="col-lg-12 text-center">
+								<div class="col-lg-8 text-center">
 							
-									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add op</button>
+									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">View</button>
 								</div>
 							</div>
 						</form>

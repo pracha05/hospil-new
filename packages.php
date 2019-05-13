@@ -31,24 +31,18 @@
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Starting date</label>
 									<div class="col-md-8">
-										<div class="input-group date">
-                  <div class="input-group-addon">
-                    <i class="fa fa-calendar"></i>
-                  </div>
-                  <input type="text" class="form-control pull-right" id="datepicker">
-                </div>
+						
+                  <input type="text" class="form-control  datepicker" >
+            
 									</div>
 								</div>
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Ending date</label>
 									<div class="col-md-8">
-									<div class="input-group date">
-                  <div class="input-group-addon">
-                    <i class="fa fa-calendar"></i>
-                  </div>
-                  <input type="text" class="form-control pull-right" id="datepicker">
-                </div>
-									</div>
+									
+               
+                  <input type="text" class="form-control datepicker" id="">
+             			</div>
 								</div>
 									<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">No of days</label>
@@ -140,6 +134,9 @@
 		 //Timepicker
 	    $(".timepicker").timepicker({
 	      showInputs: false
+	    });	
+		$('.datepicker').datepicker({
+	      autoclose: true
 	    });
 	    // Generate a simple captcha
 	    function randomNumber(min, max) {

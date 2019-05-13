@@ -25,7 +25,7 @@
 							<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Template Name</label>
 									<div class="col-md-8">
-										<input type="text" class="form-control" name="shopname" placeholder="Enter uhid" />
+										<input type="text" class="form-control" name="shopname" placeholder="Enter Template Name" />
 									</div>
 								</div>
 								
@@ -36,7 +36,7 @@
 						<div class="clearfix">&nbsp;</div>
 							
 							<div class="form-group">
-								<div class="col-lg-12 text-center">
+								<div class="col-lg-6 text-center">
 							
 									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add admission</button>
 								</div>

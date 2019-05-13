@@ -51,7 +51,7 @@
 								<div class="form-group ">
 									<label class="col-lg-4 control-label">Rate </label>
 									<div class="col-md-8">
-										<input type="text" class="form-control" placeholder="Enter Service code">
+										<input type="text" class="form-control" placeholder="Enter Rate">
 									</div>
 								</div> 
 								

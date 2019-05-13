@@ -555,3 +555,9 @@
 .mx-auto {
 	margin-left: auto!important
 }
+.checkbox_typessection .col-md-4 {
+	font-weight:400;
+}
+.bg-white {
+	background-color:#fff;
+}

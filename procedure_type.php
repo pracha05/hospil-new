@@ -26,7 +26,7 @@
 						  <div class="form-group">
 							<label class="col-lg-4 control-label">Procedure Type</label>
 							<div class="col-lg-8">
-							<select class="form-control select2" multiple="multiple" data-placeholder="Select Roll" >
+							<select class="form-control select2" multiple="multiple" data-placeholder="Select Procedure Type" >
 							  <option>Nursing</option>
 							  <option>Dentist</option>
 							  <option>Diag</option>
@@ -43,7 +43,7 @@
 						<div class="clearfix">&nbsp;</div>
 							
 							<div class="form-group">
-								<div class="col-lg-12 text-center">
+								<div class="col-lg-6 text-center">
 							
 									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add Procedure</button>
 								</div>

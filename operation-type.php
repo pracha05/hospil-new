@@ -28,13 +28,13 @@
 								 <div class="form-group ">
 									<label class="col-lg-4 control-label">Operation type</label>
 									<div class="col-md-8">
-										<input type="text" class="form-control" placeholder="Enter Machine equipment name">
+										<input type="text" class="form-control" placeholder="Enter Operation type">
 									</div>
 								</div> 
 								<div class="form-group ">
 									<label class="col-lg-4 control-label">Operation code</label>
 									<div class="col-md-8">
-										<input type="text" class="form-control" placeholder="Enter Service code">
+										<input type="text" class="form-control" placeholder="Enter Operation code">
 									</div>
 								</div> 
 								

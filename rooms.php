@@ -25,7 +25,7 @@
 								 <div class="form-group ">
 									<label class="col-lg-4 control-label">Room number</label>
 									<div class="col-md-8">
-										<input type="text" class="form-control" placeholder="Enter floor number">
+										<input type="text" class="form-control" placeholder="Enter room number">
 									</div>
 								</div> 
 								<div class="form-group ">

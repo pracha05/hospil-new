@@ -39,7 +39,7 @@
 										<div class="col-md-8">
 											
 												
-												<input type="text" class="form-control" id="datepicker">
+												<input type="text" class="form-control datepicker" >
 											
 										</div>
 									</div>

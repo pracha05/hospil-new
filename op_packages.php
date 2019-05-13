@@ -26,13 +26,13 @@
 							<div class="form-group">
 									<label class="col-lg-4 control-label">Package Name</label>
 									<div class="col-md-8">
-										<input type="text" class="form-control" name="shopname" placeholder="Enter uhid" />
+										<input type="text" class="form-control" name="shopname" placeholder="Enter Package Name" />
 									</div>
 								</div>
 						  <div class="form-group">
 							<label class="col-lg-4 control-label">Package Rate</label>
 							<div class="col-lg-8">
-							<input type="text" class="form-control" name="shopname" placeholder="Enter uhid" />
+							<input type="text" class="form-control" name="shopname" placeholder="Enter Package Rate" />
 						  </div>
 						  </div>
 						  <div class="form-group">
@@ -45,17 +45,17 @@
 									<label class="col-lg-4 control-label">Consultation</label>
 									<div class="col-md-8">
 										<select class="form-control">
-											<option>Speciality1</option>
-											<option>Speciality1</option>
-											<option>Speciality1</option>
-											<option>Speciality1</option>
+											<option>Consultation</option>
+											<option>Consultation</option>
+											<option>Consultation</option>
+											<option>Consultation</option>
 										</select>
 									</div>
 								</div>
 								<div class="form-group">
 									<label class="col-lg-4 control-label">Service Tax</label>
 									<div class="col-md-8">
-										<input type="text" class="form-control" name="shopname" placeholder="Enter uhid" />
+										<input type="text" class="form-control" name="shopname" placeholder="Enter Service Tax" />
 									</div>
 								</div>
 								
@@ -68,7 +68,7 @@
 						<div class="clearfix">&nbsp;</div>
 							
 							<div class="form-group">
-								<div class="col-lg-12 text-center">
+								<div class="col-lg-6 text-center">
 							
 									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add Package</button>
 								</div>
@@ -108,6 +108,7 @@
 	    $(".timepicker").timepicker({
 	      showInputs: false
 	    });
+		
 	    // Generate a simple captcha
 	    function randomNumber(min, max) {
 	        return Math.floor(Math.random() * (max - min + 1) + min);

@@ -25,12 +25,9 @@
 								 <div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Registration Date</label>
 									<div class="col-md-8">
-															<div class="input-group date">
-                  <div class="input-group-addon">
-                    <i class="fa fa-calendar"></i>
-                  </div>
-                  <input type="text" class="form-control pull-right" id="datepicker">
-                </div>
+						
+                  <input type="text" class="form-control pull-right datepicker" >
+               
 									</div>
 								</div> 
 								<div class="form-group col-md-6">
@@ -85,12 +82,9 @@
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Date of birth</label>
 									<div class="col-md-8">
-														<div class="input-group date">
-                  <div class="input-group-addon">
-                    <i class="fa fa-calendar"></i>
-                  </div>
-                  <input type="text" class="form-control pull-right" id="datepicker">
-                </div>
+						
+                  <input type="text" class="form-control pull-right datepicker" >
+               
 									</div>
 								</div>
 								</div>
