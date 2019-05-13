@@ -2,12 +2,11 @@
 <div class="content-wrapper">
 	<section class="content-header mb-4">
 		<h1>
-       Add Payment 
+       Add Refund/Cancel 
       </h1>
 		<ol class="breadcrumb">
 			<li><a href="#"><i class="fa fa-dashboard"></i> Home</a>
 			</li>
-			<li class="active">payment</li>
 		</ol>
 	</section>
 	<section class="content">
@@ -33,10 +32,10 @@
 									
 									<div class="col-md-8">
 										<select class="form-control">
-											<option>Speciality1</option>
-											<option>Speciality1</option>
-											<option>Speciality1</option>
-											<option>Speciality1</option>
+											<option>Category</option>
+											<option>Category</option>
+											<option>Category</option>
+											<option>Category</option>
 										</select>
 									</div>
 									</div>
@@ -46,10 +45,10 @@
 									<div class="col-md-8">
 									
 										<select class="form-control">
-											<option>Speciality1</option>
-											<option>Speciality1</option>
-											<option>Speciality1</option>
-											<option>Speciality1</option>
+											<option>Organization</option>
+											<option>Organization</option>
+											<option>Organization</option>
+											<option>Organization</option>
 										</select>
 									</div>
 									
@@ -66,37 +65,37 @@
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Bill Amount</label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Consultant doctor" />
+									<input type="text" class="form-control" name="shopname" placeholder="Bill Amount" />
 									</div>
 								</div>
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Amount Paid</label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Doctor share" />
+									<input type="text" class="form-control" name="shopname" placeholder="Amount Paid" />
 									</div>
 								</div>
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Amount due </label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Hospital share" />
+									<input type="text" class="form-control" name="shopname" placeholder="Amount due " />
 									</div>
 								</div>	
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Concession amount</label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Doctor share in spl" />
+									<input type="text" class="form-control" name="shopname" placeholder="Concession amount" />
 									</div>
 								</div>
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Previous Refund</label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Hospital share in spl" />
+									<input type="text" class="form-control" name="shopname" placeholder="Previous Refund" />
 									</div>
 								</div>
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Refund Amount</label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Hospital share in spl" />
+									<input type="text" class="form-control" name="shopname" placeholder="Refund Amount" />
 									</div>
 								</div>
 								

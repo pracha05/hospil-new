@@ -37,11 +37,10 @@
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Date of birth</label>
 										<div class="col-md-8">
-											<div class="input-group date">
-												<div class="input-group-addon"> <i class="fa fa-calendar"></i>
-												</div>
-												<input type="text" class="form-control pull-right" id="datepicker">
-											</div>
+											
+												
+												<input type="text" class="form-control" id="datepicker">
+											
 										</div>
 									</div>
 									<div class="form-group col-md-6">
@@ -144,10 +143,10 @@
 										<label class="col-lg-4 control-label">Doctors</label>
 										<div class="col-md-8">
 											<select class="form-control">
-												<option>general</option>
-												<option>emergency</option>
-												<option>machine1</option>
-												<option>machine1</option>
+												<option>Doctors</option>
+												<option>Doctors</option>
+												<option>Doctors</option>
+												<option>Doctors</option>
 											</select>
 										</div>
 									</div>

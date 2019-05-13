@@ -21,7 +21,7 @@
 				<div class="small-box bg-aqua">
 					<div class="inner">
 						<h3>1200	</h3>
-						<p> Sellers</p>
+						<p> Billing</p>
 					</div>
 					<div class="icon"> <i class="fa fa-user"></i>
 					</div> <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
@@ -33,7 +33,7 @@
 				<div class="small-box bg-green">
 					<div class="inner">
 						<h3>53<sup style="font-size: 20px">%</sup></h3>
-						<p>Delivery Boys</p>
+						<p>Diagnostics</p>
 					</div>
 					<div class="icon"> <i class="fa fa-users"></i>
 					</div> <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
@@ -45,7 +45,7 @@
 				<div class="small-box bg-yellow">
 					<div class="inner">
 						<h3>44</h3>
-						<p>Doctors</p>
+						<p>Ip Admissions</p>
 					</div>
 					<div class="icon"> <i class="fa fa-user-md"></i>
 					</div> <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
@@ -57,7 +57,7 @@
 				<div class="small-box bg-red">
 					<div class="inner">
 						<h3>650000</h3>
-						<p>Total Earnings</p>
+						<p>Reports</p>
 					</div>
 					<div class="icon"> <i class="fa fa-credit-card-alt"></i>
 					</div> <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>

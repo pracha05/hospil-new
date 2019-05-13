@@ -46,12 +46,9 @@
 									<label class="col-lg-4 control-label">Registration Date</label>
 									
 										<div class="col-md-8">
-														<div class="input-group date">
-                  <div class="input-group-addon">
-                    <i class="fa fa-calendar"></i>
-                  </div>
+							
                   <input type="text" class="form-control pull-right" id="datepicker">
-                </div>
+                
 									</div>
 									
 								</div>
@@ -64,13 +61,13 @@
 								<div class="form-group ">
 									<label class="col-lg-4 control-label">User Code</label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Registration No" />
+									<input type="text" class="form-control" name="shopname" placeholder="User Code" />
 									</div>
 								</div>
 								<div class="form-group">
 									<label class="col-lg-4 control-label">No of Copies</label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Age" />
+									<input type="text" class="form-control" name="shopname" placeholder="No of Copies" />
 									</div>
 								</div>
 								

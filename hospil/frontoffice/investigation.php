@@ -42,7 +42,7 @@
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Opd No</label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter OpdNo" />
+									<input type="text" class="form-control" name="shopname" placeholder="Enter Opd No" />
 									</div>
 								</div>
 								

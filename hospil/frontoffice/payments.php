@@ -51,10 +51,10 @@
 									
 									<div class="col-md-8">
 										<select class="form-control">
-											<option>Speciality1</option>
-											<option>Speciality1</option>
-											<option>Speciality1</option>
-											<option>Speciality1</option>
+											<option>Category</option>
+											<option>Category</option>
+											<option>Category</option>
+											<option>Category</option>
 										</select>
 									</div>
 									</div>
@@ -64,10 +64,12 @@
 									<div class="col-md-8">
 									
 										<select class="form-control">
-											<option>Speciality1</option>
-											<option>Speciality1</option>
-											<option>Speciality1</option>
-											<option>Speciality1</option>
+											<option>Organization</option>
+											<option>Organization</option>
+											<option>Organization</option>
+											<option>Organization</option>
+											<option>Organization</option>
+											<option>Organization</option>
 										</select>
 									</div>
 									
@@ -177,7 +179,7 @@
 							<div class="form-group">
 								<div class="col-lg-12 text-center">
 							
-									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add Doctor</button>
+									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add Payment</button>
 								</div>
 							</div>
 						</form>

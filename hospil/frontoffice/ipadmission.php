@@ -25,7 +25,7 @@
 							<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Mlc No </label>
 									<div class="col-md-8">
-										<input type="text" class="form-control" name="shopname" placeholder="Enter uhid" />
+										<input type="text" class="form-control" name="shopname" placeholder="Enter Mlc" />
 									</div>
 								</div>
 								
@@ -38,18 +38,15 @@
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Op No </label>
 									<div class="col-md-8">
-										<input type="text" class="form-control" name="shopname" placeholder="Enter uhid" />
+										<input type="text" class="form-control" name="shopname" placeholder="Enter Op" />
 									</div>
 								</div>
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Date </label>
 									<div class="col-md-8">
-												<div class="input-group date">
-                  <div class="input-group-addon">
-                    <i class="fa fa-calendar"></i>
-                  </div>
+											
                   <input type="text" class="form-control pull-right" id="datepicker">
-                </div>
+                
 									</div>
 								</div>
 								<div class="form-group col-md-6">
@@ -67,12 +64,9 @@
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Date of birth</label>
 									<div class="col-md-8">
-												<div class="input-group date">
-                  <div class="input-group-addon">
-                    <i class="fa fa-calendar"></i>
-                  </div>
+												
                   <input type="text" class="form-control pull-right" id="datepicker">
-                </div>
+                
 									</div>
 								</div>
 									<div class="form-group col-md-6">
@@ -113,7 +107,7 @@
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Occupation </label>
 									<div class="col-md-8">
-										<input type="text" class="form-control" name="shopname" placeholder="Enter uhid" />
+										<input type="text" class="form-control" name="shopname" placeholder="Enter Occupation" />
 									</div>
 								</div>
 								<div class="form-group col-md-6">
@@ -131,11 +125,9 @@
 									<label class="col-lg-4 control-label">Reference Doctor</label>
 									<div class="col-md-8">
 									<select class="form-control">
-											<option>visittype1</option>
-											<option>visittype1</option>
-											<option>visittype1</option>
-											<option>visittype1</option>
-											<option>visittype1</option>
+											<option>Doctor</option>
+											<option>Doctor</option>
+											<option>Doctor</option>
 										</select>
 									</div>
 								</div>

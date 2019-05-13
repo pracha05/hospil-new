@@ -150,7 +150,7 @@
 						<img src="../dist\img\user.png" class="img-circle" alt="User Image">
 					</div>
 					<div class="pull-left info">
-						<p>Hospil Admin</p> <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+						<p>Hospil Front Office</p> <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
 					</div>
 				</div>
 	
@@ -212,8 +212,8 @@
 							</span>
 						</a>
 						<ul class="treeview-menu" style="display: none;">
-							<li> <a href="investigations.php">Day collection</a></li>
-							<li><a href="packages.php">Shift collection</a></li>
+							<li> <a href="day_collection.php">Day collection</a></li>
+							<li><a href="shift_collection.php">Shift collection</a></li>
 						</ul>
 					</li>
 				</ul>

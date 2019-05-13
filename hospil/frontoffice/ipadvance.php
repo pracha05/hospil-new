@@ -32,13 +32,15 @@
 								 <div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Ip No</label>
 									<div class="col-md-8">
-										<input type="text" class="form-control" name="shopname" placeholder="Enter uhid" />
+										<input type="text" class="form-control" name="shopname" placeholder="Enter Ip" />
 									</div>
 								</div> 
+								</div>
+								<div class=" col-md-12 ">
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Bill No </label>
 									<div class="col-md-8">
-										<input type="text" class="form-control" name="shopname" placeholder="Enter uhid" />
+										<input type="text" class="form-control" name="shopname" placeholder="Enter Bill" />
 									</div>
 								</div>
 								
@@ -48,6 +50,8 @@
 										<input type="text" class="form-control" name="shopname" placeholder="Enter patient name" />
 									</div>
 								</div>
+								</div>
+								<div class=" col-md-12 ">
 									<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">age</label>
 									<div class="col-md-8">
@@ -65,7 +69,8 @@
 										</label>
 									</div>
 								</div>
-								
+								</div>
+								<div class=" col-md-12 ">
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Address</label>
 									<div class="col-md-8">
@@ -75,9 +80,11 @@
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Advance Amount</label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Guardian" />
+									<input type="text" class="form-control" name="shopname" placeholder="Enter Advance Amount" />
 									</div>
 								</div>
+								</div>
+								<div class=" col-md-12 ">
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Mode </label>
 									<div class="col-md-8">
@@ -92,9 +99,11 @@
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Occupation </label>
 									<div class="col-md-8">
-										<input type="text" class="form-control" name="shopname" placeholder="Enter uhid" />
+										<input type="text" class="form-control" name="shopname" placeholder="Enter Occupation" />
 									</div>
 								</div>
+								</div>
+								<div class=" col-md-12 ">
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Case type </label>
 									<div class="col-md-8">
@@ -110,14 +119,15 @@
 									<label class="col-lg-4 control-label">Reference Doctor</label>
 									<div class="col-md-8">
 									<select class="form-control">
-											<option>visittype1</option>
-											<option>visittype1</option>
-											<option>visittype1</option>
-											<option>visittype1</option>
-											<option>visittype1</option>
+											<option>Doctor</option>
+											<option>Doctor</option>
+											<option>Doctor</option>
+											<option>Doctor</option>
 										</select>
 									</div>
 								</div>
+								</div>
+								<div class=" col-md-12 ">
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">PRO</label>
 									<div class="col-md-8">
@@ -149,7 +159,7 @@
 							<div class="form-group">
 								<div class="col-lg-12 text-center">
 							
-									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add admission</button>
+									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add Advance</button>
 								</div>
 							</div>
 						</form>
