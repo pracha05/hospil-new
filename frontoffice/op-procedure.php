@@ -57,7 +57,7 @@
 									<label class="col-lg-4 control-label">Date of birth</label>
 									<div class="col-md-8">
 												
-                  <input type="text" class="form-control pull-right" id="datepicker">
+                  <input type="text" class="form-control pull-right datepicker" >
                
 							
 									</div>
