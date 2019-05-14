@@ -53,32 +53,40 @@
 								</div>
 								</div>
 								<div class=" col-md-12 ">
+								<div class=" col-md-6">
 									<div class="form-group ">
 									<label class="col-lg-4 control-label">Print name </label>
 									<div class="col-md-8">
 									<input type="text" class="form-control" name="shopname" placeholder="Enter Print name " />
 									</div>
 								</div>
+								</div>
+								<div class=" col-md-6 ">
 									<div class="form-group ">
 									<label class="col-lg-4 control-label">Select type</label>
 									<div class="col-md-8">
 										<input type="text" class="form-control" name="shopname" placeholder="Select type " />
 									</div>
 								</div>
+								</div>
+								</div>
+								<div class=" col-md-12 ">
+								<div class=" col-md-6 ">
 								<div class="form-group ">
 									<label class="col-lg-4 control-label">Method </label>
 									<div class="col-md-8">
 									<input type="text" class="form-control" name="shopname" placeholder="Enter Method  " />
 									</div>
 								</div>
-								
+								</div>
+								<div class=" col-md-6">
 								<div class="form-group ">
 									<label class="col-lg-4 control-label">User code </label>
 									<div class="col-md-8 bootstrap-timepicker">
 									<input type="text" class="form-control" name="shopname" placeholder="User code" />
 									</div>
 								</div>	
-									
+								</div>	
 								
 								
 								
@@ -95,7 +103,7 @@
 						<div class="clearfix">&nbsp;</div>
 							
 							<div class="form-group">
-								<div class="col-lg-6 text-center">
+								<div class="col-lg-12 text-center">
 							
 									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add Descriptive</button>
 								</div>
