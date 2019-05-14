@@ -1,172 +1,88 @@
 <?php include( "header.php"); ?>
 <head>
-	<link rel="stylesheet" href="../dist/css/jquery.dataTables.min.css">
-	<link rel="stylesheet" href="../dist/css/buttons.dataTables.min.css">
+<link rel="stylesheet" href="../dist/css/jquery.dataTables.min.css">
+<link rel="stylesheet" href="../dist/css/buttons.dataTables.min.css">
 </head>
 <div class="content-wrapper">
-	<section class="content-header mb-4">
-		<h1>
-     Lab Reports
-      </h1>
-		<ol class="breadcrumb">
-			<li><a href="#"><i class="fa fa-dashboard"></i> Home</a>
-			</li>
-			<li class="active">Lab Reports</li>
-		</ol>
-	</section>
-	<section class="content">
+	
+	<section class="content ">
 		<div class="row">
 			<!-- left column -->
-			<div class="col-md-12">
+			<div class="col-md-12 bg-white">
 				<!-- general form elements -->
 				<div class=" ">
-				
 					<div style="padding:20px;">
-						<form id="defaultForm" method="post" class="form-horizontal" action="">
-							
-						<div class=" row ">
-							<div class=" col-md-12">
-							<div class=" col-md-6 ">
-								 <div class="form-group ">
-									<label class="col-lg-4 control-label">Req no </label>
-									<div class="col-md-8">
-										<select class="form-control">
-											<option>Req no </option>
-											<option>Req no </option>
-											<option>Req no </option>
-											<option>Req no </option>
-										</select>
-									</div>
-								</div> 
-								</div>
-									<div class=" col-md-6 ">
-							<div class="form-group ">
-									<label class="col-lg-4 control-label">Phone Number</label>
-									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Phone Number" />
-									</div>
-								</div>
-								</div>
-								</div>
-									<div class=" col-md-12 ">
-										<div class=" col-md-6 ">
-								<div class="form-group ">
-									<label class="col-lg-4 control-label">Mode</label>
-									<div class="col-md-8">
-									<select class="form-control">
-											<option>Mode</option>
-											<option>Mode</option>
-											<option>Mode</option>
-											<option>Mode</option>
-										</select>
-									</div>
-								</div>
-									</div>
-										<div class=" col-md-6 ">
-									<div class="form-group ">
-									<label class="col-lg-4 control-label">Name</label>
-									<div class="col-md-8">
-										<input type="text" class="form-control" name="shopname" placeholder="Enter Name" />
-									</div>
-								</div>
-								</div>
-								</div>
-								
-						</div>
-				
-								
-							
+					<div class="row table-responsive">
+						<table id="example" class="display" style="width:100%">
+        <thead>
+		
+            <tr>
+                <th>SNO</th>
+                <th>Req Date</th>
+                <th>Req No</th>
+                <th>Name</th>
+                <th>Investigation Name</th>
+                <th>Status</th>
+                <th>Coll Date</th>
+                <th>Coll Time</th>
+                <th>Action</th>
+            </tr>
+			
+        </thead>
+        <tbody>
+           
+            <tr>
+                <th>Donna Snider</th>
+                <td>Customer Support</td>
+                <td>New York</td>
+                <td>27</td>
+                <td>2011/01/25</td>
+                <td>$112,000</td>
+                <td>$112,000</td>
+                <td>$112,000</td>
+                <td>$112,000</td>
+            </tr>
+			<tr>
+                <th>Donna Snider</th>
+                <td>Customer Support</td>
+                <td>New York</td>
+                <td>27</td>
+                <td>2011/01/25</td>
+                <td>$112,000</td>
+                <td>$112,000</td>
+                <td>$112,000</td>
+                <td>$112,000</td>
+            </tr>
+        </tbody>
+
+    </table>	
+	</div>
 						<div class="clearfix">&nbsp;</div>
-							
-							<div class="form-group">
-								<div class="col-lg-12 text-center">
-							<button type="submit" class="btn btn-primary toggle-vechile-info-btn" name="signup" value="Sign up">Add Lab Reports</button>
-									
-								</div>
-							</div>
-						</form>
-						<div style="display:none" id="toggle-vechile-info">
-							<div class="row table-responsive">
-								<div class="col-md-10 col-md-offset-1">
-									<table id="example" class="display" style="width:100%">
-										<thead>
-											<tr>
-												<th>&nbsp;</th>
-												<th>SNO</th>
-												<th>Test Code</th>
-												<th>Test Name</th>
-												<th>Status</th>
-												<th>Print</th>
-												<th>Attachment</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td><label class=" col-md-4">
-										  <input type="checkbox" value=""> 
-										</label></td>
-												<td>Customer Support</td>
-												<td>New York</td>
-												<td>27</td>
-												<td>2011/01/25</td>
-												<td>
-													<button class="btn btn-primary " name="signup" value="Sign up">Load Template</button>
-												</td>
-												<td>2011/01/25</td>
-											</tr>
-											<tr>
-												<td><label class=" col-md-4">
-										  <input type="checkbox" value=""> 
-										</label></td>
-												<td>Customer Support</td>
-												<td>New York</td>
-												<td>27</td>
-												<td>2011/01/25</td>
-												<td>
-													<button class="btn btn-primary " name="signup" value="Sign up">Load Template</button>
-												</td>
-												<td>2011/01/25</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
-							</div>
 						</div>
-						
-						<div class="clearfix">&nbsp;</div>
 					</div>
+					<!-- /.box -->
 				</div>
-				<!-- /.box -->
 			</div>
+			<!--/.col (right) -->
 		</div>
-		<!--/.col (right) -->
-</div>
-<!-- /.row -->
-</section> 
-<script>
-		$(document).ready(function(){
-		  $(".toggle-vechile-info-btn").click(function(){
-		    $("#toggle-vechile-info").toggle();
-		  });
-		});
+		<!-- /.row -->
+	</section>
+	<script type="text/javascript">
+		var i=1;
+	     $("#add_row").click(function(){
+	      $('#addr'+i).html("<td>"+ (i+1) +"</td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Specialty Name' class='form-control input-md mt-2'  /></div></div> </td>");
+	
+	      $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
+	      i++; 
+	  });
+	     $("#delete_row").click(function(){
+	         if(i>1){
+	         $("#addr"+(i-1)).html('');
+	         i--;
+	         }
+	     });
 	</script>
-<script type="text/javascript">
-	      var i=1;
-     $("#add_row").click(function(){
-      $('#addr'+i).html("<td>"+ (i+1) +"</td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Specialty Name' class='form-control input-md mt-2'  /></div></div> </td>");
-
-      $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
-      i++; 
-  });
-     $("#delete_row").click(function(){
-         if(i>1){
-         $("#addr"+(i-1)).html('');
-         i--;
-         }
-     });
-</script>
 </div>
-
 <script type="text/javascript">
 	$(document).ready(function() {
 		 //Timepicker
@@ -394,16 +310,20 @@
 	    });
 	});
 </script>
+
+
+
+
 <?php include( "footer.php"); ?>
 <script src="../dist/js/dataTables.buttons.min.js"></script>
 <script src="../dist/js/buttons.print.min.js"></script>
 <script type="text/javascript">
-	$(document).ready(function() {
-	    $('#example').DataTable( {
-	        dom: 'Bfrtip',
-	        buttons: [
-	            'print'
-	        ]
-	    } );
-	} );
+$(document).ready(function() {
+    $('#example').DataTable( {
+        dom: 'Bfrtip',
+        buttons: [
+            'print'
+        ]
+    } );
+} );
 </script>

@@ -1,4 +1,9 @@
 <?php include( "header.php"); ?>
+
+<head>
+	<link rel="stylesheet" href="../dist/css/jquery.dataTables.min.css">
+	<link rel="stylesheet" href="../dist/css/buttons.dataTables.min.css">
+</head>
 <div class="content-wrapper">
 	<section class="content-header mb-4">
 		<h1>
@@ -16,81 +21,134 @@
 			<div class="col-md-12">
 				<!-- general form elements -->
 				<div class=" ">
-				
 					<div style="padding:20px;">
-						<form id="defaultForm" method="post" class="form-horizontal" action="">
-							
-						<div class=" row ">
-							<div class=" col-md-6 ">
-								 <div class="form-group ">
-									<label class="col-lg-4 control-label">Req date </label>
-									<div class="col-md-8">
-											<input type="text" class="form-control pull-right datepicker">
+						<form id="defaultForm" method="post" class="form-horizontal" action="view_samplecollection.php">
+							<div class=" row ">
+								<div class="col-md-12">
+									<div class=" col-md-6 ">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Req date</label>
+											<div class="col-md-8">
+												<input type="text" class="form-control pull-right datepicker">
+											</div>
 										</div>
-								</div> 
-							
-								<div class="form-group ">
-									<label class="col-lg-4 control-label">Name</label>
-									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter name " />
+									</div>
+									<div class="col-md-6">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Name</label>
+											<div class="col-md-8">
+												<input type="text" class="form-control" name="shopname" placeholder="Enter name " />
+											</div>
+										</div>
 									</div>
 								</div>
-									<div class="form-group ">
-									<label class="col-lg-4 control-label">Req no</label>
-									<div class="col-md-8">
-									<input type="number" class="form-control" name="shopname" placeholder="Enter Req no" />
+								<div class="col-md-12">
+									<div class="col-md-6">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Req no</label>
+											<div class="col-md-8">
+												<input type="number" class="form-control" name="shopname" placeholder="Enter Req no" />
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Age</label>
+											<div class="col-md-8">
+												<input type="text" class="form-control" name="shopname" placeholder="Enter Age" />
+											</div>
+										</div>
 									</div>
 								</div>
-									<div class="form-group ">
-									<label class="col-lg-4 control-label">Age</label>
-									<div class="col-md-8">
-										<input type="text" class="form-control" name="shopname" placeholder="Enter Age" />
+								<div class="col-md-12">
+									<div class="col-md-6">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Sex</label>
+											<div class="col-md-8">
+												<input type="text" class="form-control" name="shopname" placeholder="Enter Sex  " />
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Doctor name /ref.by</label>
+											<div class="col-md-8 bootstrap-timepicker">
+												<input type="text" class="form-control" name="shopname" placeholder="Doctor name /ref.by" />
+											</div>
+										</div>
 									</div>
 								</div>
-								<div class="form-group ">
-									<label class="col-lg-4 control-label">Sex </label>
-									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Sex  " />
+								<div class="col-md-12">
+									<div class="col-md-6">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">User code</label>
+											<div class="col-md-8 bootstrap-timepicker">
+												<input type="text" class="form-control" name="shopname" placeholder="User code" />
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Sample collection instructions</label>
+											<div class="col-md-8 bootstrap-timepicker">
+												<input type="text" class="form-control" name="shopname" placeholder="Sample collection" />
+											</div>
+										</div>
 									</div>
 								</div>
-								
-								<div class="form-group ">
-									<label class="col-lg-4 control-label">Doctor name /ref.by </label>
-									<div class="col-md-8 bootstrap-timepicker">
-									<input type="text" class="form-control" name="shopname" placeholder="Doctor name /ref.by" />
-									</div>
-								</div>	
-								<div class="form-group ">
-									<label class="col-lg-4 control-label">User code</label>
-									<div class="col-md-8 bootstrap-timepicker">
-									<input type="text" class="form-control" name="shopname" placeholder="User code" />
-									</div>
-								</div>
-								<div class="form-group ">
-									<label class="col-lg-4 control-label">Sample collection instructions</label>
-									<div class="col-md-8 bootstrap-timepicker">
-									<textarea class="form-control"></textarea>
-									</div>
-								</div>	
-								
-								
-								
-								
-						</div>
-				
-								
-							
-						<div class="clearfix">&nbsp;</div>
-							
+							</div>
+							<div class="clearfix">&nbsp;</div>
 							<div class="form-group">
-								<div class="col-lg-6 text-center">
-							
-									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add Collection</button>
+								<div class="col-lg-12 text-center">
+									<button type="submit" class="btn btn-primary toggle-vechile-info-btn" name="signup" value="Sign up">Add Collection</button>
 								</div>
 							</div>
 						</form>
-						
-						
+						<div style="display:none" id="toggle-vechile-info">
+							<div class="row table-responsive">
+								<div class="col-md-10 col-md-offset-1">
+									<table id="example" class="display" style="width:100%">
+										<thead>
+											<tr>
+												<th>SNO</th>
+												<th>Req Date</th>
+												<th>Req No</th>
+												<th>Name</th>
+												<th>Investigation Name</th>
+												<th>Status</th>
+												<th>Coll Date</th>
+												<th>Coll Time</th>
+												<th>Action</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<th>Donna Snider</th>
+												<td>Customer Support</td>
+												<td>New York</td>
+												<td>27</td>
+												<td>2011/01/25</td>
+												<td>$112,000</td>
+												<td>$112,000</td>
+												<td>$112,000</td>
+												<td>$112,000</td>
+											</tr>
+											<tr>
+												<th>Donna Snider</th>
+												<td>Customer Support</td>
+												<td>New York</td>
+												<td>27</td>
+												<td>2011/01/25</td>
+												<td>$112,000</td>
+												<td>$112,000</td>
+												<td>$112,000</td>
+												<td>$112,000</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
 						<div class="clearfix">&nbsp;</div>
 					</div>
 				</div>
@@ -100,8 +158,16 @@
 		<!--/.col (right) -->
 </div>
 <!-- /.row -->
-</section> <script type="text/javascript">
-	      var i=1;
+</section>
+<script>
+	$(document).ready(function(){
+	  $(".toggle-vechile-info-btn").click(function(){
+	    $("#toggle-vechile-info").toggle();
+	  });
+	});
+</script>
+<script type="text/javascript">
+	var i=1;
      $("#add_row").click(function(){
       $('#addr'+i).html("<td>"+ (i+1) +"</td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Specialty Name' class='form-control input-md mt-2'  /></div></div> </td>");
 
@@ -116,7 +182,6 @@
      });
 </script>
 </div>
-
 <script type="text/javascript">
 	$(document).ready(function() {
 		 //Timepicker
@@ -345,3 +410,15 @@
 	});
 </script>
 <?php include( "footer.php"); ?>
+<script src="../dist/js/dataTables.buttons.min.js"></script>
+<script src="../dist/js/buttons.print.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+	    $('#example').DataTable( {
+	        dom: 'Bfrtip',
+	        buttons: [
+	            'print'
+	        ]
+	    } );
+	} );
+</script>

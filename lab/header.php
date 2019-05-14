@@ -200,6 +200,11 @@
 						</a>
 					</li>
 					<li class="treeview">
+						<a href="requisition.php"> <i class="fa fa-user-plus"></i>  <span>Requisition status report</span>
+						
+						</a>
+					</li>
+					<li class="treeview">
 						<a href="#"> <i class="fa fa-user-plus"></i>  <span>Patient Database</span>
 							<span class="pull-right-container">
 							  <i class="fa fa-angle-left pull-right"></i>

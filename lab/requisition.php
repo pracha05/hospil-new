@@ -1,17 +1,13 @@
 <?php include( "header.php"); ?>
-<head>
-	<link rel="stylesheet" href="../dist/css/jquery.dataTables.min.css">
-	<link rel="stylesheet" href="../dist/css/buttons.dataTables.min.css">
-</head>
 <div class="content-wrapper">
 	<section class="content-header mb-4">
 		<h1>
-     Lab Reports
+       Requisition Status 
       </h1>
 		<ol class="breadcrumb">
 			<li><a href="#"><i class="fa fa-dashboard"></i> Home</a>
 			</li>
-			<li class="active">Lab Reports</li>
+			<li class="active">Requisition Status</li>
 		</ol>
 	</section>
 	<section class="content">
@@ -25,52 +21,36 @@
 						<form id="defaultForm" method="post" class="form-horizontal" action="">
 							
 						<div class=" row ">
-							<div class=" col-md-12">
-							<div class=" col-md-6 ">
-								 <div class="form-group ">
-									<label class="col-lg-4 control-label">Req no </label>
+							<div class=" col-md-12 ">
+							<div class="col-md-6">
+							<div class="form-group">
+									<label class="col-lg-4 control-label">From Date</label>
 									<div class="col-md-8">
-										<select class="form-control">
-											<option>Req no </option>
-											<option>Req no </option>
-											<option>Req no </option>
-											<option>Req no </option>
+						
+                  <input type="text" class="form-control pull-right datepicker" >
+               
+									</div>
+								</div>
+						  <div class="form-group">
+							<label class="col-lg-4 control-label">Options</label>
+							<div class="col-lg-8">
+							<select class="form-control">
+											<option>option1</option>
+											<option>option1</option>
+											<option>option1</option>
+											<option>option1</option>
 										</select>
-									</div>
-								</div> 
-								</div>
-									<div class=" col-md-6 ">
-							<div class="form-group ">
-									<label class="col-lg-4 control-label">Phone Number</label>
+						  </div>
+						  </div>
+						  <div class="form-group">
+									<label class="col-lg-4 control-label">Requisition No</label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Phone Number" />
+										<input type="text" class="form-control" name="shopname" placeholder="Enter Procedure Code" />
 									</div>
 								</div>
-								</div>
-								</div>
-									<div class=" col-md-12 ">
-										<div class=" col-md-6 ">
-								<div class="form-group ">
-									<label class="col-lg-4 control-label">Mode</label>
-									<div class="col-md-8">
-									<select class="form-control">
-											<option>Mode</option>
-											<option>Mode</option>
-											<option>Mode</option>
-											<option>Mode</option>
-										</select>
-									</div>
-								</div>
-									</div>
-										<div class=" col-md-6 ">
-									<div class="form-group ">
-									<label class="col-lg-4 control-label">Name</label>
-									<div class="col-md-8">
-										<input type="text" class="form-control" name="shopname" placeholder="Enter Name" />
-									</div>
-								</div>
-								</div>
-								</div>
+								
+								
+						</div>
 								
 						</div>
 				
@@ -79,59 +59,13 @@
 						<div class="clearfix">&nbsp;</div>
 							
 							<div class="form-group">
-								<div class="col-lg-12 text-center">
-							<button type="submit" class="btn btn-primary toggle-vechile-info-btn" name="signup" value="Sign up">Add Lab Reports</button>
-									
+								<div class="col-lg-6 text-center">
+							
+									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add Requisition</button>
 								</div>
 							</div>
 						</form>
-						<div style="display:none" id="toggle-vechile-info">
-							<div class="row table-responsive">
-								<div class="col-md-10 col-md-offset-1">
-									<table id="example" class="display" style="width:100%">
-										<thead>
-											<tr>
-												<th>&nbsp;</th>
-												<th>SNO</th>
-												<th>Test Code</th>
-												<th>Test Name</th>
-												<th>Status</th>
-												<th>Print</th>
-												<th>Attachment</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td><label class=" col-md-4">
-										  <input type="checkbox" value=""> 
-										</label></td>
-												<td>Customer Support</td>
-												<td>New York</td>
-												<td>27</td>
-												<td>2011/01/25</td>
-												<td>
-													<button class="btn btn-primary " name="signup" value="Sign up">Load Template</button>
-												</td>
-												<td>2011/01/25</td>
-											</tr>
-											<tr>
-												<td><label class=" col-md-4">
-										  <input type="checkbox" value=""> 
-										</label></td>
-												<td>Customer Support</td>
-												<td>New York</td>
-												<td>27</td>
-												<td>2011/01/25</td>
-												<td>
-													<button class="btn btn-primary " name="signup" value="Sign up">Load Template</button>
-												</td>
-												<td>2011/01/25</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
-							</div>
-						</div>
+						
 						
 						<div class="clearfix">&nbsp;</div>
 					</div>
@@ -142,15 +76,7 @@
 		<!--/.col (right) -->
 </div>
 <!-- /.row -->
-</section> 
-<script>
-		$(document).ready(function(){
-		  $(".toggle-vechile-info-btn").click(function(){
-		    $("#toggle-vechile-info").toggle();
-		  });
-		});
-	</script>
-<script type="text/javascript">
+</section> <script type="text/javascript">
 	      var i=1;
      $("#add_row").click(function(){
       $('#addr'+i).html("<td>"+ (i+1) +"</td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Specialty Name' class='form-control input-md mt-2'  /></div></div> </td>");
@@ -395,15 +321,3 @@
 	});
 </script>
 <?php include( "footer.php"); ?>
-<script src="../dist/js/dataTables.buttons.min.js"></script>
-<script src="../dist/js/buttons.print.min.js"></script>
-<script type="text/javascript">
-	$(document).ready(function() {
-	    $('#example').DataTable( {
-	        dom: 'Bfrtip',
-	        buttons: [
-	            'print'
-	        ]
-	    } );
-	} );
-</script>
