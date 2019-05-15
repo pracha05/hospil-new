@@ -150,69 +150,83 @@
 						<img src="../dist\img\user.png" class="img-circle" alt="User Image">
 					</div>
 					<div class="pull-left info">
-						<p>Hospil Lab</p> <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+						<p>Hospil Clinic</p> <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
 					</div>
 				</div>
 	
 				<!-- sidebar menu: : style can be found in sidebar.less -->
 				<ul class="sidebar-menu">
 					<li class="header">MAIN NAVIGATION</li>
-					<li class="treeview">
-						<a href="dashboard.php"><i class="fa fa-dashboard"></i>  <span>Dashboard</span>
+					<!--<li class="treeview">
+						<a href="dashboard.php"> <i class="fa fa-dashboard"></i>  <span>Dashboard</span>
 							<span class="pull-right-container">
               
             </span>
 						</a>
-					</li>
+					</li>-->
 					<li class="treeview">
-						<a href="investigation.php"> <i class="fa fa-user-plus"></i>  <span>Investigation</span>
-							
-						</a>
-						
-					</li>
-					<li class="treeview">
-						<a href="services.php"> <i class="fa fa-user-plus"></i>  <span>Services</span>
-							
-						</a>
-						
-					</li>
-					<li class="treeview">
-						<a href="machineservices.php"> <i class="fa fa-user-plus"></i>  <span>Machine Equipment Services</span>
-							
-						</a>
-						
-					</li>
-					<li class="treeview">
-						<a href="operations.php"> <i class="fa fa-user-plus"></i>  <span>Operations</span>
-							
-						</a>
-						
-					</li>
-					<li class="treeview">
-						<a href="#"> <i class="fa fa-user-plus"></i>  <span>Dispatch</span>
-							
-						</a>
-						
-					</li>
-					<li class="treeview">
-						<a href="payments.php"> <i class="fa fa-user-plus"></i>  <span>Final Bill Payments</span>
-						
-						</a>
-					</li>
-					<li class="treeview">
-						<a href="concession.php"> <i class="fa fa-user-plus"></i>  <span>Concessions</span>
-						
-						</a>
-					</li>
-					<li class="treeview">
-						<a href="#"> <i class="fa fa-user-plus"></i>  <span>Patient Database</span>
+						<a href="#"> <i class="fa fa-user-plus"></i>  <span>Hospital Info</span>
 							<span class="pull-right-container">
 							  <i class="fa fa-angle-left pull-right"></i>
 							</span>
 						</a>
 						<ul class="treeview-menu" style="display: none;">
-							<li> <a href="day_collection.php">Day collection</a></li>
-							<li><a href="shift_collection.php">Shift collection</a></li>
+							<li> <a href="add-doctor.php">Doctors</a>
+							</li>
+							<li><a href="user-rights.php">User Rights</a></li>
+							<li><a href="users.php">Users</a></li>
+							<li><a href="hospital-info.php">Hospital Info</a></li>
+						</ul>
+					</li>
+					<li class="treeview">
+						<a href="#"> <i class="fa fa-user-plus"></i>  <span>Op </span>
+							<span class="pull-right-container">
+							  <i class="fa fa-angle-left pull-right"></i>
+							</span>
+						</a>
+						<ul class="treeview-menu" style="display: none;">
+							<li> <a href="consultation.php">consultation </a>
+							</li>
+							
+						</ul>
+					</li>
+					<li class="treeview">
+						<a href="#"> <i class="fa fa-user-plus"></i>  <span>Pharmacy Master</span>
+							<span class="pull-right-container">
+							  <i class="fa fa-angle-left pull-right"></i>
+							</span>
+						</a>
+						<ul class="treeview-menu" style="display: none;">
+							<li> <a href="medicine-master.php">Medicine Master</a></li>
+							<li><a href="manufacture.php">Manufacture</a></li>
+							<li><a href="suppliers.php">Suppliers</a></li>
+							<li><a href="stock-adjustment.php">Stock Adjustment</a></li>
+							<li><a href="tax-category.php">Tax Category</a></li>
+						</ul>
+					</li>
+					<li class="treeview">
+						<a href="#"> <i class="fa fa-user-plus"></i>  <span>Pharmacy Sales</span>
+							<span class="pull-right-container">
+							  <i class="fa fa-angle-left pull-right"></i>
+							</span>
+						</a>
+						<ul class="treeview-menu" style="display: none;">
+							<li> <a href="purchase.php">Purchase</a></li>
+							<li> <a href="sale.php">Sale</a></li>
+							<li><a href="purchase-master.php">Purchase Payments</a></li>
+						</ul>
+					</li>
+					<li class="treeview">
+						<a href="#"> <i class="fa fa-user-plus"></i>  <span>Reports</span>
+							<span class="pull-right-container">
+							  <i class="fa fa-angle-left pull-right"></i>
+							</span>
+						</a>
+						<ul class="treeview-menu" style="display: none;">
+							<li> <a href="day_collection.php">Sale Report</a></li>
+							<li> <a href="day_collection.php">Purchase Report</a></li>
+							<li><a href="payment.php">Day collection report</a></li>
+							<li> <a href="day_collection.php">Margin Report</a></li>
 						</ul>
 					</li>
 				</ul>
