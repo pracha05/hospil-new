@@ -79,7 +79,9 @@
 						<div class="col-md-6" >
 						  <div class="form-group" >
 						  
-							<div class="col-md-8" style="background-color:#fff;height:50%;">
+							<div class="col-md-8" style="background-color:#fff;height:50%;-webkit-box-shadow: 0px -2px 15px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -2px 15px 0px rgba(0,0,0,0.75);
+box-shadow: 0px -2px 15px 0px rgba(0,0,0,0.75);">
 							<table class="table">
     <thead>
       <tr>
@@ -89,16 +91,36 @@
     </thead>
     <tbody>
       <tr>
-        <td>John</td>
-        <td>Doe</td>
+        <td>
+		<label class=" col-md-4">
+		<input type="checkbox" value="">
+		</label>
+		</td>
+        <td>Administrator</td>
       </tr>
       <tr>
-        <td>Mary</td>
-        <td>Moe</td>
+        <td>
+		<label class=" col-md-4">
+		<input type="checkbox" value="">
+		</label>
+		</td>
+        <td>Administrator</td>
       </tr>
       <tr>
-        <td>July</td>
-        <td>Dooley</td>
+        <td>
+		<label class=" col-md-4">
+		<input type="checkbox" value="">
+		</label>
+		</td>
+        <td>Administrator</td>
+      </tr>
+	  <tr>
+        <td>
+		<label class=" col-md-4">
+		<input type="checkbox" value="">
+		</label>
+		</td>
+        <td>Administrator</td>
       </tr>
     </tbody>
   </table>
