@@ -46,7 +46,157 @@
 						  <div class="form-group">
 							<label class="col-lg-4 control-label">Description</label>
 							<div class="col-lg-8">
-							<textarea class="form-control" rows="8"></textarea>
+							 <div class="panel-group" id="faqAccordion">
+								<div class="panel panel-default ">
+									<div class="panel-heading accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question0">
+										 <h4 class="panel-title">
+											<a href="#" class="ing">General Master</a>
+									  </h4>
+
+									</div>
+									<div id="question0" class="panel-collapse collapse" style="height: 0px;">
+										<div class="panel-body">
+											 <div class="checkbox">
+											  <label><input type="checkbox" value="">States</label>
+											</div>
+											<div class="checkbox">
+											  <label><input type="checkbox" value="">District</label>
+											</div>
+											<div class="checkbox disabled">
+											  <label><input type="checkbox" value="" disabled>City</label>
+											</div>
+											<div class="checkbox disabled">
+											  <label><input type="checkbox" value="" disabled>Department</label>
+											</div>
+											<div class="checkbox disabled">
+											  <label><input type="checkbox" value="" disabled>Specialty</label>
+											</div>
+											<div class="checkbox disabled">
+											  <label><input type="checkbox" value="" disabled>Doctors</label>
+											</div>
+											<div class="checkbox disabled">
+											  <label><input type="checkbox" value="" disabled>Refferal Doctor</label>
+											</div>
+											<div class="checkbox disabled">
+											  <label><input type="checkbox" value="" disabled>Organization</label>
+											</div>
+											<div class="checkbox disabled">
+											  <label><input type="checkbox" value="" disabled>Users</label>
+											</div>
+											<div class="checkbox disabled">
+											  <label><input type="checkbox" value="" disabled>Users Rights</label>
+											</div>
+											<div class="checkbox disabled">
+											  <label><input type="checkbox" value="" disabled>Roles</label>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default ">
+									<div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question1">
+										 <h4 class="panel-title">
+											<a href="#" class="ing">OP Module</a>
+									  </h4>
+
+									</div>
+									<div id="question1" class="panel-collapse collapse" style="height: 0px;">
+										<div class="panel-body">
+											 <div class="checkbox">
+											  <label><input type="checkbox" value="">Procedure Type</label>
+											</div>
+											<div class="checkbox">
+											  <label><input type="checkbox" value="">Procedures</label>
+											</div>
+											<div class="checkbox disabled">
+											  <label><input type="checkbox" value="" disabled>OP Packages</label>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default ">
+									<div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question2">
+										 <h4 class="panel-title">
+											<a href="#" class="ing">IP Module</a>
+									  </h4>
+
+									</div>
+									<div id="question2" class="panel-collapse collapse" style="height: 0px;">
+										<div class="panel-body">
+											  <div class="checkbox">
+											  <label><input type="checkbox" value="">floors</label>
+											</div>
+											<div class="checkbox">
+											  <label><input type="checkbox" value="">Room Type</label>
+											</div>
+											<div class="checkbox disabled">
+											  <label><input type="checkbox" value="" disabled>Rooms</label>
+											</div>  
+											<div class="checkbox">
+											  <label><input type="checkbox" value="">Beds</label>
+											</div>
+											<div class="checkbox">
+											  <label><input type="checkbox" value="">IP services types</label>
+											</div>
+											<div class="checkbox disabled">
+											  <label><input type="checkbox" value="" disabled>Services Master</label>
+											</div>	
+											<div class="checkbox">
+											  <label><input type="checkbox" value="">Machine Equipment</label>
+											</div>
+											<div class="checkbox">
+											  <label><input type="checkbox" value="">Room Type</label>
+											</div>
+											<div class="checkbox disabled">
+											  <label><input type="checkbox" value="" disabled>Room Type</label>
+											</div>  
+											<div class="checkbox">
+											  <label><input type="checkbox" value="">Operation Type</label>
+											</div>
+											<div class="checkbox">
+											  <label><input type="checkbox" value="">Operation Master</label>
+											</div>
+											<div class="checkbox disabled">
+											  <label><input type="checkbox" value="" disabled>Theatre master</label>
+											</div>
+											<div class="checkbox">
+											  <label><input type="checkbox" value="">Packages</label>
+											</div>
+											<div class="checkbox disabled">
+											  <label><input type="checkbox" value="" disabled>Discharge Template</label>
+											</div>  
+											<div class="checkbox">
+											  <label><input type="checkbox" value="">Discharge Parameter</label>
+											</div>
+											<div class="checkbox">
+											  <label><input type="checkbox" value="">Design Template</label>
+											</div>
+										
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default ">
+									<div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question3">
+										 <h4 class="panel-title">
+											<a href="#" class="ing">Lab</a>
+									  </h4>
+
+									</div>
+									<div id="question3" class="panel-collapse collapse" style="height: 0px;">
+										<div class="panel-body">
+											<div class="checkbox disabled">
+											  <label><input type="checkbox" value="" disabled>Investigations</label>
+											</div>
+											<div class="checkbox">
+											  <label><input type="checkbox" value="">Packages</label>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+								
+							</div>
 						  </div>
 						  </div>
 							
