@@ -48,9 +48,15 @@
 							<div class="col-lg-8">
 							 <div class="panel-group" id="faqAccordion">
 								<div class="panel panel-default ">
-									<div class="panel-heading accordion-toggle question-toggle collapsed" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question0">
+									<div class="panel-heading accordion-toggle question-toggle collapsed">
 										 <h4 class="panel-title">
-											<a href="#" class="ing">General Master</a>
+										 <div class="row">
+											<a href="#" class="ing"> 
+											<div class="checkbox col-md-1">
+											  <label><input type="checkbox" value=""> </label>
+											</div> 
+											<span  class="col-md-10 mt-3" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question0">General Master</span></a>
+											</div>
 									  </h4>
 
 									</div>
@@ -94,9 +100,17 @@
 									</div>
 								</div>
 								<div class="panel panel-default ">
-									<div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question1">
+									<div class="panel-heading accordion-toggle collapsed question-toggle" >
 										 <h4 class="panel-title">
-											<a href="#" class="ing">OP Module</a>
+										  <div class="row">
+											<a href="#" class="ing"> 
+											<div class="checkbox col-md-1">
+											  <label><input type="checkbox" value=""> </label>
+											</div> 
+											<span  class="col-md-10 mt-3" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question1">OP Module</span></a>
+											</div>
+											
+										
 									  </h4>
 
 									</div>
@@ -116,9 +130,18 @@
 									</div>
 								</div>
 								<div class="panel panel-default ">
-									<div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question2">
+									<div class="panel-heading accordion-toggle collapsed question-toggle">
 										 <h4 class="panel-title">
-											<a href="#" class="ing">IP Module</a>
+										  <div class="row">
+											<a href="#" class="ing"> 
+											<div class="checkbox col-md-1">
+											  <label><input type="checkbox" value=""> </label>
+											</div> 
+											<span  class="col-md-10 mt-3"  data-toggle="collapse" data-parent="#faqAccordion" data-target="#question2">IP Module</span></a>
+											</div>
+										 
+										 
+											
 									  </h4>
 
 									</div>
@@ -177,9 +200,18 @@
 									</div>
 								</div>
 								<div class="panel panel-default ">
-									<div class="panel-heading accordion-toggle collapsed question-toggle" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question3">
+									<div class="panel-heading accordion-toggle collapsed question-toggle" >
 										 <h4 class="panel-title">
-											<a href="#" class="ing">Lab</a>
+										 
+										   <div class="row">
+											<a href="#" class="ing"> 
+											<div class="checkbox col-md-1">
+											  <label><input type="checkbox" value=""> </label>
+											</div> 
+											<span  class="col-md-10 mt-3"  data-toggle="collapse" data-parent="#faqAccordion" data-target="#question3">Lab</span></a>
+											</div>
+											
+											
 									  </h4>
 
 									</div>
