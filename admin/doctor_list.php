@@ -20,8 +20,7 @@
 				</div>
 				<div class="col-md-6">
 					<div class="">	<a class="btn btn-default st-btn add-student-btn" href="add-doctor.php"><i class="fa fa-plus"></i> Add Doctor</a>
-						<button id="ImportStudent" class="btn btn-default dropdown-toggle impt" title=""><i class="fa fa-print"></i> Print</button>
-						<button id="ImportStudent" class="btn btn-default dropdown-toggle impt" title=""><i class="fa fa-upload"></i> Import</button>
+						
 					</div>
 				</div>
 			</div>
@@ -45,7 +44,7 @@
 							<td>7864539823</td>
 							<td>venkateswarlu78@gmail.com</td>
 							<td>Plot No. 177, Sri Vani Nilayam, Hyderabad, Telangana - 500072.</td>
-							<td> <a href="edit-doctor.php" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil btn btn-warning"></i></a>
+							<td> <a href="#" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil btn btn-warning"></i></a>
 								<a href="" data-toggle="tooltip" title="Delete"><i class="fa fa-trash btn btn-danger"></i></a>
 							</td>
 						</tr>
@@ -55,7 +54,7 @@
 							<td>7864539823</td>
 							<td>venkatesh67@gmail.com</td>
 							<td>Plot No. 177, Sri Vani Nilayam, Hyderabad, Telangana - 500072.</td>
-							<td> <a href="edit-seller.php" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil btn btn-warning"></i></a>
+							<td> <a href="#" data-toggle="tooltip" title="Edit"><i class="fa fa-pencil btn btn-warning"></i></a>
 								<a href="" data-toggle="tooltip" title="Delete"><i class="fa fa-trash btn btn-danger"></i></a>
 							</td>
 						</tr>

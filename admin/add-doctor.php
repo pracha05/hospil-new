@@ -5,9 +5,9 @@
        Add Doctor 
       </h1>
 		<ol class="breadcrumb">
-			<li><a href="#"><i class="fa fa-dashboard"></i> Home</a>
+			<li><a class="btn btn-primary text-white btn-xs " href="doctor_list.php">Doctor List</a>
 			</li>
-			<li class="active">Doctor</li>
+			
 		</ol>
 	</section>
 	<section class="content">
