@@ -37,6 +37,18 @@
 									</div>
 								</div>
 								<div class="form-group col-md-6">
+									<label class="col-lg-4 control-label">MRNO</label>
+									<div class="col-md-8">
+										<input type="text" class="form-control" name="shopname" placeholder="Enter uhid no" />
+									</div>
+								</div>
+								<div class="form-group col-md-6">
+									<label class="col-lg-4 control-label">Op no</label>
+									<div class="col-md-8">
+									<input type="text" class="form-control" name="shopname" placeholder="Enter op no" />
+									</div>
+								</div>
+								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Type</label>
 									<div class="col-md-8">
 										<select class="form-control">

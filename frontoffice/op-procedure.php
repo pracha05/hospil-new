@@ -27,15 +27,14 @@
 									<div class="col-md-8">
 									<select class="form-control">
 											<option>op</option>
-											<option>ip</option>
-											<option>Speciality1</option>
-											<option>Speciality1</option>
+											<option>others </option>
+										
 										</select>
 										
 									</div>
 								</div> 
 								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Uhid no</label>
+									<label class="col-lg-4 control-label">MRNO</label>
 									<div class="col-md-8">
 										<input type="text" class="form-control" name="shopname" placeholder="Enter uhid no" />
 									</div>
@@ -52,6 +51,45 @@
 									<input type="text" class="form-control" name="shopname" placeholder="Enter Patient name" />
 									</div>
 								</div>
+								 <div class="form-group col-md-6">
+									<label class="col-lg-4 control-label"> Doctor</label>
+									<div class="col-md-8">
+									<select class="form-control">
+											<option>Doctor1</option>
+											<option>Doctor2 </option>
+										
+										</select>
+										
+									</div>
+								</div> 
+								<div class="form-group col-md-6">
+									<label class="col-lg-4 control-label"> specialty </label>
+									<div class="col-md-8">
+									<select class="form-control">
+											<option>specialty 1 </option>
+											<option>specialty 2 </option>
+										
+										</select>
+										
+									</div>
+								</div>
+								<div class="form-group col-md-6">
+									<label class="col-lg-4 control-label"> op procedure field </label>
+									<div class="col-md-8">
+								<select class="form-control select2" style="width: 100%;">
+									  <option selected="selected">Alabama</option>
+									  <option>Alaska</option>
+									  <option>California</option>
+									  <option>Delaware</option>
+									  <option>Tennessee</option>
+									  <option>Texas</option>
+									  <option>Washington</option>
+									</select>
+										
+									</div>
+								</div> 
+							
+						
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Date of birth</label>
 									<div class="col-md-8">

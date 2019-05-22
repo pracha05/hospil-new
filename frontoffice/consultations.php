@@ -20,20 +20,31 @@
 						<form id="defaultForm" method="post" class="form-horizontal" action="">
 							<div class=" row ">
 								<div class=" col-md-12 ">
+								<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Visit type</label>
+										<div class="col-md-8">
+											<select class="form-control">
+												<option>new </option>
+												<option>revisit</option>
+											
+											</select>
+										</div>
+									</div>	
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Uhid</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter uhid" />
 										</div>
 									</div>
+								
+								</div>
+								<div class=" col-md-12 ">
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Patient name</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter patient name" />
 										</div>
 									</div>
-								</div>
-								<div class=" col-md-12 ">
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Date of birth</label>
 										<div class="col-md-8">
@@ -43,14 +54,15 @@
 											
 										</div>
 									</div>
-									<div class="form-group col-md-6">
+									
+								</div>
+								<div class=" col-md-12 ">
+								<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">age</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter age" />
 										</div>
 									</div>
-								</div>
-								<div class=" col-md-12 ">
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Gender</label>
 										<div class="col-md-8">
@@ -60,28 +72,30 @@
 												<input type="radio" name="optradio">Female</label>
 										</div>
 									</div>
-									<div class="form-group col-md-6">
+									
+								</div>
+								<div class=" col-md-12 ">
+								<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Guardian</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter Guardian" />
 										</div>
 									</div>
-								</div>
-								<div class=" col-md-12 ">
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Address</label>
 										<div class="col-md-8">
 											<textarea class="form-control"></textarea>
 										</div>
 									</div>
-									<div class="form-group col-md-6">
+									
+								</div>
+								<div class=" col-md-12 ">
+								<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Phone</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter Phone" />
 										</div>
 									</div>
-								</div>
-								<div class=" col-md-12 ">
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Case type</label>
 										<div class="col-md-8">
@@ -93,30 +107,10 @@
 											</select>
 										</div>
 									</div>
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Visit type</label>
-										<div class="col-md-8">
-											<select class="form-control">
-												<option>visittype1</option>
-												<option>visittype1</option>
-												<option>visittype1</option>
-												<option>visittype1</option>
-												<option>visittype1</option>
-											</select>
-										</div>
-									</div>
+									
 								</div>
 								<div class=" col-md-12 ">
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">PRO</label>
-										<div class="col-md-8">
-											<select class="form-control">
-												<option>pro</option>
-												<option>pro</option>
-												<option>pro</option>
-											</select>
-										</div>
-									</div>
+									
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Payment Type</label>
 										<div class="col-md-8">
@@ -127,18 +121,18 @@
 											</select>
 										</div>
 									</div>
-								</div>
-								<div class=" col-md-12 ">
-									<div class="form-group col-md-6">
+										<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Consultation Type</label>
 										<div class="col-md-8">
 											<select class="form-control">
 												<option>normal</option>
-												<option>pro</option>
-												<option>pro</option>
+												<option>Emergency </option>
 											</select>
 										</div>
 									</div>
+								</div>
+								<div class=" col-md-12 ">
+								
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Doctors</label>
 										<div class="col-md-8">
@@ -150,8 +144,6 @@
 											</select>
 										</div>
 									</div>
-								</div>
-								<div class=" col-md-12 ">
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Consultation Fee</label>
 										<div class="col-md-8 bootstrap-timepicker">
@@ -161,6 +153,9 @@
 												<input type="radio" name="optradio1">Emergency</label>
 										</div>
 									</div>
+								</div>
+								<div class=" col-md-12 ">
+									
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Consultation Fee</label>
 										<div class="col-md-8 bootstrap-timepicker">

@@ -1,0 +1,287 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>care hospitals</title>
+    
+    <style>
+    .invoice-box {
+        max-width: 800px;
+        margin: auto;
+        padding: 30px;
+        border: 1px solid #eee;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+        font-size: 16px;
+        line-height: 24px;
+        font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+        color: #555;
+    }
+    
+    .invoice-box table {
+        width: 100%;
+        line-height: inherit;
+        text-align: left;
+    }
+    
+    .invoice-box table td {
+        padding: 5px;
+        vertical-align: top;
+    }
+    
+    <!-- .invoice-box table tr td:nth-child(2) { -->
+        <!-- text-align: right; -->
+    <!-- } -->
+    
+    .invoice-box table tr.top table td {
+        padding-bottom: 0px;
+    }
+    
+    .invoice-box table tr.top table td.title {
+        font-size: 45px;
+        line-height: 45px;
+        color: #333;
+    }
+    
+    .invoice-box table tr.information table td {
+        padding-bottom: 40px;
+    }
+    
+    .invoice-box table tr.heading td {
+        background: #eee;
+        border-bottom: 1px solid #ddd;
+        font-weight: bold;
+    }
+    
+    .invoice-box table tr.details td {
+        padding-bottom: 20px;
+    }
+    
+    .invoice-box table tr.item td{
+        border-bottom: 1px solid #eee;
+    }
+    
+    .invoice-box table tr.item.last td {
+        border-bottom: none;
+    }
+    
+    .invoice-box table tr.total td:nth-child(2) {
+        border-top: 2px solid #eee;
+        font-weight: bold;
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .invoice-box table tr.top table td {
+            width: 100%;
+            display: block;
+            text-align: center;
+        }
+        
+        .invoice-box table tr.information table td {
+            width: 100%;
+            display: block;
+            text-align: center;
+        }
+    }
+    
+    /** RTL **/
+    .rtl {
+        direction: rtl;
+        font-family: Tahoma, 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    }
+    
+    .rtl table {
+        text-align: right;
+    }
+    
+    .rtl table tr td:nth-child(2) {
+        text-align: left;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="invoice-box">
+        <table cellpadding="0" cellspacing="0">
+            <tr class="top">
+                <td colspan="2">
+                    <table>
+                        <tr>
+                            <td  style="width:250px;" class="title">
+                                <img src="https://www.carehospitals.com/wp-content/themes/care/images/logo.svg" style="width:100%; max-height:100px;">
+                            </td>
+                            
+                            <td style="text-align:left">
+                               <h1 >Care Hospitals</h1>
+							   <p>Old Mumbai Hwy, Near Cyberabad Police Commissionerate, Jayabheri Pine Valley, HITEC City, Hyderabad, Telangana 500032</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+		<table cellpadding="0" cellspacing="0" style="border:1px solid #aaa;border-bottom:0px solid #fff;">
+            <tr >
+                <td colspan="2" style="text-align:center;" >
+                  <h4 style="text-decoration:underline"> OP CONSULTATION RECEIPT</h4>
+                </td>
+            </tr> 
+			<tr class="top">
+                <td>
+				<table>
+                  <tr>
+						<td>UHID </td>
+						<th>: DH15812s</th>
+				  </tr>
+				  <tr>
+						<td>OPD NO </td>
+						<th>: 32</th>
+				  </tr> 
+				  <tr>
+						<td>Patient Name </td>
+						<th>: Male</th>
+				  </tr>
+				  <tr>
+						<td>Phone No </td>
+						<th>: xxxxx reddy</th>
+				  </tr> 
+				  <tr>
+						<td>Consult Doctor </td>
+						<th>: 306,kukatpalli,hyderabad</th>
+				  </tr>
+				  <tr>
+						<td>Address  </td>
+						<th>: 85000xxxxx</th>
+				  </tr>
+				
+				  </table>
+                </td>
+				 <td>
+				<table>
+                  <tr>
+						<td>Date </td>
+						<th>: SDH25616</th>
+				  </tr>
+				  <tr>
+						<td>Bill No </td>
+						<th>: 19050465</th>
+				  </tr> 
+				  <tr>
+						<td>Age/Gender </td>
+						<th>: GW-5</th>
+				  </tr>
+				  <tr>
+						<td>Department </td>
+						<th>: GW</th>
+				  </tr> 
+				  <tr>
+						<td>Token </td>
+						<th>: Genaral Ward</th>
+				  </tr>
+				  <tr>
+						<td>Visit No </td>
+						<th>: 2516</th>
+				  </tr>
+				
+				  </table>
+                </td>
+            </tr>
+			<tr>
+				<th style="padding:10px;margin-top:10px;"><i>Towards OP Consultation </i></th>
+				<th style="text-align:right;padding:10px;margin-top:10px;">50.00 </th>
+			</tr>
+        </table>
+		
+		<table cellpadding="0" cellspacing="0" style="border:1px solid #aaa;border-bottom:0px solid #fff;">
+            
+			<tr class="top">
+                <td>
+				<table>
+                  <tr>
+						<th>Validity </th>
+						<th>:  1 Consultation(s) before 12-May-2019</th>
+				  </tr>
+				  <tr>
+						<td>Sum of Rs</td>
+						<th>: 50.00</th>
+				  </tr> 
+				  <tr>
+						<td>In Words</td>
+						<th>: Fifty Rupees Only</th>
+				  </tr>
+				  <tr>
+						<td>Mode of Payment </td>
+						<th>: Cash</th>
+				  </tr> 
+				  
+				  </table>
+                </td>
+				 <td>
+				<table>
+                  <tr>
+						<td>Total Amt </td>
+						<th>: 50.00</th>
+				  </tr>
+				  <tr>
+						<td>Paid Amt </td>
+						<th>: &nbsp;</th>
+				  </tr> 
+				  <tr>
+						<td>Police Buckle No</td>
+						<th>: 30.00</th>
+				  </tr>
+				  <tr>
+						<td>Due Amt</td>
+						<th>: 50.00 /-</th>
+				  </tr> 
+				  <tr>
+						<td>Concession Amt</td>
+						<th>: 0.00</th>
+				  </tr> 
+				 
+				  </table>
+                </td>
+				
+            </tr>
+        </table>
+	
+		
+		<table cellpadding="0" cellspacing="0" style="border:1px solid #aaa;">
+            <tr >
+                <td>
+					<table>
+					  <tr>
+						<th>Billed User</th>
+						<td> : Admin</td>
+					  </tr>
+					  <tr>
+						<th>Print User</th>
+						<td> : Admin</td>
+					  </tr>
+				  </table>
+                </td>
+				<td>
+					<table>
+					  <tr>
+						<td>21-05-2019 02.45.51 pm</td>
+						
+					  </tr>
+				  </table>
+                </td>
+				 <td>
+					<table>
+					  <tr>
+						<th>For Care hospitals</th>
+			
+					  </tr>
+					  <tr>
+						<td>Cashier</td>
+					
+					  </tr>
+				  </table>
+                </td>
+            </tr> 
+			
+        </table>
+    </div>
+</body>
+</html>
