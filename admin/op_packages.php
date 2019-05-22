@@ -29,18 +29,24 @@
 										<input type="text" class="form-control" name="shopname" placeholder="Enter Package Name" />
 									</div>
 								</div>
+								</div>
+						<div class="col-md-6">
 						  <div class="form-group">
 							<label class="col-lg-4 control-label">Package Rate</label>
 							<div class="col-lg-8">
 							<input type="text" class="form-control" name="shopname" placeholder="Enter Package Rate" />
 						  </div>
 						  </div>
+						  </div>
+						  <div class="col-md-6">
 						  <div class="form-group">
 									<label class="col-lg-4 control-label">Description</label>
 									<div class="col-md-8">
 										<textarea class="form-control"></textarea>
 									</div>
 								</div>
+								</div>
+								<div class="col-md-6">
 								<div class="form-group">
 									<label class="col-lg-4 control-label">Consultation</label>
 									<div class="col-md-8">
@@ -52,11 +58,14 @@
 										</select>
 									</div>
 								</div>
+								</div>
+								<div class="col-md-6">
 								<div class="form-group">
 									<label class="col-lg-4 control-label">Service Tax</label>
 									<div class="col-md-8">
 										<input type="text" class="form-control" name="shopname" placeholder="Enter Service Tax" />
 									</div>
+								</div>
 								</div>
 								
 						</div>
@@ -66,13 +75,386 @@
 								
 							
 						<div class="clearfix">&nbsp;</div>
-							
-							<div class="form-group">
-								<div class="col-lg-6 text-center">
-							
-									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add Package</button>
+						 <div class="row">
+        <div class="col-md-12">
+          <!-- Custom Tabs -->
+          <div class="nav-tabs-custom">
+            <ul class="nav nav-tabs">
+              <li class="active"><a href="#tab_1" data-toggle="tab">Procedures</a></li>
+              <li><a href="#tab_2" data-toggle="tab">Pharmacy</a></li>
+              <li><a href="#tab_3" data-toggle="tab">Investigation </a></li>
+              <li><a href="#tab_4" data-toggle="tab">Operations </a></li>
+           
+             
+            </ul>
+            <div class="tab-content">
+              <div class="tab-pane active" id="tab_1">
+                	<div class="row">
+                	<div class="col-md-6">
+						<div class="form-group">
+							<label class="col-lg-4 control-label">Tariff type </label>
+							<div class="col-md-8">
+								<select class="form-control">
+									<option>Amount</option>
+									<option>No limit</option>
+								</select>
+							</div>
+						</div>
+					</div>
+						<div class="col-md-6">
+						  <div class="form-group">
+							<label class="col-lg-4 control-label">limit </label>
+							<div class="col-lg-8">
+							<input type="text" class="form-control" name="shopname" placeholder="Enter Package Rate" />
+						  </div>
+						  </div>
+						  </div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label class="col-lg-4 control-label">Procedure Name </label>
+									<div class="col-md-8">
+										<select class="form-control">
+											<option>Select</option>
+											<option>Name 1</option>
+											<option>Name 1</option>
+											<option>Name 1</option>
+										</select>
+									</div>
 								</div>
 							</div>
+							<div class="col-md-2">
+								<div class="form-group">
+									<label class="col-lg-4 control-label">Qty </label>
+									<div class="col-md-8">
+										<select class="form-control">
+											<option>Select</option>
+											<option>Name 1</option>
+											<option>Name 1</option>
+											<option>Name 1</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-2">
+								<div class="form-group">
+								
+									<div class="col-md-8">
+									<button class="btn btn-primary "> Add </button>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix">&nbsp;</div>
+							<div class="col-md-12">
+							<table class="table table-striped table-bordered">
+								<tr>
+									<th class="text-center">Procedure Name</th>
+									<th class="text-center">Qty</th>
+								</tr>
+								<tr>
+									<td> &nbsp; </td>
+									<td>  &nbsp; </td>
+								</tr>
+								<tr>
+									<td> &nbsp; </td>
+									<td>  &nbsp; </td>
+								</tr>
+								<tr>
+									<td> &nbsp; </td>
+									<td>  &nbsp; </td>
+								</tr>
+							</table>
+							</div>
+							<div class="col-md-12">
+								<a href="#tab_2" class="btn btn-primary pull-right" data-toggle="tab" >Save And Continue</a>
+							</div>
+						
+					</div>
+
+              </div>
+              <!-- /.tab-pane -->
+              <div class="tab-pane" id="tab_2">
+				<div class="row">
+                	<div class="col-md-6">
+						<div class="form-group">
+							<label class="col-lg-4 control-label">Tariff type </label>
+							<div class="col-md-8">
+								<select class="form-control">
+									<option>Amount</option>
+									<option>No limit</option>
+								</select>
+							</div>
+						</div>
+					</div>
+						<div class="col-md-6">
+						  <div class="form-group">
+							<label class="col-lg-4 control-label">limit </label>
+							<div class="col-lg-8">
+							<input type="text" class="form-control" name="shopname" placeholder="Enter Package Rate" />
+						  </div>
+						  </div>
+						  </div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label class="col-lg-4 control-label">Medicine name  </label>
+									<div class="col-md-8">
+										<select class="form-control">
+											<option>Select</option>
+											<option>Name 1</option>
+											<option>Name 1</option>
+											<option>Name 1</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-2">
+								<div class="form-group">
+									<label class="col-lg-4 control-label">Qty </label>
+									<div class="col-md-8">
+										<select class="form-control">
+											<option>Select</option>
+											<option>Name 1</option>
+											<option>Name 1</option>
+											<option>Name 1</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-2">
+								<div class="form-group">
+								
+									<div class="col-md-8">
+									<button class="btn btn-primary "> Add </button>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix">&nbsp;</div>
+							<div class="col-md-12">
+							<table class="table table-striped table-bordered">
+								<tr>
+									<th class="text-center">Medicine name</th>
+									<th class="text-center">Qty</th>
+								</tr>
+								<tr>
+									<td> &nbsp; </td>
+									<td>  &nbsp; </td>
+								</tr>
+								<tr>
+									<td> &nbsp; </td>
+									<td>  &nbsp; </td>
+								</tr>
+								<tr>
+									<td> &nbsp; </td>
+									<td>  &nbsp; </td>
+								</tr>
+							</table>
+							</div>
+							<div class="col-md-12">
+								<a href="#tab_3" class="btn btn-primary pull-right" data-toggle="tab" >Save And Continue</a>
+							</div>
+						
+					</div>
+              </div>
+              <!-- /.tab-pane -->
+              <div class="tab-pane" id="tab_3">
+				<div class="row">
+                	<div class="col-md-6">
+						<div class="form-group">
+							<label class="col-lg-4 control-label">Tariff type </label>
+							<div class="col-md-8">
+								<select class="form-control">
+									<option>Amount</option>
+									<option>No limit</option>
+								</select>
+							</div>
+						</div>
+					</div>
+						<div class="col-md-6">
+						  <div class="form-group">
+							<label class="col-lg-4 control-label">limit </label>
+							<div class="col-lg-8">
+							<input type="text" class="form-control" name="shopname" placeholder="Enter Package Rate" />
+						  </div>
+						  </div>
+						  </div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label class="col-lg-4 control-label">Investigation  name  </label>
+									<div class="col-md-8">
+										<select class="form-control">
+											<option>Select</option>
+											<option>Name 1</option>
+											<option>Name 1</option>
+											<option>Name 1</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-2">
+								<div class="form-group">
+									<label class="col-lg-4 control-label">Qty </label>
+									<div class="col-md-8">
+										<select class="form-control">
+											<option>Select</option>
+											<option>Name 1</option>
+											<option>Name 1</option>
+											<option>Name 1</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-2">
+								<div class="form-group">
+								
+									<div class="col-md-8">
+									<button class="btn btn-primary "> Add </button>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix">&nbsp;</div>
+							<div class="col-md-12">
+							<table class="table table-striped table-bordered">
+								<tr>
+									<th class="text-center">Investigation  name</th>
+									<th class="text-center">Qty</th>
+								</tr>
+								<tr>
+									<td> &nbsp; </td>
+									<td>  &nbsp; </td>
+								</tr>
+								<tr>
+									<td> &nbsp; </td>
+									<td>  &nbsp; </td>
+								</tr>
+								<tr>
+									<td> &nbsp; </td>
+									<td>  &nbsp; </td>
+								</tr>
+							</table>
+							</div>
+							<div class="col-md-12">
+								<a href="#tab_4" class="btn btn-primary pull-right" data-toggle="tab" >Save And Continue</a>
+							</div>
+						
+					</div>
+              </div>  
+			  <div class="tab-pane" id="tab_4">
+				<div class="row">
+                	<div class="col-md-6">
+						<div class="form-group">
+							<label class="col-lg-4 control-label">Operation  </label>
+							<div class="col-md-8">
+								<select class="form-control">
+									<option>Select</option>
+									<option>No limit</option>
+								</select>
+							</div>
+						</div>
+					</div>	
+					<div class="col-md-6">
+						<div class="form-group">
+							<label class="col-lg-4 control-label">Resource type    </label>
+							<div class="col-md-8">
+								<select class="form-control">
+									<option>Select</option>
+									<option>surgeon </option>
+									<option>Asst. Surgeon  </option>
+									<option>Anaesthetist Fee  </option>
+									<option>Anaesthesia   </option>
+								</select>
+							</div>
+						</div>
+					</div>
+						<div class="col-md-6">
+						<div class="form-group">
+							<label class="col-lg-4 control-label">Tariff type </label>
+							<div class="col-md-8">
+								<select class="form-control">
+									<option>Amount</option>
+									<option>No limit</option>
+								</select>
+							</div>
+						</div>
+					</div>
+						<div class="col-md-2">
+						  <div class="form-group">
+							<label class="col-lg-4 control-label">limit </label>
+							<div class="col-lg-8">
+							<input type="text" class="form-control" name="shopname" placeholder="Enter Package Rate" />
+						  </div>
+						  </div>
+						  </div>
+					
+							
+							<div class="col-md-2">
+								<div class="form-group">
+									<label class="col-lg-4 control-label">Qty </label>
+									<div class="col-md-8">
+										<select class="form-control">
+											<option>Select</option>
+											<option>Name 1</option>
+											<option>Name 1</option>
+											<option>Name 1</option>
+										</select>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-2">
+								<div class="form-group">
+								
+									<div class="col-md-8">
+									<button class="btn btn-primary "> Add </button>
+									</div>
+								</div>
+							</div>
+							<div class="clearfix">&nbsp;</div>
+							<div class="col-md-12">
+							<table class="table table-striped table-bordered">
+								<tr>
+									<th class="text-center">S.no</th>
+									<th class="text-center">Item Name</th>
+									<th class="text-center">Tariff type</th>
+									<th class="text-center">Qty</th>
+									<th class="text-center">Amount</th>
+								</tr>
+								<tr>
+									<td> &nbsp; </td>
+									<td>  &nbsp; </td>
+									<td>  &nbsp; </td>
+									<td>  &nbsp; </td>
+									<td>  &nbsp; </td>
+								</tr>
+								<tr>
+									<td> &nbsp; </td>
+									<td>  &nbsp; </td>
+									<td>  &nbsp; </td>
+									<td>  &nbsp; </td>
+									<td>  &nbsp; </td>
+								</tr>
+								<tr>
+									<td> &nbsp; </td>
+									<td> &nbsp; </td>
+									<td> &nbsp; </td>
+									<td> &nbsp; </td>
+									<td>  &nbsp; </td>
+								</tr>
+							</table>
+							</div>
+							<div class="col-md-12">
+								<a href="" class="btn btn-primary pull-right" data-toggle="tab" >Save </a>
+							</div>
+						
+					</div>
+              </div>
+              <!-- /.tab-pane -->
+            </div>
+            <!-- /.tab-content -->
+          </div>
+          <!-- nav-tabs-custom -->
+        </div>
+       
+      </div>
+							
+						
 						</form>
 						
 						
