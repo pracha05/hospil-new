@@ -73,21 +73,7 @@
 										
 									</div>
 								</div>
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label"> op procedure field </label>
-									<div class="col-md-8">
-								<select class="form-control select2" style="width: 100%;">
-									  <option selected="selected">Alabama</option>
-									  <option>Alaska</option>
-									  <option>California</option>
-									  <option>Delaware</option>
-									  <option>Tennessee</option>
-									  <option>Texas</option>
-									  <option>Washington</option>
-									</select>
-										
-									</div>
-								</div> 
+								 
 							
 						
 								<div class="form-group col-md-6">
@@ -112,17 +98,18 @@
 									</div>
 								</div>
 								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Address</label>
-									<div class="col-md-8">
-									<textarea class="form-control"></textarea>
-									</div>
-								</div>
-								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Phone </label>
 									<div class="col-md-8">
 									<input type="text" class="form-control" name="shopname" placeholder="Enter Phone" />
 									</div>
 								</div>
+								<div class="form-group col-md-6">
+									<label class="col-lg-4 control-label">Address</label>
+									<div class="col-md-8">
+									<textarea class="form-control"></textarea>
+									</div>
+								</div>
+								
 							
 								
 								
@@ -130,7 +117,51 @@
 								
 								
 						</div>
-				
+				<div class="row">
+								<div class=" col-md-10 col-md-offset-1">
+									<table class="table table-bordered table-hover" id="tab_logic">
+										<thead>
+											<tr>
+												<th class="text-center bg-primary">Op Procedure Field</th>
+												<th class="text-center bg-primary">Quantity</th>
+												<th class="text-center bg-primary">Charge</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr id='addr0'>
+												<td><select class="form-control select2" style="width: 100%;">
+									  <option selected="selected">Alabama</option>
+									  <option>Alaska</option>
+									  <option>California</option>
+									  <option>Delaware</option>
+									  <option>Tennessee</option>
+									  <option>Texas</option>
+									  <option>Washington</option>
+									</select></td>
+												<td>
+													<div class="form-group col-md-12">
+														<div class="">
+															<input type="text" class="form-control" name="" placeholder="Enter Quality" />
+														</div>
+													</div>
+												</td>
+												<td>
+													<div class="form-group col-md-12">
+														<div class="">
+															<input type="text" class="form-control" name="shopname" placeholder="Enter Charge" />
+														</div>
+													</div>
+												</td>
+											</tr>
+											<tr id='addr1'></tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+							<div class=" row">
+								<div class=" col-md-10 col-md-offset-1 clearfix"> <a id="add_row" class="btn btn-primary pull-left text-white btn-xs">Add row</a>  <a id='delete_row' class="pull-right btn btn-danger text-white btn-xs">Delete row</a>
+								</div>
+							</div>
 								
 							
 						<div class="clearfix">&nbsp;</div>
@@ -156,7 +187,7 @@
 </section> <script type="text/javascript">
 	      var i=1;
      $("#add_row").click(function(){
-      $('#addr'+i).html("<td>"+ (i+1) +"</td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Specialty Name' class='form-control input-md mt-2'  /></div></div> </td>");
+      $('#addr'+i).html("<td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Op Procedure Field' class='form-control input-md mt-2'  /></div></div> </td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Quality' class='form-control input-md mt-2'  /></div></div> </td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Charge' class='form-control input-md mt-2'  /></div></div> </td>");
 
       $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
       i++; 

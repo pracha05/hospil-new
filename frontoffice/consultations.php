@@ -150,15 +150,9 @@
 											<input type="text" class="form-control" name="shopname" placeholder="Consultation Fee" />
 										</div>
 									</div>
-								</div>
-							</div>
-							<div class="clearfix">&nbsp;</div>
-							<div class="form-group">
-								<div class="col-lg-12 text-center">	<a type="button" class="btn btn-primary " data-toggle="modal" data-target="#consult">Add Consultation</a>
-								</div>
-							</div>
-							<div class="modal fade " id="consult" role="dialog">
-								<div class="modal-dialog">
+								</div>	
+								<div class=" col-md-12 ">
+								<div class="modal-dialog" id="patient-reg" style="display:none">
 									<div class="modal-content">
 										<div class="modal-header bg-danger">
 											<button type="button" class="close" data-dismiss="modal">&times;</button>
@@ -222,7 +216,18 @@
 										</div>
 									</div>
 								</div>
+								</div>
+								
 							</div>
+							</div>
+							
+							<div class="clearfix">&nbsp;</div>
+							<div class="form-group">
+								<div class="col-lg-12 text-center">	<a type="button" class="btn btn-primary " data-toggle="modal" data-target="#consult">Add Consultation</a> <a id="patient-reg-btn" style="color:blue;font-size:25px;cursor:pointer"><i class="fa fa-plus-circle" aria-hidden="true"></i> </a>
+								</div>
+								
+							</div>
+							
 						</form>
 						<div class="clearfix">&nbsp;</div>
 					</div>
@@ -234,23 +239,12 @@
 </div>
 <!-- /.row -->
 </section>
-<script type="text/javascript">
-	var i=1;
-     $("#add_row").click(function(){
-      $('#addr'+i).html("<td>"+ (i+1) +"</td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Specialty Name' class='form-control input-md mt-2'  /></div></div> </td>");
 
-      $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
-      i++; 
-  });
-     $("#delete_row").click(function(){
-         if(i>1){
-         $("#addr"+(i-1)).html('');
-         i--;
-         }
-     });
-</script>
 </div>
 <script type="text/javascript">
+$("#patient-reg-btn").click(function(){
+  $("#patient-reg").show();
+});
 	$(document).ready(function() {
 		 //Timepicker
 	    $(".timepicker").timepicker({
