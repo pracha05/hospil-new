@@ -25,7 +25,7 @@
 							<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Mlc No </label>
 									<div class="col-md-8">
-										<input type="text" class="form-control" name="shopname" placeholder="Enter Mlc" />
+										<input type="text" class="form-control" name="shopname" placeholder="Enter Mlc No" />
 									</div>
 								</div>
 								
@@ -38,7 +38,7 @@
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Op No </label>
 									<div class="col-md-8">
-										<input type="text" class="form-control" name="shopname" placeholder="Enter Op" />
+										<input type="text" class="form-control" name="shopname" placeholder="Enter Op No" />
 									</div>
 								</div>
 								<div class="form-group col-md-6">

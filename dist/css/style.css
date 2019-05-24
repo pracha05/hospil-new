@@ -4,8 +4,12 @@
 .text-white{
 	color:#fff !important;
 }
-.skin-blue .wrapper, .skin-blue .main-sidebar, .skin-blue .left-side {
-     
+
+.modal-backdrop {
+	z-index:0;
+}
+.table_margin {
+	margin-bottom:10px;
 }
 .bg-profile{
        

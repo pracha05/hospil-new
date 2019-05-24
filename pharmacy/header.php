@@ -165,13 +165,13 @@
 						</a>
 					</li>-->
 					<li class="treeview">
-						<a href="#"> <i class="fa fa-user-plus"></i>  <span>Hospital Info</span>
+						<a href="#"> <i class="fa fa-user-plus"></i>  <span>Masters</span>
 							<span class="pull-right-container">
 							  <i class="fa fa-angle-left pull-right"></i>
 							</span>
 						</a>
 						<ul class="treeview-menu" style="display: none;">
-							<li> <a href="add-doctor.php">Doctors</a>
+							<li> <a href="manufacture.php">Manufactures</a>
 							</li>
 							<li><a href="user-rights.php">User Rights</a></li>
 							<li><a href="users.php">Users</a></li>
@@ -179,7 +179,7 @@
 						</ul>
 					</li>
 					<li class="treeview">
-						<a href="#"> <i class="fa fa-user-plus"></i>  <span>Op </span>
+						<a href="#"> <i class="fa fa-user-plus"></i>  <span>Transactions </span>
 							<span class="pull-right-container">
 							  <i class="fa fa-angle-left pull-right"></i>
 							</span>

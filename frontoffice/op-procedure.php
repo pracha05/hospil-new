@@ -36,7 +36,7 @@
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">MRNO</label>
 									<div class="col-md-8">
-										<input type="text" class="form-control" name="shopname" placeholder="Enter uhid no" />
+										<input type="text" class="form-control" name="shopname" placeholder="Enter MR no" />
 									</div>
 								</div>
 								<div class="form-group col-md-6">
@@ -123,16 +123,7 @@
 									<input type="text" class="form-control" name="shopname" placeholder="Enter Phone" />
 									</div>
 								</div>
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Payment Type</label>
-									<div class="col-md-8">
-									<select class="form-control">
-											<option>cash</option>
-											<option>card</option>
-											<option>pro</option>
-										</select>
-									</div>
-								</div>
+							
 								
 								
 								

@@ -20,23 +20,21 @@
 						<form id="defaultForm" method="post" class="form-horizontal" action="">
 							<div class=" row ">
 								<div class=" col-md-12 ">
-								<div class="form-group col-md-6">
+									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Visit type</label>
 										<div class="col-md-8">
 											<select class="form-control">
-												<option>new </option>
+												<option>new</option>
 												<option>revisit</option>
-											
 											</select>
 										</div>
-									</div>	
+									</div>
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Uhid</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter uhid" />
 										</div>
 									</div>
-								
 								</div>
 								<div class=" col-md-12 ">
 									<div class="form-group col-md-6">
@@ -48,16 +46,12 @@
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Date of birth</label>
 										<div class="col-md-8">
-											
-												
-												<input type="text" class="form-control datepicker" >
-											
+											<input type="text" class="form-control datepicker">
 										</div>
 									</div>
-									
 								</div>
 								<div class=" col-md-12 ">
-								<div class="form-group col-md-6">
+									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">age</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter age" />
@@ -72,10 +66,9 @@
 												<input type="radio" name="optradio">Female</label>
 										</div>
 									</div>
-									
 								</div>
 								<div class=" col-md-12 ">
-								<div class="form-group col-md-6">
+									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Guardian</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter Guardian" />
@@ -87,10 +80,9 @@
 											<textarea class="form-control"></textarea>
 										</div>
 									</div>
-									
 								</div>
 								<div class=" col-md-12 ">
-								<div class="form-group col-md-6">
+									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Phone</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter Phone" />
@@ -107,10 +99,8 @@
 											</select>
 										</div>
 									</div>
-									
 								</div>
 								<div class=" col-md-12 ">
-									
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Payment Type</label>
 										<div class="col-md-8">
@@ -121,18 +111,17 @@
 											</select>
 										</div>
 									</div>
-										<div class="form-group col-md-6">
+									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Consultation Type</label>
 										<div class="col-md-8">
 											<select class="form-control">
 												<option>normal</option>
-												<option>Emergency </option>
+												<option>Emergency</option>
 											</select>
 										</div>
 									</div>
 								</div>
 								<div class=" col-md-12 ">
-								
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Doctors</label>
 										<div class="col-md-8">
@@ -155,7 +144,6 @@
 									</div>
 								</div>
 								<div class=" col-md-12 ">
-									
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Consultation Fee</label>
 										<div class="col-md-8 bootstrap-timepicker">
@@ -166,8 +154,73 @@
 							</div>
 							<div class="clearfix">&nbsp;</div>
 							<div class="form-group">
-								<div class="col-lg-12 text-center">
-									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add Consultation</button>
+								<div class="col-lg-12 text-center">	<a type="button" class="btn btn-primary " data-toggle="modal" data-target="#consult">Add Consultation</a>
+								</div>
+							</div>
+							<div class="modal fade " id="consult" role="dialog">
+								<div class="modal-dialog">
+									<div class="modal-content">
+										<div class="modal-header bg-danger">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+											<h4 class="modal-title text-center ">PATIENT REGISTRATION</h4>
+										</div>
+										<div class="modal-body">
+											<form>
+												<div class="row table_margin">
+													<div class="col-md-6">
+														<input type="text" class="form-control" placeholder="Total Amount" />
+													</div>
+													<div class="col-md-6">
+														<input type="text" class="form-control" placeholder="Concession" />
+													</div>
+												</div>
+												<div class="row table_margin">
+													<div class="col-md-6">
+														<input type="text" class="form-control" placeholder="Paid Amount" />
+													</div>
+													<div class="col-md-6">
+														<input type="text" class="form-control" placeholder="Balance" />
+													</div>
+												</div>
+												<div class="row table_margin">
+													<div class="col-md-6">
+														<input type="text" class="form-control" placeholder="Concession Reason" />
+													</div>
+													<div class="col-md-6">
+														<select class="form-control">
+												<option>Concession Given By</option>
+												<option>emergency</option>
+												<option>case type1</option>
+												<option>case type1</option>
+											</select>
+													</div>
+												</div>
+												<div class="row table_margin">
+													<div class="col-md-6">
+														<input type="text" class="form-control" placeholder="User Code" />
+													</div>
+													<div class="col-md-6">
+														<select class="form-control">
+												<option>Mode</option>
+												<option>normal</option>
+												<option>emergency</option>
+												<option>case type1</option>
+												<option>case type1</option>
+											</select>
+													</div>
+												</div>
+												<div class="row table_margin">
+													<div class="col-md-12 text-center">
+														<button type="button" class="btn btn-danger" >Register</button>
+													</div>
+													
+												</div>
+											</form>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										</div>
+									</div>
 								</div>
 							</div>
 						</form>

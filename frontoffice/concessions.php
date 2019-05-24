@@ -43,7 +43,7 @@ concessions
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">MRNO</label>
 									<div class="col-md-8">
-										<input type="text" class="form-control" name="shopname" placeholder="Enter uhid no" />
+										<input type="text" class="form-control" name="shopname" placeholder="Enter MRNO" />
 									</div>
 								</div>
 								<div class="form-group col-md-6">

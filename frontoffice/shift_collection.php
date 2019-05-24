@@ -50,7 +50,7 @@
 									<div class="form-group ">
 										<label class="col-lg-4 control-label">From Time</label>
 										<div class="col-md-8 bootstrap-timepicker">
-											<input type="text" class="form-control timepicker" name="shopname" />
+											<input type="text" class="form-control timepicker" name="" />
 										</div>
 									</div>
 									<div class="form-group ">
@@ -62,7 +62,7 @@
 									<div class="form-group ">
 										<label class="col-lg-4 control-label">To Time</label>
 										<div class="col-md-8 bootstrap-timepicker">
-											<input type="text" class="form-control timepicker" name="shopname" />
+											<input type="text" class="form-control timepicker" name="" />
 										</div>
 									</div>
 									<div class="form-group ">
