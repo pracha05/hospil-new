@@ -165,11 +165,75 @@
 								
 							
 						<div class="clearfix">&nbsp;</div>
-							
+							<div class=" col-md-12 ">
+								<div class="modal-dialog" id="patient-reg" style="display:none">
+									<div class="modal-content">
+										<div class="modal-header bg-danger">
+											<button type="button" class="close" data-dismiss="modal">&times;</button>
+											<h4 class="modal-title text-center ">PATIENT REGISTRATION</h4>
+										</div>
+										<div class="modal-body">
+											<form>
+												<div class="row table_margin">
+													<div class="col-md-6">
+														<input type="text" class="form-control" placeholder="Total Amount" />
+													</div>
+													<div class="col-md-6">
+														<input type="text" class="form-control" placeholder="Concession" />
+													</div>
+												</div>
+												<div class="row table_margin">
+													<div class="col-md-6">
+														<input type="text" class="form-control" placeholder="Paid Amount" />
+													</div>
+													<div class="col-md-6">
+														<input type="text" class="form-control" placeholder="Balance" />
+													</div>
+												</div>
+												<div class="row table_margin">
+													<div class="col-md-6">
+														<input type="text" class="form-control" placeholder="Concession Reason" />
+													</div>
+													<div class="col-md-6">
+														<select class="form-control">
+												<option>Concession Given By</option>
+												<option>emergency</option>
+												<option>case type1</option>
+												<option>case type1</option>
+											</select>
+													</div>
+												</div>
+												<div class="row table_margin">
+													<div class="col-md-6">
+														<input type="text" class="form-control" placeholder="User Code" />
+													</div>
+													<div class="col-md-6">
+														<select class="form-control">
+												<option>Mode</option>
+												<option>normal</option>
+												<option>emergency</option>
+												<option>case type1</option>
+												<option>case type1</option>
+											</select>
+													</div>
+												</div>
+												<div class="row table_margin">
+													<div class="col-md-12 text-center">
+														<button type="button" class="btn btn-danger" >Register</button>
+													</div>
+													
+												</div>
+											</form>
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+								</div>
+								<div class="clearfix">&nbsp;</div>
 							<div class="form-group">
-								<div class="col-lg-12 text-center">
-							
-									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add op</button>
+								<div class="col-lg-12 text-center">	<a type="button" class="btn btn-primary " data-toggle="modal" data-target="#consult">Add Op</a> <a id="patient-reg-btn" style="color:blue;font-size:25px;cursor:pointer"><i class="fa fa-plus-circle" aria-hidden="true"></i> </a>
 								</div>
 							</div>
 						</form>
@@ -185,6 +249,9 @@
 </div>
 <!-- /.row -->
 </section> <script type="text/javascript">
+$("#patient-reg-btn").click(function(){
+  $("#patient-reg").show();
+});
 	      var i=1;
      $("#add_row").click(function(){
       $('#addr'+i).html("<td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Op Procedure Field' class='form-control input-md mt-2'  /></div></div> </td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Quality' class='form-control input-md mt-2'  /></div></div> </td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Charge' class='form-control input-md mt-2'  /></div></div> </td>");
