@@ -250,7 +250,7 @@
 <!-- /.row -->
 </section> <script type="text/javascript">
 $("#patient-reg-btn").click(function(){
-  $("#patient-reg").show();
+  $("#patient-reg").toggle();
 });
 	      var i=1;
      $("#add_row").click(function(){

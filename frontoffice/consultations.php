@@ -243,7 +243,7 @@
 </div>
 <script type="text/javascript">
 $("#patient-reg-btn").click(function(){
-  $("#patient-reg").show();
+  $("#patient-reg").toggle();
 });
 	$(document).ready(function() {
 		 //Timepicker
