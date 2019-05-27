@@ -76,7 +76,10 @@
 										</div>
 									</div>
 								</div>
-								<div class="col-md-12" style="border-top:2px solid #333">
+								<div class="col-md-12">
+								<hr>
+								</div>
+								<div class="col-md-12">
 								<div class="clearfix">&nbsp;</div>
 								<div class="col-md-4">
 										<div class="form-group ">
