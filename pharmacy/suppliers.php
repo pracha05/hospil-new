@@ -27,24 +27,9 @@
 										</div>
 									</div>
 									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Address</label>
+										<label class="col-lg-4 control-label">Email Id</label>
 										<div class="col-md-8">
-											<textarea class="form-control"></textarea>
-										</div>
-									</div>
-								</div>
-								<div class=" col-md-12 ">
-									
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Pincode</label>
-										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter Pincode" />
-										</div>
-									</div>
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Fax</label>
-										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter Fax" />
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Email Id" />
 										</div>
 									</div>
 								</div>
@@ -57,33 +42,36 @@
 										</div>
 									</div>
 									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Email Id</label>
+										<label class="col-lg-4 control-label">Pincode</label>
 										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter Email Id" />
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Pincode" />
 										</div>
 									</div>
 								</div>
 								<div class=" col-md-12 ">
 									
+									
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Fax</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Fax" />
+										</div>
+									</div>
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">APGST No</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter APGST No" />
 										</div>
 									</div>
+								</div>
+								
+								<div class=" col-md-12 ">
+									
+									
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Cst No</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter Cst No" />
-										</div>
-									</div>
-								</div>
-								<div class=" col-md-12 ">
-									
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Contact Person</label>
-										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter Contact Person" />
 										</div>
 									</div>
 									<div class="form-group col-md-6">
@@ -93,6 +81,7 @@
 										</div>
 									</div>
 								</div>
+								
 								<div class=" col-md-12 ">
 									
 									<div class="form-group col-md-6">
@@ -129,13 +118,33 @@
 									</div>
 								</div>
 								<div class=" col-md-12 ">
+									
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Contact Person</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Contact Person" />
+										</div>
+									</div>
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Pan No</label>
 										<div class="col-md-8 bootstrap-timepicker">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter Pan No" />
 										</div>
 									</div>
-								
+								</div>
+								<div class=" col-md-12 ">
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">User Code</label>
+										<div class="col-md-8 bootstrap-timepicker">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter user code" />
+										</div>
+									</div>
+								<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Address</label>
+										<div class="col-md-8">
+											<textarea class="form-control"></textarea>
+										</div>
+									</div>
 								</div>
 							</div>
 							<div class="clearfix">&nbsp;</div>

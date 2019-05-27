@@ -4,7 +4,11 @@
 .text-white{
 	color:#fff !important;
 }
-
+.text_scroll {
+	height:45px;
+	width:200px;
+	overflow-y: scroll;
+}
 .modal-backdrop {
 	z-index:0;
 }

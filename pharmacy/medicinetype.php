@@ -2,12 +2,12 @@
 <div class="content-wrapper">
 	<section class="content-header mb-4">
 		<h1>
-       Add Medicines
+       Add Medicine Type 
       </h1>
 		<ol class="breadcrumb">
 			<li><a href="#"><i class="fa fa-dashboard"></i> Home</a>
 			</li>
-			<li class="active">Medicines</li>
+			<li class="active">Medicine Type</li>
 		</ol>
 	</section>
 	<section class="content">
@@ -19,164 +19,33 @@
 					<div style="padding:20px;">
 						<form id="defaultForm" method="post" class="form-horizontal" action="">
 							<div class=" row ">
-								<div class=" col-md-12 ">
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Name</label>
-										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter Name" />
-										</div>
-									</div>
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Disease</label>
-										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter Disease Name" />
-										</div>
-									</div>
-								</div>
-								<div class=" col-md-12 ">
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Generic Name</label>
-										<div class="col-md-8">
-											<select class="form-control">
-												<option>Name</option>
-												<option>Name</option>
-												<option>Name</option>
-												<option>Name</option>
-											</select>
-										</div>
-									</div>
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Medicine Dept</label>
-										<div class="col-md-8">
-											<select class="form-control">
-												<option>Department</option>
-												<option>Department</option>
-												<option>Department</option>
-												<option>Department</option>
-											</select>
-										</div>
-									</div>
-								</div>
-								<div class=" col-md-12 ">
-									<div class="form-group col-md-6">
+								
+								<div class=" col-md-6 ">
+									<div class="form-group ">
 										<label class="col-lg-4 control-label">Medicine Type</label>
 										<div class="col-md-8">
-											<select class="form-control">
-												<option>type</option>
-												<option>type</option>
-												<option>type</option>
-												<option>type</option>
-												<option>type</option>
-											</select>
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Medicine Type" />
 										</div>
 									</div>
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Schedule</label>
+									<div class="form-group ">
+										<label class="col-lg-4 control-label">Description</label>
 										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter Schedule" />
+											<textarea class="form-control"></textarea>
 										</div>
 									</div>
-								</div>
-								<div class=" col-md-12 ">
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Tax Caterogy</label>
-										<div class="col-md-8">
-											<select class="form-control">
-												<option>Caterogy</option>
-												<option>Caterogy</option>
-												<option>Caterogy</option>
-												<option>Caterogy</option>
-												<option>Caterogy</option>
-											</select>
-										</div>
-									</div>
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Manufacturer</label>
-										<div class="col-md-8">
-											<select class="form-control">
-												<option>Manufacturer</option>
-												<option>Manufacturer</option>
-												<option>Manufacturer</option>
-												<option>Manufacturer</option>
-											</select>
-										</div>
-									</div>
-								</div>
-								<div class=" col-md-12 ">
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Code</label>
-										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter Code" />
-										</div>
-									</div>
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Hsn Code</label>
-										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter Hsn Code" />
-										</div>
-									</div>
-								</div>
-								<div class=" col-md-12 ">
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Dosage</label>
-										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter Dosage" />
-										</div>
-									</div>
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Potency</label>
-										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter Potency" />
-										</div>
-									</div>
-								</div>
-								<div class=" col-md-12 ">
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Rack</label>
-										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter Rack" />
-										</div>
-									</div>
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Tray</label>
-										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter Tray" />
-										</div>
-									</div>
-								</div>
-								<div class=" col-md-12 ">
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">ROL</label>
-										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter ROL" />
-										</div>
-									</div>
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">ROQ</label>
-										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter ROQ" />
-										</div>
-									</div>
-								</div>
-								<div class=" col-md-12 ">
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Name</label>
-										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter Name" />
-										</div>
-									</div>
-									<div class="form-group col-md-6">
+									<div class="form-group ">
 										<label class="col-lg-4 control-label">User Code</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="User Code" />
 										</div>
 									</div>
 								</div>
+								
 							</div>
 							<div class="clearfix">&nbsp;</div>
 							<div class="form-group">
-								<div class="col-lg-12 text-center">
-									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add Medicine</button>
+								<div class="col-lg-6 text-center">
+									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add Type</button>
 								</div>
 							</div>
 						</form>

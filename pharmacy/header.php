@@ -157,77 +157,39 @@
 				<!-- sidebar menu: : style can be found in sidebar.less -->
 				<ul class="sidebar-menu">
 					<li class="header">MAIN NAVIGATION</li>
-					<!--<li class="treeview">
-						<a href="dashboard.php"> <i class="fa fa-dashboard"></i>  <span>Dashboard</span>
-							<span class="pull-right-container">
-              
-            </span>
-						</a>
-					</li>-->
-					<li class="treeview">
-						<a href="#"> <i class="fa fa-user-plus"></i>  <span>Masters</span>
-							<span class="pull-right-container">
-							  <i class="fa fa-angle-left pull-right"></i>
-							</span>
-						</a>
-						<ul class="treeview-menu" style="display: none;">
-							<li> <a href="manufacture.php">Manufactures</a>
-							</li>
-							<li><a href="user-rights.php">User Rights</a></li>
-							<li><a href="users.php">Users</a></li>
-							<li><a href="hospital-info.php">Hospital Info</a></li>
-						</ul>
+					
+					<li>
+						<a href="taxcategory.php"> <i class="fa fa-money"></i>  <span>Tax Category</span></a>
 					</li>
-					<li class="treeview">
-						<a href="#"> <i class="fa fa-user-plus"></i>  <span>Transactions </span>
-							<span class="pull-right-container">
-							  <i class="fa fa-angle-left pull-right"></i>
-							</span>
-						</a>
-						<ul class="treeview-menu" style="display: none;">
-							<li> <a href="consultation.php">consultation </a>
-							</li>
-							
-						</ul>
+					<li>
+						<a href="generic.php"> <i class="fa fa-medkit"></i>  <span>Generic</span></a>
 					</li>
-					<li class="treeview">
-						<a href="#"> <i class="fa fa-user-plus"></i>  <span>Pharmacy Master</span>
-							<span class="pull-right-container">
-							  <i class="fa fa-angle-left pull-right"></i>
-							</span>
-						</a>
-						<ul class="treeview-menu" style="display: none;">
-							<li> <a href="medicine-master.php">Medicine Master</a></li>
-							<li><a href="manufacture.php">Manufacture</a></li>
-							<li><a href="suppliers.php">Suppliers</a></li>
-							<li><a href="stock-adjustment.php">Stock Adjustment</a></li>
-							<li><a href="tax-category.php">Tax Category</a></li>
-						</ul>
+					<li>
+						<a href="medicinetype.php"> <i class="fa fa-medkit"></i>  <span>Medicine Type</span></a>
 					</li>
-					<li class="treeview">
-						<a href="#"> <i class="fa fa-user-plus"></i>  <span>Pharmacy Sales</span>
-							<span class="pull-right-container">
-							  <i class="fa fa-angle-left pull-right"></i>
-							</span>
-						</a>
-						<ul class="treeview-menu" style="display: none;">
-							<li> <a href="purchase.php">Purchase</a></li>
-							<li> <a href="sale.php">Sale</a></li>
-							<li><a href="purchase-master.php">Purchase Payments</a></li>
-						</ul>
+					<li>
+						<a href="manufacture.php"> <i class="fa fa-user-plus"></i>  <span>Manufacture</span></a>
 					</li>
-					<li class="treeview">
-						<a href="#"> <i class="fa fa-user-plus"></i>  <span>Reports</span>
-							<span class="pull-right-container">
-							  <i class="fa fa-angle-left pull-right"></i>
-							</span>
-						</a>
-						<ul class="treeview-menu" style="display: none;">
-							<li> <a href="day_collection.php">Sale Report</a></li>
-							<li> <a href="day_collection.php">Purchase Report</a></li>
-							<li><a href="payment.php">Day collection report</a></li>
-							<li> <a href="day_collection.php">Margin Report</a></li>
-						</ul>
+					<li>
+						<a href="suppliers.php"> <i class="fa fa-user-plus"></i>  <span>Suppliers</span></a>
+					</li>
+					<li>
+						<a href="medicines.php"> <i class="fa fa-medkit"></i>  <span>Medicines</span></a>
+					</li>
+					<li>
+						<a href="purchase.php"> <i class="fa fa-money"></i>  <span>Purchase</span></a>
+					</li>
+					<li>
+						<a href="purchase-returns.php"> <i class="fa fa-medkit"></i>  <span>Purchase Returns</span></a>
+					</li>
+					<li>
+						<a href="sale.php"> <i class="fa fa-user-plus"></i>  <span>Sales</span></a>
+					</li>
+					<li>
+						<a href="returns.php"> <i class="fa fa-user-plus"></i>  <span>Returns</span></a>
+					</li>
+					<li>
+						<a href="purchase-payments.php"> <i class="fa fa-medkit"></i>  <span>Purchase Payments</span></a>
 					</li>
 				</ul>
 			</section>

@@ -2,12 +2,12 @@
 <div class="content-wrapper">
 	<section class="content-header mb-4">
 		<h1>
-       Add Doctor 
+     Returns
       </h1>
 		<ol class="breadcrumb">
 			<li><a href="#"><i class="fa fa-dashboard"></i> Home</a>
 			</li>
-			<li class="active">Doctor</li>
+			<li class="active">Returns</li>
 		</ol>
 	</section>
 	<section class="content">
@@ -16,65 +16,225 @@
 			<div class="col-md-12">
 				<!-- general form elements -->
 				<div class=" ">
-				
 					<div style="padding:20px;">
-						<form id="defaultForm" method="post" class="form-horizontal" action="">
-							
-						<div class=" row ">
-							<div class=" col-md-12 ">
-								 <div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Doctor name</label>
-									<div class="col-md-8">
-										<input type="text" class="form-control" name="shopname" placeholder="Enter Doctor name" />
+						<form id="defaultForm" method="post" class="form-horizontal" action="view_samplecollection.php">
+							<div class=" row ">
+								<div class="col-md-12">
+									<div class=" col-md-4 ">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Patient type</label>
+											<div class="col-md-8">
+												<select class="form-control">
+												<option>type</option>
+												<option>type</option>
+												<option>type</option>
+												<option>type</option>
+											</select>
+											</div>
+										</div>
 									</div>
-								</div> 
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Speciality</label>
-									<div class="col-md-8">
-										<input type="text" class="form-control" name="shopname" placeholder="Enter Speciality" />
+									<div class="col-md-4">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Sale return no </label>
+											<div class="col-md-8">
+												<input type="text" class="form-control" name="shopname" placeholder="Sale Return No" />
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Date</label>
+											<div class="col-md-8">
+												<input type="text" class="form-control datepicker" >
+											</div>
+										</div>
 									</div>
 								</div>
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Phone Number</label>
-									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Phone Number" />
+								<div class="col-md-12">
+									
+									<div class="col-md-4">
+										<div class="form-group">
+										<label class="col-lg-4 control-label">Indent</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Indent" />
+										</div>
+									</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Sale Date</label>
+											<div class="col-md-8">
+												<input type="text" class="form-control datepicker" >
+											</div>
+										</div>
+									</div>
+									
+								</div>
+								<div class="col-md-12">
+								<hr>
+								</div>
+								<div class="col-md-12">
+									
+									<div class="col-md-6">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Op patient name</label>
+											<div class="col-md-8">
+												<input type="text" class="form-control" name="shopname" placeholder="Op Patient Name" />
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Op Doctor Name</label>
+											<div class="col-md-8">
+												<input type="text" class="form-control" name="shopname" placeholder="Op Doctor Name" />
+											</div>
+										</div>
+									</div>
+									
+								</div>
+								<div class="col-md-12">
+								<hr>
+								</div>
+								<div class="col-md-12">
+								
+								<div class="col-md-4">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Issued item</label>
+											<div class="col-md-8">
+												<input type="text" class="form-control" name="shopname" placeholder="Enter Issued item" />
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Unit price </label>
+											<div class="col-md-8">
+												<input type="text" class="form-control" name="shopname" placeholder="Enter Unit price" />
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Issue Quantity</label>
+											<div class="col-md-8">
+												<input type="text" class="form-control" name="shopname" placeholder="Enter Issue Quantity" />
+											</div>
+										</div>
 									</div>
 								</div>
-									<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Address</label>
-									<div class="col-md-8">
-									<textarea class="form-control"></textarea>
+								<div class="col-md-12">
+									
+									<div class="col-md-4">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Exp Date</label>
+											<div class="col-md-8">
+												<input type="text" class="form-control datepicker" >
+											</div>
+										</div>
+									</div><div class="col-md-4">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">MRP</label>
+											<div class="col-md-8">
+												<input type="text" class="form-control" name="shopname" placeholder="Enter MRP" />
+											</div>
+										</div>
 									</div>
-								</div>
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Consultation fee</label>
-									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Consultation fee" />
+									<div class="col-md-4">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Return Quality</label>
+											<div class="col-md-8">
+												<input type="text" class="form-control" name="shopname" placeholder="Enter Return Qty" />
+											</div>
+										</div>
 									</div>
 								</div>
 								
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Profile</label>
-									<div class="col-md-8 ">
-									<input type="file" class="form-control " name=""  />
+								<div class="col-md-12">
+									<div class="col-md-4">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Batch No</label>
+											<div class="col-md-8">
+												<input type="text" class="form-control" name="shopname" placeholder="Enter Batch no" />
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Tax Amount</label>
+											<div class="col-md-8">
+												<input type="text" class="form-control" name="shopname" placeholder="Enter Tax Amount" />
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Tax</label>
+											<div class="col-md-8">
+												<input type="text" class="form-control" name="shopname" placeholder="Enter Tax" />
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-12">
+									
+									<div class="col-md-4">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Amount</label>
+											<div class="col-md-8">
+												<input type="text" class="form-control" name="shopname" placeholder="Enter Amount" />
+											</div>
+										</div>
+									</div>
+									
+									<div class="col-md-4">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">&nbsp;</label>
+											<div class="col-md-8">
+												<button class="btn btn-primary">ADD</button>
+											</div>
+										</div>
 									</div>
 								</div>
 								
-								
-						</div>
-				
-								
-							
-						<div class="clearfix">&nbsp;</div>
-							
+							</div>
+							<div class="clearfix">&nbsp;</div>
 							<div class="form-group">
 								<div class="col-lg-12 text-center">
-							
-									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add Doctor</button>
+									<button type="submit" class="btn btn-primary " name="signup" value="Sign up">Add Return</button>
 								</div>
 							</div>
+							<div class="row">
+									<div class="col-md-12">
+									<table class="table table-bordered">
+										<tr>
+											<th>SLNo</th>
+											<th>Medicine</th>
+											<th>Rack</th>
+											<th>Tray</th>
+											<th>Qty Return</th>
+											<th>MRP</th>
+											<th>Batch No</th>
+											<th>Exp.Dt</th>
+											<th>Amount</th>
+											<th>Issue Qty</th>
+										</tr>
+										<tr>
+											<td>01</td>
+											<td>xxxx</td>
+											<td>xxxx</td>
+											<td>xxxx</td>
+											<td>xxxx</td>
+											<td>xxxx</td>
+											<td>xxxx</td>
+											<td>xxxx</td>
+											<td>xxxx</td>
+											<td>xxxx</td>
+										</tr>
+									</table>
+									</div>
+								</div>
 						</form>
-						
 						
 						<div class="clearfix">&nbsp;</div>
 					</div>
@@ -85,23 +245,8 @@
 		<!--/.col (right) -->
 </div>
 <!-- /.row -->
-</section> <script type="text/javascript">
-	      var i=1;
-     $("#add_row").click(function(){
-      $('#addr'+i).html("<td>"+ (i+1) +"</td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Specialty Name' class='form-control input-md mt-2'  /></div></div> </td>");
-
-      $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
-      i++; 
-  });
-     $("#delete_row").click(function(){
-         if(i>1){
-         $("#addr"+(i-1)).html('');
-         i--;
-         }
-     });
-</script>
+</section>
 </div>
-
 <script type="text/javascript">
 	$(document).ready(function() {
 		 //Timepicker

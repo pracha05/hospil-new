@@ -21,9 +21,9 @@
 				<div class="small-box bg-aqua">
 					<div class="inner">
 						<h3>1200	</h3>
-						<p> Billing</p>
+						<p> Hospital Info</p>
 					</div>
-					<div class="icon"> <i class="fa fa-user"></i>
+					<div class="icon"> <i class="fa fa-hospital-o"></i>
 					</div> <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
 				</div>
 			</div>
@@ -33,7 +33,7 @@
 				<div class="small-box bg-green">
 					<div class="inner">
 						<h3>53<sup style="font-size: 20px">%</sup></h3>
-						<p>Diagnostics</p>
+						<p>Consultations</p>
 					</div>
 					<div class="icon"> <i class="fa fa-users"></i>
 					</div> <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
@@ -45,9 +45,9 @@
 				<div class="small-box bg-yellow">
 					<div class="inner">
 						<h3>44</h3>
-						<p>Ip Admissions</p>
+						<p>Reports</p>
 					</div>
-					<div class="icon"> <i class="fa fa-user-md"></i>
+					<div class="icon"> <i class="fa fa-flag"></i>
 					</div> <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
 				</div>
 			</div>
@@ -57,9 +57,9 @@
 				<div class="small-box bg-red">
 					<div class="inner">
 						<h3>650000</h3>
-						<p>Reports</p>
+						<p>Sales</p>
 					</div>
-					<div class="icon"> <i class="fa fa-credit-card-alt"></i>
+					<div class="icon"> <i class="fa fa-money"></i>
 					</div> <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
 				</div>
 			</div>

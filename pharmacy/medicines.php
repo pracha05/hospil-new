@@ -1,18 +1,13 @@
 <?php include( "header.php"); ?>
-
-<head>
-	<link rel="stylesheet" href="../dist/css/jquery.dataTables.min.css">
-	<link rel="stylesheet" href="../dist/css/buttons.dataTables.min.css">
-</head>
 <div class="content-wrapper">
 	<section class="content-header mb-4">
 		<h1>
-     Purchase Payments
+       Add Medicines
       </h1>
 		<ol class="breadcrumb">
 			<li><a href="#"><i class="fa fa-dashboard"></i> Home</a>
 			</li>
-			<li class="active">Purchase Payments</li>
+			<li class="active">Medicines</li>
 		</ol>
 	</section>
 	<section class="content">
@@ -22,165 +17,239 @@
 				<!-- general form elements -->
 				<div class=" ">
 					<div style="padding:20px;">
-						<form id="defaultForm" method="post" class="form-horizontal" action="view_samplecollection.php">
+						<form id="defaultForm" method="post" class="form-horizontal" action="">
 							<div class=" row ">
-								<div class="col-md-12">
-									<div class=" col-md-6 ">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">From Date</label>
-											<div class="col-md-8">
-												<input type="text" class="form-control datepicker" >
-											</div>
+								<div class=" col-md-12 ">
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Name</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Name" />
 										</div>
 									</div>
-									<div class="col-md-6">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">To Date</label>
-											<div class="col-md-8">
-												<input type="text" class="form-control datepicker" >
-											</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Disease</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Disease Name" />
 										</div>
 									</div>
 								</div>
-								<div class="col-md-12">
-									<div class="col-md-6">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">Supplier Name</label>
-											<div class="col-md-8">
-												<select class="form-control">
+								<div class=" col-md-12 ">
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Generic Name</label>
+										<div class="col-md-8">
+											<select class="form-control">
 												<option>Name</option>
 												<option>Name</option>
 												<option>Name</option>
 												<option>Name</option>
 											</select>
-											</div>
 										</div>
 									</div>
-									<div class="col-md-6">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">Total Amount</label>
-											<div class="col-md-8">
-												<input type="text" class="form-control" name="shopname" placeholder="Total Amount" />
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="col-md-6">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">Paid Amount</label>
-											<div class="col-md-8">
-												<input type="text" class="form-control" name="shopname" placeholder="Paid Amount  " />
-											</div>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">Due Amount</label>
-											<div class="col-md-8 ">
-												<input type="text" class="form-control" name="shopname" placeholder="Due Amount  " />
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="col-md-6">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">Current Payment</label>
-											<div class="col-md-8 ">
-												<input type="text" class="form-control" name="shopname" placeholder="Current Payment " />
-											</div>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">Current Due Amount</label>
-											<div class="col-md-8 bootstrap-timepicker">
-												<input type="text" class="form-control" name="shopname" placeholder="Required Quantity" />
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="col-md-6">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">Mode</label>
-											<div class="col-md-8 ">
-												<select class="form-control">
-												<option>Mode</option>
-												<option>Mode</option>
-												<option>Mode</option>
-												<option>Mode</option>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Medicine Dept</label>
+										<div class="col-md-8">
+											<select class="form-control">
+												<option>Department</option>
+												<option>Department</option>
+												<option>Department</option>
+												<option>Department</option>
 											</select>
-											</div>
 										</div>
 									</div>
-									<div class="col-md-6">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">User Code</label>
-											<div class="col-md-8 ">
-												<input type="text" class="form-control" name="shopname" placeholder="User Code" />
+								</div>
+								<div class=" col-md-12 ">
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Medicine Type</label>
+										<div class="col-md-8">
+											<select class="form-control">
+												<option>type</option>
+												<option>type</option>
+												<option>type</option>
+												<option>type</option>
+												<option>type</option>
+											</select>
+										</div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Schedule</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Schedule" />
+										</div>
+									</div>
+								</div>
+								<div class=" col-md-12 ">
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Tax Caterogy</label>
+										<div class="col-md-8">
+											<select class="form-control">
+												<option>Caterogy</option>
+												<option>Caterogy</option>
+												<option>Caterogy</option>
+												<option>Caterogy</option>
+												<option>Caterogy</option>
+											</select>
+										</div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Manufacturer</label>
+										<div class="col-md-8">
+											<select class="form-control">
+												<option>Manufacturer</option>
+												<option>Manufacturer</option>
+												<option>Manufacturer</option>
+												<option>Manufacturer</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class=" col-md-12 ">
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Code</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Code" />
+										</div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Hsn Code</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Hsn Code" />
+										</div>
+									</div>
+								</div>
+								<div class=" col-md-12 ">
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Dosage</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Dosage" />
+										</div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Potency</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Potency" />
+										</div>
+									</div>
+								</div>
+								<div class=" col-md-12 ">
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Rack</label>
+										<div class="col-md-8">
+											<select class="form-control">
+												<option>Rack</option>
+												<option>Rack</option>
+												<option>Rack</option>
+												<option>Rack</option>
+											</select>
+										</div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Tray</label>
+										<div class="col-md-8">
+											<select class="form-control">
+												<option>tray</option>
+												<option>tray</option>
+												<option>tray</option>
+												<option>tray</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class=" col-md-12 ">
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">ROL</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter ROL" />
+										</div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">ROQ</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter ROQ" />
+										</div>
+									</div>
+								</div>
+								<div class=" col-md-12 ">
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Method</label>
+										<div class="col-md-8">
+											<select class="form-control">
+												<option>method1</option>
+												<option>method1</option>
+												<option>method1</option>
+												<option>method1</option>
+												<option>method1</option>
+											</select>
+										</div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">User Code</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="User Code" />
+										</div>
+									</div>
+								</div>
+								<div class=" col-md-12 ">
+									<div class="form-group col-md-6">
+							<label class="col-lg-4 control-label">Department Name</label>
+							<div class="col-lg-8">
+							 <div class="panel-group" id="faqAccordion">
+								<div class="panel panel-default ">
+									<div class="panel-heading accordion-toggle question-toggle collapsed">
+										 <h4 class="panel-title">
+										 <div class="row">
+											<a href="#" class="ing"> 
+											<div class="checkbox col-md-1">
+											  <label><input type="checkbox" value=""> </label>
+											</div> 
+											<span  class="col-md-10 mt-3" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question0">All</span></a>
 											</div>
+									  </h4>
+
+									</div>
+									<div id="question0" class="panel-collapse collapse" style="height: 0px;">
+										<div class="panel-body">
+											 <div class="checkbox">
+											  <label><input type="checkbox" value="">Ot</label>
+											</div>
+											<div class="checkbox">
+											  <label><input type="checkbox" value="">Expired</label>
+											</div>
+											<div class="checkbox disabled">
+											  <label><input type="checkbox" value="" disabled>Emergency</label>
+											</div>
+											<div class="checkbox disabled">
+											  <label><input type="checkbox" value="" disabled>Pharmacy</label>
+											</div>
+											<div class="checkbox disabled">
+											  <label><input type="checkbox" value="" disabled>Hospital</label>
+											</div>
+											<div class="checkbox disabled">
+											  <label><input type="checkbox" value="" disabled>Room</label>
+											</div>
+											<div class="checkbox disabled">
+											  <label><input type="checkbox" value="" disabled>General Ward</label>
+											</div>
+											
+											
 										</div>
 									</div>
 								</div>
 								
 								
+								
+								
+							</div>
+						  </div>
+						  </div>
+								</div>
+							</div>
 							<div class="clearfix">&nbsp;</div>
 							<div class="form-group">
 								<div class="col-lg-12 text-center">
-									<button type="submit" class="btn btn-primary toggle-vechile-info-btn" name="signup" value="Sign up">Add Payment</button>
+									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add Medicine</button>
 								</div>
 							</div>
 						</form>
-						<div style="display:none" id="toggle-vechile-info">
-							<div class="row table-responsive">
-								<div class="col-md-10 col-md-offset-1">
-									<table id="example" class="display" style="width:100%">
-										<thead>
-											<tr>
-												<th>SNO</th>
-												<th>Bill Date</th>
-												<th>Total Amount</th>
-												<th>Paid Amount</th>
-												<th>Due Amount</th>
-												<th>Concamt</th>
-												<th>Current Paid Amount</th>
-												<th>Current Due Amount</th>
-												<th>Invoice No</th>
-												<th>Action</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<th>Donna Snider</th>
-												<td>Customer Support</td>
-												<td>New York</td>
-												<td>27</td>
-												<td>2011/01/25</td>
-												<td>$112,000</td>
-												<td>$112,000</td>
-												<td>$112,000</td>
-												<td>$112,000</td>
-												<td>$112,000</td>
-											</tr>
-											<tr>
-												<th>Donna Snider</th>
-												<td>Customer Support</td>
-												<td>New York</td>
-												<td>27</td>
-												<td>2011/01/25</td>
-												<td>$112,000</td>
-												<td>$112,000</td>
-												<td>$112,000</td>
-												<td>$112,000</td>
-												<td>$112,000</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
-							</div>
-						</div>
 						<div class="clearfix">&nbsp;</div>
 					</div>
 				</div>
@@ -191,28 +260,6 @@
 </div>
 <!-- /.row -->
 </section>
-<script>
-	$(document).ready(function(){
-	  $(".toggle-vechile-info-btn").click(function(){
-	    $("#toggle-vechile-info").toggle();
-	  });
-	});
-</script>
-<script type="text/javascript">
-	var i=1;
-     $("#add_row").click(function(){
-      $('#addr'+i).html("<td>"+ (i+1) +"</td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Specialty Name' class='form-control input-md mt-2'  /></div></div> </td>");
-
-      $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
-      i++; 
-  });
-     $("#delete_row").click(function(){
-         if(i>1){
-         $("#addr"+(i-1)).html('');
-         i--;
-         }
-     });
-</script>
 </div>
 <script type="text/javascript">
 	$(document).ready(function() {
@@ -442,15 +489,3 @@
 	});
 </script>
 <?php include( "footer.php"); ?>
-<script src="../dist/js/dataTables.buttons.min.js"></script>
-<script src="../dist/js/buttons.print.min.js"></script>
-<script type="text/javascript">
-	$(document).ready(function() {
-	    $('#example').DataTable( {
-	        dom: 'Bfrtip',
-	        buttons: [
-	            'print'
-	        ]
-	    } );
-	} );
-</script>

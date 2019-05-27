@@ -2,12 +2,12 @@
 <div class="content-wrapper">
 	<section class="content-header mb-4">
 		<h1>
-       Add Consultations 
+       Add Consultation
       </h1>
 		<ol class="breadcrumb">
 			<li><a href="#"><i class="fa fa-dashboard"></i> Home</a>
 			</li>
-			<li class="active">Consultations</li>
+			<li class="active">Consultation</li>
 		</ol>
 	</section>
 	<section class="content">

@@ -2,12 +2,12 @@
 <div class="content-wrapper">
 	<section class="content-header mb-4">
 		<h1>
-     Sale
+       Add Generic
       </h1>
 		<ol class="breadcrumb">
 			<li><a href="#"><i class="fa fa-dashboard"></i> Home</a>
 			</li>
-			<li class="active">Sale</li>
+			<li class="active">Generic</li>
 		</ol>
 	</section>
 	<section class="content">
@@ -17,194 +17,34 @@
 				<!-- general form elements -->
 				<div class=" ">
 					<div style="padding:20px;">
-						<form id="defaultForm" method="post" class="form-horizontal" action="view_samplecollection.php">
+						<form id="defaultForm" method="post" class="form-horizontal" action="">
 							<div class=" row ">
 								
-									<div class=" col-md-4 ">
-										<div class="form-group ">
-											<label class="col-lg-6 control-label">Patient Type</label>
-											<div class="col-md-6">
-												<select class="form-control">
-												<option>Type</option>
-												<option>Type</option>
-												<option>Type</option>
-												<option>Type</option>
-											</select>
-											</div>
+								<div class=" col-md-6 ">
+									<div class="form-group ">
+										<label class="col-lg-4 control-label">Generic</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter generic" />
 										</div>
 									</div>
-									<div class="col-md-4">
-										<div class="form-group ">
-											<label class="col-lg-6 control-label">UHID (SDH)</label>
-											<div class="col-md-6">
-												<input type="text" class="form-control" name="shopname" value="10000 "  readonly />
-											</div>
+									<div class="form-group ">
+										<label class="col-lg-4 control-label">User Code</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="User Code" />
 										</div>
 									</div>
-									<div class="col-md-4">
-										<div class="form-group ">
-											<label class="col-lg-6 control-label">Bill No</label>
-											<div class="col-md-6">
-												<input  class="form-control" name="shopname" value="20145" / readonly>
-											</div>
-										</div>
-									</div>
-									</div>
-							
+								</div>
 								
-								<div class=" row ">
-									
-									<div class="col-md-4">
-										<div class="form-group ">
-											<label class="col-lg-6 control-label">Name</label>
-											<div class="col-md-6">
-												<input type="text" class="form-control" name="shopname" placeholder="Enter name" />
-											</div>
-										</div>
-									</div>
-								
-									<div class="col-md-4">
-										<div class="form-group ">
-											<label class="col-lg-6 control-label">Age</label>
-											<div class="col-md-6">
-												<input type="text" class="form-control" name="shopname" placeholder="Enter Age  " />
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4">
-										<div class="form-group ">
-											<label class="col-lg-6 control-label">Doctor name</label>
-											<div class="col-md-6 ">
-												<select class="form-control">
-												<option>Name</option>
-												<option>Name</option>
-												<option>Name</option>
-												<option>Name</option>
-											</select>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-12">
-										<div class="form-group ">
-											<label class="col-lg-2 control-label">Medicine Name</label>
-											<div class="col-md-10">
-												<select class="form-control">
-												<option>Name</option>
-												<option>Name</option>
-												<option>Name</option>
-												<option>Name</option>
-											</select>
-											</div>
-										</div>
-									</div>
-									</div>
-								<div class="row">
-									<div class="col-md-4">
-										<div class="form-group ">
-											<label class="col-lg-6 control-label">Required Quantity</label>
-											<div class="col-md-6 bootstrap-timepicker">
-												<input type="text" class="form-control" name="shopname" placeholder="Required Quantity" />
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4">
-										<div class="form-group ">
-											<label class="col-lg-6 control-label">Expiry Date</label>
-											<div class="col-md-6 bootstrap-timepicker">
-												<input type="text" class="form-control datepicker" >
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4">
-										<div class="form-group ">
-											<label class="col-lg-6 control-label">Batch No</label>
-											<div class="col-md-6 bootstrap-timepicker">
-												<input type="text" class="form-control" name="shopname" placeholder="Batch No" />
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-4">
-										<div class="form-group ">
-											<label class="col-lg-6 control-label">MRP</label>
-											<div class="col-md-6">
-												<input type="number" class="form-control" name="shopname" placeholder="Enter MRP" />
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4">
-										<div class="form-group ">
-											<label class="col-lg-6 control-label">Amount</label>
-											<div class="col-md-6">
-												<input type="text" class="form-control" name="shopname" placeholder="Enter Amount" />
-											</div>
-										</div>
-									</div>
-									<div class="col-md-4">
-										<div class="form-group ">
-											<label class="col-lg-6 control-label">Tax Amount</label>
-											<div class="col-md-6">
-												<input type="number" class="form-control" name="shopname" placeholder="Tax Amount" />
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									
-									<div class="col-md-4">
-										<div class="form-group ">
-											<label class="col-lg-6 control-label">Manufacture By</label>
-											<div class="col-md-6">
-												<input type="text" class="form-control" name="shopname" placeholder="Manufacture By" />
-											</div>
-										</div>
-									</div>
-								</div>
-							
+							</div>
 							<div class="clearfix">&nbsp;</div>
-						
-								<div class="col-lg-12 text-center">
-									<button type="submit" class="btn btn-primary " name="signup" value="Sign up">Add Sale</button>
-								</div>	
-									<div class="clearfix">&nbsp;</div>
-								<div class="row">
-									<div class="col-md-12">
-									<table class="table table-bordered">
-										<tr>
-											<th>SLNo</th>
-											<th>Medicine Name</th>
-											<th>Rack</th>
-											<th>TRAY</th>
-											<th>Batch</th>
-											<th>Exp.Dt</th>
-											<th>Qty</th>
-											<th>MRP</th>
-											<th>NetAmt</th>
-											<th>Taxamt</th>
-										</tr>
-										<tr>
-											<td>01</td>
-											<td>xxxx</td>
-											<td>xxxx</td>
-											<td>xxxx</td>
-											<td>xxxx</td>
-											<td>xxxx</td>
-											<td>xxxx</td>
-											<td>xxxx</td>
-											<td>xxxx</td>
-											<td>xxxx</td>
-										</tr>
-									</table>
-									</div>
+							<div class="form-group">
+								<div class="col-lg-6 text-center">
+									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add Generic</button>
 								</div>
-							
+							</div>
 						</form>
-						
 						<div class="clearfix">&nbsp;</div>
-					
+					</div>
 				</div>
 				<!-- /.box -->
 			</div>
@@ -213,6 +53,7 @@
 </div>
 <!-- /.row -->
 </section>
+
 </div>
 <script type="text/javascript">
 	$(document).ready(function() {

@@ -24,7 +24,7 @@
 									<div class="form-group ">
 										<label class="col-lg-4 control-label">Manufacturer Name</label>
 										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter category name" />
+											<input type="text" class="form-control" name="shopname" placeholder="Enter manufacture name" />
 										</div>
 									</div>
 									<div class="form-group ">
