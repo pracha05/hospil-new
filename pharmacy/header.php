@@ -150,7 +150,7 @@
 						<img src="../dist\img\user.png" class="img-circle" alt="User Image">
 					</div>
 					<div class="pull-left info">
-						<p>Hospil Clinic</p> <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
+						<p>Hospil Pharmacy</p> <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
 					</div>
 				</div>
 	

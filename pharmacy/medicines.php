@@ -29,7 +29,7 @@
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Disease</label>
 										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter Disease Name" />
+											<input type="text" class="form-control" name="shopname" placeholder="Disease Name" />
 										</div>
 									</div>
 								</div>
@@ -165,60 +165,7 @@
 										</div>
 									</div>
 								</div>
-								<!--<div class=" col-md-12 ">
-									<div class="form-group col-md-6">
-							<label class="col-lg-4 control-label">Department Name</label>
-							<div class="col-lg-8">
-							 <div class="panel-group" id="faqAccordion">
-								<div class="panel panel-default ">
-									<div class="panel-heading accordion-toggle question-toggle collapsed">
-										 <h4 class="panel-title">
-										 <div class="row">
-											<a href="#" class="ing"> 
-											<div class="checkbox col-md-1">
-											  <label><input type="checkbox" value=""> </label>
-											</div> 
-											<span  class="col-md-10 mt-3" data-toggle="collapse" data-parent="#faqAccordion" data-target="#question0">All</span></a>
-											</div>
-									  </h4>
-
-									</div>
-									<div id="question0" class="panel-collapse collapse" style="height: 0px;">
-										<div class="panel-body">
-											 <div class="checkbox">
-											  <label><input type="checkbox" value="">Ot</label>
-											</div>
-											<div class="checkbox">
-											  <label><input type="checkbox" value="">Expired</label>
-											</div>
-											<div class="checkbox disabled">
-											  <label><input type="checkbox" value="" disabled>Emergency</label>
-											</div>
-											<div class="checkbox disabled">
-											  <label><input type="checkbox" value="" disabled>Pharmacy</label>
-											</div>
-											<div class="checkbox disabled">
-											  <label><input type="checkbox" value="" disabled>Hospital</label>
-											</div>
-											<div class="checkbox disabled">
-											  <label><input type="checkbox" value="" disabled>Room</label>
-											</div>
-											<div class="checkbox disabled">
-											  <label><input type="checkbox" value="" disabled>General Ward</label>
-											</div>
-											
-											
-										</div>
-									</div>
-								</div>
 								
-								
-								
-								
-							</div>
-						  </div>
-						  </div>
-								</div>-->
 							</div>
 							<div class="clearfix">&nbsp;</div>
 							<div class="form-group">

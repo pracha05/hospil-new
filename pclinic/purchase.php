@@ -20,7 +20,7 @@
 						<form id="defaultForm" method="post" class="form-horizontal" action="view_samplecollection.php">
 							<div class=" row ">
 								<div class="col-md-12">
-									<div class=" col-md-6 ">
+									<div class=" col-md-4 ">
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">Date</label>
 											<div class="col-md-8">
@@ -28,20 +28,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-6">
-										<div class="form-group">
-											<label class="col-lg-4 control-label">Purchase Type</label>
-											<div class="col-md-8">
-												<label class="radio-inline">
-													<input type="radio" name="optradio" checked>Direct</label>
-												<label class="radio-inline">
-													<input type="radio" name="optradio">PurchOrder</label>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="col-md-6">
+									<div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">Voucher no</label>
 											<div class="col-md-8">
@@ -49,22 +36,35 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-6">
+									<div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">Supplier</label>
 											<div class="col-md-8">
 												<select class="form-control">
-													<option>Supplier</option>
-													<option>Supplier</option>
-													<option>Supplier</option>
-													<option>Supplier</option>
-												</select>
+												<option>Supplier</option>
+												<option>Supplier</option>
+												<option>Supplier</option>
+												<option>Supplier</option>
+											</select>
 											</div>
 										</div>
 									</div>
 								</div>
 								<div class="col-md-12">
-									<div class="col-md-6">
+									
+									<div class="col-md-4">
+										<div class="form-group">
+										<label class="col-lg-4 control-label">Purchase Type</label>
+										<div class="col-md-8">
+										<select class="form-control">
+												<option>Direct</option>
+												<option>PurchOrder</option>
+											</select>
+										
+										</div>
+									</div>
+									</div>
+									<div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">INV no</label>
 											<div class="col-md-8">
@@ -72,17 +72,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-6">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">Address</label>
-											<div class="col-md-8">
-												<textarea class="form-control"></textarea>
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="col-md-6">
+									<div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">DC no</label>
 											<div class="col-md-8">
@@ -90,7 +80,10 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-6">
+								</div>
+								<div class="col-md-12">
+									
+									<div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">Sec No</label>
 											<div class="col-md-8">
@@ -98,9 +91,7 @@
 											</div>
 										</div>
 									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="col-md-6">
+									<div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">Phone Number</label>
 											<div class="col-md-8">
@@ -108,7 +99,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-6">
+									<div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">State Code</label>
 											<div class="col-md-8">
@@ -118,30 +109,42 @@
 									</div>
 								</div>
 								<div class="col-md-12">
-									<div class="col-md-6">
+								<div class="col-md-4">
 										<div class="form-group ">
-											<label class="col-lg-4 control-label">Medicine Name</label>
+											<label class="col-lg-4 control-label">Address</label>
 											<div class="col-md-8">
-												<select class="form-control">
-													<option>Name</option>
-													<option>Name</option>
-													<option>Name</option>
-													<option>Name</option>
-												</select>
-											</div>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">Quantity</label>
-											<div class="col-md-8">
-												<input type="text" class="form-control" name="shopname" placeholder="Enter Voucher no" />
+												<textarea class="form-control"></textarea>
 											</div>
 										</div>
 									</div>
 								</div>
 								<div class="col-md-12">
-									<div class="col-md-6">
+								<hr>
+								</div>
+								<div class="col-md-12">
+								<div class="clearfix">&nbsp;</div>
+								<div class="col-md-4">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Medicine Name</label>
+											<div class="col-md-8">
+												<select class="form-control">
+												<option>Name</option>
+												<option>Name</option>
+												<option>Name</option>
+												<option>Name</option>
+											</select>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Quantity</label>
+											<div class="col-md-8">
+												<input type="text" class="form-control" name="shopname" placeholder="Enter Quantity" />
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">Pack Quantity</label>
 											<div class="col-md-8">
@@ -149,17 +152,17 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-6">
+								</div>
+								<div class="col-md-12">
+									
+									<div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">Pack Rate</label>
 											<div class="col-md-8">
 												<input type="text" class="form-control" name="shopname" placeholder="Enter Pack Rate" />
 											</div>
 										</div>
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="col-md-6">
+									</div><div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">MRP</label>
 											<div class="col-md-8">
@@ -167,7 +170,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-6">
+									<div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">Free Pack</label>
 											<div class="col-md-8">
@@ -176,8 +179,9 @@
 										</div>
 									</div>
 								</div>
+								
 								<div class="col-md-12">
-									<div class="col-md-6">
+									<div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">Batch No</label>
 											<div class="col-md-8">
@@ -185,7 +189,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-6">
+									<div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">Tax%</label>
 											<div class="col-md-8">
@@ -193,17 +197,18 @@
 											</div>
 										</div>
 									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="col-md-6">
+									<div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">Exp Date</label>
 											<div class="col-md-8">
-												<input type="text" class="form-control datepicker">
+												<input type="text" class="form-control datepicker" >
 											</div>
 										</div>
 									</div>
-									<div class="col-md-6">
+								</div>
+								<div class="col-md-12">
+									
+									<div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">Disc</label>
 											<div class="col-md-8">
@@ -211,34 +216,40 @@
 											</div>
 										</div>
 									</div>
+									
+									<div class="col-md-4">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">&nbsp;</label>
+											<div class="col-md-8">
+												<button class="btn btn-primary">ADD</button>
+											</div>
+										</div>
+									</div>
 								</div>
+								
 							</div>
 							<div class="clearfix">&nbsp;</div>
 							<div class="form-group">
 								<div class="col-lg-12 text-center">
-									<button type="submit" class="btn btn-primary toggle-vechile-info-btn" name="signup" value="Sign up">Add Purchase</button>
+									<button type="submit" class="btn btn-primary" name="signup" value="Sign up">Add Purchase</button>
 								</div>
 							</div>
-							<div class="clearfix">&nbsp;</div>
 							<div class="row">
-								<div class="col-md-12">
+									<div class="col-md-12">
 									<table class="table table-bordered">
 										<tr>
-											<th>SNO</th>
+											<th>SLNo</th>
 											<th>Medicine Name</th>
-											<th>Quality Rec</th>
+											<th>Qty</th>
 											<th>Free</th>
 											<th>Rate</th>
-											<th>Rate/Pack</th>
-											<th>Mrp</th>
+											<th>Rack / Pack</th>
+											<th>MRP</th>
 											<th>Amount</th>
 											<th>Batch No</th>
-											<th>Exp Date</th>
-											<th>Disc</th>
+											<th>Exp.Dt</th>
 											<th>Tax</th>
-											<th>Net Amount</th>
-											<th>Pack Multi</th>
-											<th>Action</th>
+											<th>Disc</th>
 										</tr>
 										<tr>
 											<td>01</td>
@@ -253,14 +264,12 @@
 											<td>xxxx</td>
 											<td>xxxx</td>
 											<td>xxxx</td>
-											<td>xxxx</td>
-											<td>xxxx</td>
-											<td>xxxx</td>
 										</tr>
 									</table>
+									</div>
 								</div>
-							</div>
 						</form>
+						
 						<div class="clearfix">&nbsp;</div>
 					</div>
 				</div>

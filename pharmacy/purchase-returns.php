@@ -92,7 +92,7 @@
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">Quantity</label>
 											<div class="col-md-8">
-												<input type="text" class="form-control" name="shopname" placeholder="Enter Voucher no" />
+												<input type="text" class="form-control" name="shopname" placeholder="Enter Quantity" />
 											</div>
 										</div>
 									</div>
@@ -162,7 +162,7 @@
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">Disc</label>
 											<div class="col-md-8">
-												<input type="text" class="form-control" name="shopname" placeholder="Enter State Code" />
+												<input type="text" class="form-control" name="shopname" placeholder="Enter Disc" />
 											</div>
 										</div>
 									</div>
@@ -179,8 +179,8 @@
 					</div>
 				</div>
 				<div class="clearfix">&nbsp;</div>
-				<div class="form-group">
-					<div class="col-lg-12 text-center">
+				<div class="form-group pull-right">
+					<div class="col-lg-12">
 						<button type="submit" class="btn btn-primary" name="signup" value="Sign up">Add purchase return</button>
 					</div>
 				</div>

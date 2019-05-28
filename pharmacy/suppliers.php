@@ -111,34 +111,30 @@
 										</div>
 									</div>
 									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">State Code</label>
-										<div class="col-md-8 bootstrap-timepicker">
-											<input type="text" class="form-control" name="shopname" placeholder="State Code" />
-										</div>
-									</div>
-								</div>
-								<div class=" col-md-12 ">
-									
-									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Contact Person</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter Contact Person" />
 										</div>
 									</div>
+								</div>
+								<div class=" col-md-12 ">
+									
+									
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Pan No</label>
 										<div class="col-md-8 bootstrap-timepicker">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter Pan No" />
 										</div>
 									</div>
-								</div>
-								<div class=" col-md-12 ">
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">User Code</label>
 										<div class="col-md-8 bootstrap-timepicker">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter user code" />
 										</div>
 									</div>
+								</div>
+								<div class=" col-md-12 ">
+									
 								<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Address</label>
 										<div class="col-md-8">
@@ -164,21 +160,6 @@
 </div>
 <!-- /.row -->
 </section>
-<script type="text/javascript">
-	var i=1;
-     $("#add_row").click(function(){
-      $('#addr'+i).html("<td>"+ (i+1) +"</td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Specialty Name' class='form-control input-md mt-2'  /></div></div> </td>");
-
-      $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
-      i++; 
-  });
-     $("#delete_row").click(function(){
-         if(i>1){
-         $("#addr"+(i-1)).html('');
-         i--;
-         }
-     });
-</script>
 </div>
 <script type="text/javascript">
 	$(document).ready(function() {

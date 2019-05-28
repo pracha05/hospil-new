@@ -1,9 +1,4 @@
 <?php include( "header.php"); ?>
-
-<head>
-	<link rel="stylesheet" href="../dist/css/jquery.dataTables.min.css">
-	<link rel="stylesheet" href="../dist/css/buttons.dataTables.min.css">
-</head>
 <div class="content-wrapper">
 	<section class="content-header mb-4">
 		<h1>
@@ -61,10 +56,11 @@
 										<div class="form-group">
 										<label class="col-lg-4 control-label">Purchase Type</label>
 										<div class="col-md-8">
-											<label class="radio-inline">
-												<input type="radio" name="optradio" checked>Direct</label>
-											<label class="radio-inline">
-												<input type="radio" name="optradio">PurchOrder</label>
+										<select class="form-control">
+												<option>Direct</option>
+												<option>PurchOrder</option>
+											</select>
+										
 										</div>
 									</div>
 									</div>
@@ -87,14 +83,7 @@
 								</div>
 								<div class="col-md-12">
 									
-									<div class="col-md-4">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">Sec No</label>
-											<div class="col-md-8">
-												<input type="text" class="form-control" name="shopname" placeholder="Enter Sec no" />
-											</div>
-										</div>
-									</div>
+									
 									<div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">Phone Number</label>
@@ -104,16 +93,6 @@
 										</div>
 									</div>
 									<div class="col-md-4">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">State Code</label>
-											<div class="col-md-8">
-												<input type="text" class="form-control" name="shopname" placeholder="Enter State Code" />
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-12">
-								<div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">Address</label>
 											<div class="col-md-8">
@@ -144,7 +123,7 @@
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">Quantity</label>
 											<div class="col-md-8">
-												<input type="text" class="form-control" name="shopname" placeholder="Enter Voucher no" />
+												<input type="text" class="form-control" name="shopname" placeholder="Enter Quantity" />
 											</div>
 										</div>
 									</div>
@@ -216,7 +195,7 @@
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">Disc</label>
 											<div class="col-md-8">
-												<input type="text" class="form-control" name="shopname" placeholder="Enter State Code" />
+												<input type="text" class="form-control" name="shopname" placeholder="Enter Disc" />
 											</div>
 										</div>
 									</div>
