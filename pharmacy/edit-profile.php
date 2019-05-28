@@ -28,13 +28,13 @@
 								<div class="form-group">
 									<label class=" control-label"> Name</label>
 									<div class="">
-										<input type="text" class="form-control" name="shopname" placeholder="Enter Shop name" />
+										<input type="text" class="form-control" name="shopname" placeholder="Enter Name" />
 									</div>
 								</div>
 								<div class="form-group">
 									<label>Email Id</label>
 									<div class="">
-										<input type="text" class="form-control" name="ownername" placeholder="Enter Owner name" />
+										<input type="text" class="form-control" name="ownername" placeholder="Enter Email Id" />
 									</div>
 								</div>
 								<div class="form-group ">
@@ -49,13 +49,13 @@
 								<div class="form-group">
 									<label class=" control-label">Qualification</label>
 									<div class="">
-										<input type="text" class="form-control" name="email" placeholder="Enter Email ID" />
+										<input type="text" class="form-control" name="email" placeholder="Enter Qualification" />
 									</div>
 								</div>
 								<div class="form-group">
 									<label class=" control-label">Location</label>
 									<div class="">
-										<input type="text" class="form-control" name="address" placeholder="Enter Address" />
+										<input type="text" class="form-control" name="address" placeholder="Enter Location" />
 									</div>
 								</div>
 								<div class="form-group">

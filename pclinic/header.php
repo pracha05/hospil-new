@@ -174,6 +174,7 @@
 							<li> <a href="add-doctor.php">Doctors</a>
 							</li>
 							<li><a href="user-rights.php">User Rights</a></li>
+							<li><a href="add-speciality.php">speciality</a></li>
 							<li><a href="users.php">Users</a></li>
 							<li><a href="hospital-info.php">Hospital Info</a></li>
 						</ul>
@@ -198,6 +199,8 @@
 						</a>
 						<ul class="treeview-menu" style="display: none;">
 							<li> <a href="medicine-master.php">Medicine Master</a></li>
+							<li> <a href="generic.php">Generic</a></li>
+							<li> <a href="medicinetype.php">Medicine Type</a></li>
 							<li><a href="manufacture.php">Manufacture</a></li>
 							<li><a href="suppliers.php">Suppliers</a></li>
 							<li><a href="stock-adjustment.php">Stock Adjustment</a></li>
@@ -226,7 +229,6 @@
 							<li> <a href="sale-report.php">Sale Report</a></li>
 							<li> <a href="day_collection.php">Purchase Report</a></li>
 							<li><a href="payment.php">Day collection report</a></li>
-							<li> <a href="day_collection.php">Margin Report</a></li>
 						</ul>
 					</li>
 				</ul>
