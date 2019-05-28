@@ -159,12 +159,7 @@
 									</div>
 								</div>
 								<div class=" col-md-12 ">
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Name</label>
-										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter Name" />
-										</div>
-									</div>
+									
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">User Code</label>
 										<div class="col-md-8">

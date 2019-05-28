@@ -21,15 +21,11 @@
 							<div class=" row ">
 								<div class=" col-md-12 ">
 									<div class="form-group col-md-6">
-										
-										<div class="col-md-8">
-											
-										</div>
+										<div class="col-md-8"></div>
 									</div>
 									<div class="form-group col-md-6">
 										<label class="col-lg-6 control-label"></label>
-										<div class="col-md-6">
-											<a   class="btn btn-primary btn-block text-white" href="consultation-view.php" >History</a>
+										<div class="col-md-6">	<a class="btn btn-primary btn-block text-white" href="consultation-view.php">History</a>
 										</div>
 									</div>
 								</div>
@@ -37,10 +33,7 @@
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Mr No</label>
 										<div class="col-md-8">
-											
-												
-												<input type="text" class="form-control datepicker" >
-											
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Mr No" />
 										</div>
 									</div>
 									<div class="form-group col-md-6">
@@ -49,10 +42,9 @@
 											<input type="text" class="form-control" name="shopname" placeholder="Enter patient name" />
 										</div>
 									</div>
-									
 								</div>
 								<div class=" col-md-12 ">
-								<div class="form-group col-md-6">
+									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">age</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter age" />
@@ -67,10 +59,9 @@
 												<input type="radio" name="optradio">Female</label>
 										</div>
 									</div>
-									
 								</div>
 								<div class=" col-md-12 ">
-								<div class="form-group col-md-6">
+									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Doctor Name</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter doctor name" />
@@ -82,108 +73,87 @@
 											<input type="text" class="form-control" name="shopname" placeholder="Enter doctor amount" />
 										</div>
 									</div>
-									
 								</div>
 								<div class=" col-md-12 ">
-								<div class="form-group col-md-6">
+									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Phone Number</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter Phone" />
 										</div>
 									</div>
-									
-									
 								</div>
 								<div class=" col-md-12 ">
 									<div class="form-group col-md-12">
 										<label class="col-lg-2 control-label">Medicine Name</label>
 										<div class="col-md-3">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter Medicine" />
-											</div>
-											<label class="col-lg-1 control-label">Qty</label>
+										</div>
+										<label class="col-lg-1 control-label">Qty</label>
 										<div class="col-md-2">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter Qty" />
-
-										</div>	
+										</div>
 										<label class="col-lg-1 control-label">Mg</label>
 										<div class="col-md-2">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter mg" />
-
-										</div>
-										<a href="" class="btn btn-primary ">Add</a>
+										</div>	<a href="" class="btn btn-primary ">Add</a>
 									</div>
-									
-									
-								</div>
 								</div>
 								<div class=" col-md-12 ">
-							<div class="form-group col-md-12">
+									<div class="form-group col-md-12">
 										<label class="col-lg-2 control-label">Advice</label>
 										<div class="col-md-10">
 											<textarea class="form-control"></textarea>
 										</div>
 									</div>
-									
-									
-								</div>
-								
-								
-								
-								
-							</div>
-								<div class=" row ">
-						<div class=" col-md-6 ">
-							
-						</div>
-						</div>
-						<div  class=" row bg-white">
-						<div  class=" col-md-12 ">
-							<table id="example" class="table table-bordered" style="width:100%">
-									<thead>
-									
-										<tr>
-											<th>SRNo</th>
-											<th>Medicine name</th>
-											<th>Qty (pieces)</th>
-											<th>MG</th>
-											<th>Advice</th>
-											
-										</tr>
-										
-									</thead>
-									<tbody>
-									   
-										<tr>
-											<th>1</th>
-											<td>paracetamol</td>
-											<td>30</td>
-											<td>500</td>
-											<td width="30%"><p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p></td>
-											
-										</tr>
-									</tbody>
-
-							</table>	
-						</div>
-						</div>
-							<div class="clearfix">&nbsp;</div>
-							<div class="form-group">
-								<div class="col-lg-12 text-center">
-									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add Consultation</button>
 								</div>
 							</div>
-						</form>
-						<div class="clearfix">&nbsp;</div>
 					</div>
+					<div class=" row ">
+						<div class=" col-md-6 "></div>
+					</div>
+					<div class=" row bg-white">
+						<div class=" col-md-12 ">
+							<table id="example" class="table table-bordered" style="width:100%">
+								<thead>
+									<tr>
+										<th>SRNo</th>
+										<th>Medicine name</th>
+										<th>Qty (pieces)</th>
+										<th>MG</th>
+										<th>Advice</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>1</th>
+										<td>paracetamol</td>
+										<td>30</td>
+										<td>500</td>
+										<td width="30%">
+											<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>
+					<div class="clearfix">&nbsp;</div>
+					<div class="form-group">
+						<div class="col-lg-12 text-center">
+							<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add Consultation</button>
+						</div>
+					</div>
+					</form>
+					<div class="clearfix">&nbsp;</div>
 				</div>
-				<!-- /.box -->
 			</div>
+			<!-- /.box -->
 		</div>
-		<!--/.col (right) -->
+</div>
+<!--/.col (right) -->
 </div>
 <!-- /.row -->
 </section>
-
 </div>
 <script type="text/javascript">
 	$(document).ready(function() {

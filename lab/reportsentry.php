@@ -1,9 +1,4 @@
 <?php include( "header.php"); ?>
-
-<head>
-	<link rel="stylesheet" href="../dist/css/jquery.dataTables.min.css">
-	<link rel="stylesheet" href="../dist/css/buttons.dataTables.min.css">
-</head>
 <div class="content-wrapper">
 	<section class="content-header mb-4">
 		<h1>
@@ -77,14 +72,12 @@
 										<button type="submit" class="btn btn-primary toggle-vechile-info-btn" name="signup" value="Sign up">Add Report</button>
 									</div>
 								</div>
-						</form>
-						<div style="display:none" id="toggle-vechile-info">
-							<div class="row table-responsive">
-								<div class="col-md-10 col-md-offset-1">
-									<table id="example" class="display" style="width:100%">
-										<thead>
-											<tr>
-												<th>SNO</th>
+								<div class="clearfix">&nbsp;</div>
+				<div class="row">
+					<div class="col-md-12">
+						<table class="table table-bordered">
+							<tr>
+								<th>SNO</th>
 												<th>Bill No</th>
 												<th>Bill Date</th>
 												<th>Name</th>
@@ -92,10 +85,20 @@
 												<th>Barcode No</th>
 												<th>CCode</th>
 												<th>Load</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
+							</tr>
+							<tr>
+								<th>Donna Snider</th>
+												<td>Customer Support</td>
+												<td>New York</td>
+												<td>27</td>
+												<td>2011/01/25</td>
+												<td>$112,000</td>
+												<td>$112,000</td>
+												<td>
+													<button class="btn btn-primary " name="signup" value="Sign up">Print</button>
+												</td>
+							</tr>
+							<tr>
 												<th>Donna Snider</th>
 												<td>Customer Support</td>
 												<td>New York</td>
@@ -107,23 +110,11 @@
 													<button class="btn btn-primary " name="signup" value="Sign up">Print</button>
 												</td>
 											</tr>
-											<tr>
-												<th>Donna Snider</th>
-												<td>Customer Support</td>
-												<td>New York</td>
-												<td>27</td>
-												<td>2011/01/25</td>
-												<td>$112,000</td>
-												<td>$112,000</td>
-												<td>
-													<button class="btn btn-primary " name="signup" value="Sign up">Print</button>
-												</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
-							</div>
-						</div>
+						</table>
+					</div>
+				</div>
+						</form>
+						
 						<div class="clearfix">&nbsp;</div>
 						</div>
 					</div>
@@ -134,28 +125,7 @@
 		</div>
 		<!-- /.row -->
 	</section>
-	<script>
-		$(document).ready(function(){
-		  $(".toggle-vechile-info-btn").click(function(){
-		    $("#toggle-vechile-info").toggle();
-		  });
-		});
-	</script>
-	<script type="text/javascript">
-		var i=1;
-	     $("#add_row").click(function(){
-	      $('#addr'+i).html("<td>"+ (i+1) +"</td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Specialty Name' class='form-control input-md mt-2'  /></div></div> </td>");
 	
-	      $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
-	      i++; 
-	  });
-	     $("#delete_row").click(function(){
-	         if(i>1){
-	         $("#addr"+(i-1)).html('');
-	         i--;
-	         }
-	     });
-	</script>
 </div>
 <script type="text/javascript">
 	$(document).ready(function() {
@@ -385,15 +355,3 @@
 	});
 </script>
 <?php include( "footer.php"); ?>
-<script src="../dist/js/dataTables.buttons.min.js"></script>
-<script src="../dist/js/buttons.print.min.js"></script>
-<script type="text/javascript">
-	$(document).ready(function() {
-	    $('#example').DataTable( {
-	        dom: 'Bfrtip',
-	        buttons: [
-	            'print'
-	        ]
-	    } );
-	} );
-</script>

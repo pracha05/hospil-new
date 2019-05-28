@@ -1,10 +1,5 @@
 <?php include( "header.php"); ?>
-<head>
-<link rel="stylesheet" href="../dist/css/jquery.dataTables.min.css">
-<link rel="stylesheet" href="../dist/css/buttons.dataTables.min.css">
-</head>
 <div class="content-wrapper">
-	
 	<section class="content ">
 		<div class="row">
 			<!-- left column -->
@@ -15,8 +10,7 @@
 					<div class="row table-responsive">
 						<table id="example" class="display" style="width:100%">
         <thead>
-		
-            <tr>
+			<tr>
                 <th>SNO</th>
                 <th>Req Date</th>
                 <th>Req No</th>
@@ -27,8 +21,7 @@
                 <th>Coll Time</th>
                 <th>Action</th>
             </tr>
-			
-        </thead>
+		 </thead>
         <tbody>
            
             <tr>
@@ -67,21 +60,6 @@
 		</div>
 		<!-- /.row -->
 	</section>
-	<script type="text/javascript">
-		var i=1;
-	     $("#add_row").click(function(){
-	      $('#addr'+i).html("<td>"+ (i+1) +"</td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Specialty Name' class='form-control input-md mt-2'  /></div></div> </td>");
-	
-	      $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
-	      i++; 
-	  });
-	     $("#delete_row").click(function(){
-	         if(i>1){
-	         $("#addr"+(i-1)).html('');
-	         i--;
-	         }
-	     });
-	</script>
 </div>
 <script type="text/javascript">
 	$(document).ready(function() {
@@ -310,20 +288,4 @@
 	    });
 	});
 </script>
-
-
-
-
 <?php include( "footer.php"); ?>
-<script src="../dist/js/dataTables.buttons.min.js"></script>
-<script src="../dist/js/buttons.print.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-    $('#example').DataTable( {
-        dom: 'Bfrtip',
-        buttons: [
-            'print'
-        ]
-    } );
-} );
-</script>

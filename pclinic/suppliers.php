@@ -27,73 +27,69 @@
 										</div>
 									</div>
 									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Address</label>
-										<div class="col-md-8">
-											<textarea class="form-control"></textarea>
-										</div>
-									</div>
-								</div>
-								<div class=" col-md-12 ">
-									
-									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Pincode</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter Pincode" />
 										</div>
 									</div>
+								</div>
+								<div class=" col-md-12 ">
+									
+									
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Fax</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter Fax" />
 										</div>
 									</div>
-								</div>
-								<div class=" col-md-12 ">
-									
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Phone Number</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter Phone Number" />
 										</div>
 									</div>
+								</div>
+								<div class=" col-md-12 ">
+									
+									
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Email Id</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter Email Id" />
 										</div>
 									</div>
-								</div>
-								<div class=" col-md-12 ">
-									
-									<div class="form-group col-md-6">
+										<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">APGST No</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter APGST No" />
 										</div>
 									</div>
+								</div>
+								<div class=" col-md-12 ">
+									
+								
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Cst No</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter Cst No" />
 										</div>
 									</div>
-								</div>
-								<div class=" col-md-12 ">
-									
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Contact Person</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter Contact Person" />
 										</div>
 									</div>
+								</div>
+								<div class=" col-md-12 ">
+									
+									
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Tin No</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter Tin No" />
 										</div>
 									</div>
-								</div>
-								<div class=" col-md-12 ">
 									
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">DL NO</label>
@@ -101,14 +97,15 @@
 											<input type="text" class="form-control" name="shopname" placeholder="Enter DL NO" />
 										</div>
 									</div>
+								</div>
+								<div class=" col-md-12 ">
+									
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Gst In No</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter Gst In No" />
 										</div>
 									</div>
-								</div>
-								<div class=" col-md-12 ">
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">State</label>
 										<div class="col-md-8">
@@ -121,21 +118,30 @@
 											</select>
 										</div>
 									</div>
+								</div>
+								<div class=" col-md-12 ">
+									
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">State Code</label>
 										<div class="col-md-8 bootstrap-timepicker">
 											<input type="text" class="form-control" name="shopname" placeholder="State Code" />
 										</div>
 									</div>
-								</div>
-								<div class=" col-md-12 ">
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Pan No</label>
 										<div class="col-md-8 bootstrap-timepicker">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter Pan No" />
 										</div>
 									</div>
-								
+								</div>
+								<div class=" col-md-12 ">
+									
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Address</label>
+										<div class="col-md-8">
+											<textarea class="form-control"></textarea>
+										</div>
+									</div>
 								</div>
 							</div>
 							<div class="clearfix">&nbsp;</div>

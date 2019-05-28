@@ -70,7 +70,7 @@
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Phone No</label>
 										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter Bill no" />
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Phone no" />
 										</div>
 									</div>
 									<div class="form-group col-md-6">
@@ -154,21 +154,6 @@
 		</div>
 		<!-- /.row -->
 	</section>
-	<script type="text/javascript">
-		var i=1;
-	     $("#add_row").click(function(){
-	      $('#addr'+i).html("<td>"+ (i+1) +"</td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Specialty Name' class='form-control input-md mt-2'  /></div></div> </td>");
-	
-	      $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
-	      i++; 
-	  });
-	     $("#delete_row").click(function(){
-	         if(i>1){
-	         $("#addr"+(i-1)).html('');
-	         i--;
-	         }
-	     });
-	</script>
 </div>
 <script type="text/javascript">
 	$(document).ready(function() {

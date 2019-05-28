@@ -1,13 +1,13 @@
 <?php include( "header.php"); ?>
 <div class="content-wrapper">
-	<section class="content-header mb-4">
+	<section class="content-header">
 		<h1>
-     Sample Collection
+       User Profile 
       </h1>
 		<ol class="breadcrumb">
 			<li><a href="#"><i class="fa fa-dashboard"></i> Home</a>
 			</li>
-			<li class="active">Sample Collection</li>
+			<li class="active">Edit</li>
 		</ol>
 	</section>
 	<section class="content">
@@ -15,120 +15,62 @@
 			<!-- left column -->
 			<div class="col-md-12">
 				<!-- general form elements -->
-				<div class=" ">
-					<div style="padding:20px;">
-						<form id="defaultForm" method="post" class="form-horizontal" action="view_samplecollection.php">
-							<div class=" row ">
-								<div class="col-md-12">
-									<div class=" col-md-6 ">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">Req date</label>
-											<div class="col-md-8">
-												<input type="text" class="form-control pull-right datepicker">
-											</div>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">Name</label>
-											<div class="col-md-8">
-												<input type="text" class="form-control" name="shopname" placeholder="Enter name " />
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="col-md-6">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">Req no</label>
-											<div class="col-md-8">
-												<input type="text" class="form-control" name="shopname" placeholder="Enter Req no" />
-											</div>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">Age</label>
-											<div class="col-md-8">
-												<input type="text" class="form-control" name="shopname" placeholder="Enter Age" />
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="col-md-6">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">Sex</label>
-											<div class="col-md-8">
-												<input type="text" class="form-control" name="shopname" placeholder="Enter Sex  " />
-											</div>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">Doctor name /ref.by</label>
-											<div class="col-md-8 bootstrap-timepicker">
-												<input type="text" class="form-control" name="shopname" placeholder="Doctor name /ref.by" />
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-12">
-									<div class="col-md-6">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">User code</label>
-											<div class="col-md-8 bootstrap-timepicker">
-												<input type="text" class="form-control" name="shopname" placeholder="User code" />
-											</div>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">Sample collection instructions</label>
-											<div class="col-md-8 bootstrap-timepicker">
-												<input type="text" class="form-control" name="shopname" placeholder="Sample collection" />
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="clearfix">&nbsp;</div>
-							<div class="form-group">
-								<div class="col-lg-12 text-center">
-									<button type="submit" class="btn btn-primary" name="signup" value="Sign up">Add Collection</button>
-								</div>
-							</div>
-							<div class="clearfix">&nbsp;</div>
-				<div class="row">
-					<div class="col-md-12">
-						<table class="table table-bordered">
-							<tr>
-								<th>SNO</th>
-								<th>Req Date</th>
-								<th>Req No</th>
-								<th>Name</th>
-								<th>Investigation Name</th>
-								<th>Status</th>
-								<th>Coll Date</th>
-								<th>Coll Time</th>
-								<th>Action</th>
-							</tr>
-							<tr>
-								<td>01</td>
-								<td>xxxx</td>
-								<td>xxxx</td>
-								<td>xxxx</td>
-								<td>xxxx</td>
-								<td>xxxx</td>
-								<td>xxxx</td>
-								<td>xxxx</td>
-								<td>xxxx</td>
-							</tr>
-						</table>
-					</div>
-				</div>
-						</form>
+				<div class="box box-primary">
+					<div class="box-header with-border">
+						<h3 class="box-title">Edit Profile</h3>
 						
+					</div>
+					<!-- /.box-header -->
+					<!-- form start -->
+					<div style="padding:20px;">
+						<form id="defaultForm" method="post" class="" action="add-student.php">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label class=" control-label"> Name</label>
+									<div class="">
+										<input type="text" class="form-control" name="shopname" placeholder="Enter name" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label>Email Id</label>
+									<div class="">
+										<input type="text" class="form-control" name="ownername" placeholder="Enter Email Id" />
+									</div>
+								</div>
+								<div class="form-group ">
+									<label class=" control-label">Mobile Number</label>
+									<div class="">
+										<input type="text" class="form-control" name="mobilenumber" placeholder="Enter Mobile Number" />
+									</div>
+								</div>
+							</div>
+							<!--school details-->
+							<div class="col-md-6">
+								<div class="form-group">
+									<label class=" control-label">Qualification</label>
+									<div class="">
+										<input type="text" class="form-control" name="email" placeholder="Enter Qualification" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label class=" control-label">Location</label>
+									<div class="">
+										<input type="text" class="form-control" name="address" placeholder="Enter Location" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label class=" control-label">Profile Pic</label>
+									<div class="">
+										<input type="file" class="form-control" name="address" placeholder="Enter Address" />
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-lg-4 col-lg-offset-10">
+									<button type="submit" class="btn btn-primary" name="signup" value="Sign up">Edit</button>
+								</div>
+							</div>
+						</form>
 						<div class="clearfix">&nbsp;</div>
 					</div>
 				</div>
@@ -142,10 +84,6 @@
 </div>
 <script type="text/javascript">
 	$(document).ready(function() {
-		 //Timepicker
-	    $(".timepicker").timepicker({
-	      showInputs: false
-	    });
 	    // Generate a simple captcha
 	    function randomNumber(min, max) {
 	        return Math.floor(Math.random() * (max - min + 1) + min);

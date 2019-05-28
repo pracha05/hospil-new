@@ -40,12 +40,7 @@
 									<input type="text" class="form-control" name="shopname" placeholder="Enter Phone Number" />
 									</div>
 								</div>
-									<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Address</label>
-									<div class="col-md-8">
-									<textarea class="form-control"></textarea>
-									</div>
-								</div>
+									
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Consultation fee</label>
 									<div class="col-md-8">
@@ -59,7 +54,12 @@
 									<input type="file" class="form-control " name=""  />
 									</div>
 								</div>
-								
+								<div class="form-group col-md-6">
+									<label class="col-lg-4 control-label">Address</label>
+									<div class="col-md-8">
+									<textarea class="form-control"></textarea>
+									</div>
+								</div>
 								
 						</div>
 				

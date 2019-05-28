@@ -1,9 +1,4 @@
 <?php include( "header.php"); ?>
-
-<head>
-	<link rel="stylesheet" href="../dist/css/jquery.dataTables.min.css">
-	<link rel="stylesheet" href="../dist/css/buttons.dataTables.min.css">
-</head>
 <div class="content-wrapper">
 	<section class="content-header mb-4">
 		<h1>
@@ -129,58 +124,40 @@
 							<div class="clearfix">&nbsp;</div>
 							<div class="form-group">
 								<div class="col-lg-12 text-center">
-									<button type="submit" class="btn btn-primary toggle-vechile-info-btn" name="signup" value="Sign up">Add Payment</button>
+									<button type="submit" class="btn btn-primary" name="signup" value="Sign up">Add Payment</button>
 								</div>
 							</div>
+							<div class="clearfix">&nbsp;</div>
+				<div class="row">
+					<div class="col-md-12">
+						<table class="table table-bordered">
+							<tr>
+								<th>SNO</th>
+								<th>Bill Date</th>
+								<th>Total Amount</th>
+								<th>Paid Amount</th>
+								<th>Due Amount</th>
+								<th>Current Paid Amount</th>
+								<th>Current Due Amount</th>
+								<th>Invoice No</th>
+								<th>Action</th>
+							</tr>
+							<tr>
+								<td>01</td>
+								<td>xxxx</td>
+								<td>xxxx</td>
+								<td>xxxx</td>
+								<td>xxxx</td>
+								<td>xxxx</td>
+								<td>xxxx</td>
+								<td>xxxx</td>
+								<td>xxxx</td>
+							</tr>
+						</table>
+					</div>
+				</div>
 						</form>
-						<div style="display:none" id="toggle-vechile-info">
-							<div class="row table-responsive">
-								<div class="col-md-10 col-md-offset-1">
-									<table id="example" class="display" style="width:100%">
-										<thead>
-											<tr>
-												<th>SNO</th>
-												<th>Bill Date</th>
-												<th>Total Amount</th>
-												<th>Paid Amount</th>
-												<th>Due Amount</th>
-												<th>Concamt</th>
-												<th>Current Paid Amount</th>
-												<th>Current Due Amount</th>
-												<th>Invoice No</th>
-												<th>Action</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<th>Donna Snider</th>
-												<td>Customer Support</td>
-												<td>New York</td>
-												<td>27</td>
-												<td>2011/01/25</td>
-												<td>$112,000</td>
-												<td>$112,000</td>
-												<td>$112,000</td>
-												<td>$112,000</td>
-												<td>$112,000</td>
-											</tr>
-											<tr>
-												<th>Donna Snider</th>
-												<td>Customer Support</td>
-												<td>New York</td>
-												<td>27</td>
-												<td>2011/01/25</td>
-												<td>$112,000</td>
-												<td>$112,000</td>
-												<td>$112,000</td>
-												<td>$112,000</td>
-												<td>$112,000</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
-							</div>
-						</div>
+						
 						<div class="clearfix">&nbsp;</div>
 					</div>
 				</div>
@@ -191,28 +168,6 @@
 </div>
 <!-- /.row -->
 </section>
-<script>
-	$(document).ready(function(){
-	  $(".toggle-vechile-info-btn").click(function(){
-	    $("#toggle-vechile-info").toggle();
-	  });
-	});
-</script>
-<script type="text/javascript">
-	var i=1;
-     $("#add_row").click(function(){
-      $('#addr'+i).html("<td>"+ (i+1) +"</td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Specialty Name' class='form-control input-md mt-2'  /></div></div> </td>");
-
-      $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
-      i++; 
-  });
-     $("#delete_row").click(function(){
-         if(i>1){
-         $("#addr"+(i-1)).html('');
-         i--;
-         }
-     });
-</script>
 </div>
 <script type="text/javascript">
 	$(document).ready(function() {
@@ -442,15 +397,3 @@
 	});
 </script>
 <?php include( "footer.php"); ?>
-<script src="../dist/js/dataTables.buttons.min.js"></script>
-<script src="../dist/js/buttons.print.min.js"></script>
-<script type="text/javascript">
-	$(document).ready(function() {
-	    $('#example').DataTable( {
-	        dom: 'Bfrtip',
-	        buttons: [
-	            'print'
-	        ]
-	    } );
-	} );
-</script>

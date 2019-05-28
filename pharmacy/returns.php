@@ -199,9 +199,9 @@
 								
 							</div>
 							<div class="clearfix">&nbsp;</div>
-							<div class="form-group">
-								<div class="col-lg-12 text-center">
-									<button type="submit" class="btn btn-primary " name="signup" value="Sign up">Add Return</button>
+							<div class="form-group pull-right">
+								<div class="col-lg-12">
+									<button type="submit" class="btn btn-primary " name="signup" value="Sign up">Sumbit</button>
 								</div>
 							</div>
 							<div class="row">

@@ -2,12 +2,12 @@
 <div class="content-wrapper">
 	<section class="content-header mb-4">
 		<h1>
-     Sample Collection
+       Add Hospital 
       </h1>
 		<ol class="breadcrumb">
 			<li><a href="#"><i class="fa fa-dashboard"></i> Home</a>
 			</li>
-			<li class="active">Sample Collection</li>
+			<li class="active">Hospital</li>
 		</ol>
 	</section>
 	<section class="content">
@@ -15,120 +15,79 @@
 			<!-- left column -->
 			<div class="col-md-12">
 				<!-- general form elements -->
-				<div class=" ">
+				<div class="box box-primary">
+					<div class="box-header with-border">
+						<h3 class="box-title pull-left">Add Hospital</h3>
+						<a href="hospital-list.php"><button class="btn btn-primary btn-sm pull-right">Hospital List</button></a>
+					</div>
+					<!-- /.box-header -->
+					<!-- form start -->
 					<div style="padding:20px;">
-						<form id="defaultForm" method="post" class="form-horizontal" action="view_samplecollection.php">
+						<form id="defaultForm" method="post" class="form-horizontal" action="">
 							<div class=" row ">
-								<div class="col-md-12">
-									<div class=" col-md-6 ">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">Req date</label>
-											<div class="col-md-8">
-												<input type="text" class="form-control pull-right datepicker">
-											</div>
+								<div class=" col-md-12 ">
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Hospital Name</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Hopital Name" />
 										</div>
 									</div>
-									<div class="col-md-6">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">Name</label>
-											<div class="col-md-8">
-												<input type="text" class="form-control" name="shopname" placeholder="Enter name " />
-											</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Register name</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter register name" />
 										</div>
 									</div>
 								</div>
-								<div class="col-md-12">
-									<div class="col-md-6">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">Req no</label>
-											<div class="col-md-8">
-												<input type="text" class="form-control" name="shopname" placeholder="Enter Req no" />
-											</div>
+								<div class=" col-md-12 ">
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Website Address</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Website Address" />
 										</div>
 									</div>
-									<div class="col-md-6">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">Age</label>
-											<div class="col-md-8">
-												<input type="text" class="form-control" name="shopname" placeholder="Enter Age" />
-											</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Email Id</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Email Id" />
 										</div>
 									</div>
 								</div>
-								<div class="col-md-12">
-									<div class="col-md-6">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">Sex</label>
-											<div class="col-md-8">
-												<input type="text" class="form-control" name="shopname" placeholder="Enter Sex  " />
-											</div>
+								<div class=" col-md-12 ">
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Phone</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Phone" />
 										</div>
 									</div>
-									<div class="col-md-6">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">Doctor name /ref.by</label>
-											<div class="col-md-8 bootstrap-timepicker">
-												<input type="text" class="form-control" name="shopname" placeholder="Doctor name /ref.by" />
-											</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Password</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Password" />
 										</div>
 									</div>
 								</div>
-								<div class="col-md-12">
-									<div class="col-md-6">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">User code</label>
-											<div class="col-md-8 bootstrap-timepicker">
-												<input type="text" class="form-control" name="shopname" placeholder="User code" />
-											</div>
+								<div class=" col-md-12 ">
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Confirm Password</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Confirm Password" />
 										</div>
 									</div>
-									<div class="col-md-6">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">Sample collection instructions</label>
-											<div class="col-md-8 bootstrap-timepicker">
-												<input type="text" class="form-control" name="shopname" placeholder="Sample collection" />
-											</div>
-										</div>
-									</div>
+									
 								</div>
+								
+								
+								
+								
 							</div>
 							<div class="clearfix">&nbsp;</div>
 							<div class="form-group">
 								<div class="col-lg-12 text-center">
-									<button type="submit" class="btn btn-primary" name="signup" value="Sign up">Add Collection</button>
+									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add Hospital</button>
 								</div>
 							</div>
-							<div class="clearfix">&nbsp;</div>
-				<div class="row">
-					<div class="col-md-12">
-						<table class="table table-bordered">
-							<tr>
-								<th>SNO</th>
-								<th>Req Date</th>
-								<th>Req No</th>
-								<th>Name</th>
-								<th>Investigation Name</th>
-								<th>Status</th>
-								<th>Coll Date</th>
-								<th>Coll Time</th>
-								<th>Action</th>
-							</tr>
-							<tr>
-								<td>01</td>
-								<td>xxxx</td>
-								<td>xxxx</td>
-								<td>xxxx</td>
-								<td>xxxx</td>
-								<td>xxxx</td>
-								<td>xxxx</td>
-								<td>xxxx</td>
-								<td>xxxx</td>
-							</tr>
-						</table>
-					</div>
-				</div>
 						</form>
-						
 						<div class="clearfix">&nbsp;</div>
 					</div>
 				</div>
@@ -139,6 +98,7 @@
 </div>
 <!-- /.row -->
 </section>
+
 </div>
 <script type="text/javascript">
 	$(document).ready(function() {

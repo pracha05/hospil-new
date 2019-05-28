@@ -130,30 +130,7 @@
 										</div>
 									</div>
 								</div>
-								<div class=" col-md-12 ">
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Rack</label>
-										<div class="col-md-8">
-											<select class="form-control">
-												<option>Rack</option>
-												<option>Rack</option>
-												<option>Rack</option>
-												<option>Rack</option>
-											</select>
-										</div>
-									</div>
-									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Tray</label>
-										<div class="col-md-8">
-											<select class="form-control">
-												<option>tray</option>
-												<option>tray</option>
-												<option>tray</option>
-												<option>tray</option>
-											</select>
-										</div>
-									</div>
-								</div>
+								
 								<div class=" col-md-12 ">
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">ROL</label>
@@ -188,7 +165,7 @@
 										</div>
 									</div>
 								</div>
-								<div class=" col-md-12 ">
+								<!--<div class=" col-md-12 ">
 									<div class="form-group col-md-6">
 							<label class="col-lg-4 control-label">Department Name</label>
 							<div class="col-lg-8">
@@ -241,7 +218,7 @@
 							</div>
 						  </div>
 						  </div>
-								</div>
+								</div>-->
 							</div>
 							<div class="clearfix">&nbsp;</div>
 							<div class="form-group">

@@ -195,7 +195,7 @@
 						
 					</li>
 					<li class="treeview">
-						<a href="payments.php"> <i class="fa fa-user-plus"></i>  <span>Final Bill Payments</span>
+						<a href="payments.php"> <i class="fa fa-money"></i>  <span>Final Bill Payments</span>
 						
 						</a>
 					</li>

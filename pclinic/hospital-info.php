@@ -57,7 +57,7 @@
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Mrn No</label>
 										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter Guardian" />
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Mrn No" />
 										</div>
 									</div>
 								</div>

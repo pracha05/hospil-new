@@ -1,9 +1,4 @@
 <?php include( "header.php"); ?>
-
-<head>
-	<link rel="stylesheet" href="../dist/css/jquery.dataTables.min.css">
-	<link rel="stylesheet" href="../dist/css/buttons.dataTables.min.css">
-</head>
 <div class="content-wrapper">
 	<section class="content-header mb-4">
 		<h1>
@@ -37,7 +32,7 @@
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">Date</label>
 											<div class="col-md-8">
-												<input type="text" class="form-control datepicker" >
+												<input type="text" class="form-control datepicker">
 											</div>
 										</div>
 									</div>
@@ -48,11 +43,11 @@
 											<label class="col-lg-4 control-label">Supplier</label>
 											<div class="col-md-8">
 												<select class="form-control">
-												<option>Supplier</option>
-												<option>Supplier</option>
-												<option>Supplier</option>
-												<option>Supplier</option>
-											</select>
+													<option>Supplier</option>
+													<option>Supplier</option>
+													<option>Supplier</option>
+													<option>Supplier</option>
+												</select>
 											</div>
 										</div>
 									</div>
@@ -65,7 +60,6 @@
 										</div>
 									</div>
 								</div>
-								
 								<div class="col-md-12">
 									<div class="col-md-12">
 										<div class="form-group ">
@@ -77,20 +71,20 @@
 									</div>
 								</div>
 								<div class="col-md-12">
-								<hr>
+									<hr>
 								</div>
 								<div class="col-md-12">
-								<div class="clearfix">&nbsp;</div>
-								<div class="col-md-4">
+									<div class="clearfix">&nbsp;</div>
+									<div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">Medicine Name</label>
 											<div class="col-md-8">
 												<select class="form-control">
-												<option>Name</option>
-												<option>Name</option>
-												<option>Name</option>
-												<option>Name</option>
-											</select>
+													<option>Name</option>
+													<option>Name</option>
+													<option>Name</option>
+													<option>Name</option>
+												</select>
 											</div>
 										</div>
 									</div>
@@ -112,7 +106,6 @@
 									</div>
 								</div>
 								<div class="col-md-12">
-									
 									<div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">Pack Rate</label>
@@ -120,7 +113,8 @@
 												<input type="text" class="form-control" name="shopname" placeholder="Enter Pack Rate" />
 											</div>
 										</div>
-									</div><div class="col-md-4">
+									</div>
+									<div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">MRP</label>
 											<div class="col-md-8">
@@ -158,15 +152,12 @@
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">Exp Date</label>
 											<div class="col-md-8">
-												<input type="text" class="form-control datepicker" >
+												<input type="text" class="form-control datepicker">
 											</div>
 										</div>
 									</div>
-								</div>	</div>
-									</div>
 								</div>
 								<div class="col-md-12">
-									
 									<div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">Disc</label>
@@ -175,7 +166,6 @@
 											</div>
 										</div>
 									</div>
-									
 									<div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-4 control-label">&nbsp;</label>
@@ -185,50 +175,50 @@
 										</div>
 									</div>
 								</div>
-								
-								
-							<div class="clearfix">&nbsp;</div>
-							<div class="form-group">
-								<div class="col-lg-12 text-center">
-									<button type="submit" class="btn btn-primary" name="signup" value="Sign up">Add purchase return</button>
-								</div>
 							</div>
-								<div class="clearfix">&nbsp;</div>
-							<div class="row">
-									<div class="col-md-12">
-									<table class="table table-bordered">
-										<tr>
-											<th>SLNo</th>
-											<th>Medicine Name</th>
-											<th>Qty</th>
-											<th>Rate</th>
-											<th>Batch No</th>
-											<th>Exp.Dt</th>
-											<th>MRP</th>
-											<th>Net Amt</th>
-										</tr>
-										<tr>
-											<td>01</td>
-											<td>xxxx</td>
-											<td>xxxx</td>
-											<td>xxxx</td>
-											<td>xxxx</td>
-											<td>xxxx</td>
-											<td>xxxx</td>
-											<td>xxxx</td>
-										</tr>
-									</table>
-									</div>
-								</div>
-						</form>
-						
-						<div class="clearfix">&nbsp;</div>
 					</div>
 				</div>
-				<!-- /.box -->
+				<div class="clearfix">&nbsp;</div>
+				<div class="form-group">
+					<div class="col-lg-12 text-center">
+						<button type="submit" class="btn btn-primary" name="signup" value="Sign up">Add purchase return</button>
+					</div>
+				</div>
+				<div class="clearfix">&nbsp;</div>
+				<div class="row">
+					<div class="col-md-12">
+						<table class="table table-bordered">
+							<tr>
+								<th>SLNo</th>
+								<th>Medicine Name</th>
+								<th>Qty</th>
+								<th>Rate</th>
+								<th>Batch No</th>
+								<th>Exp.Dt</th>
+								<th>MRP</th>
+								<th>Net Amt</th>
+							</tr>
+							<tr>
+								<td>01</td>
+								<td>xxxx</td>
+								<td>xxxx</td>
+								<td>xxxx</td>
+								<td>xxxx</td>
+								<td>xxxx</td>
+								<td>xxxx</td>
+								<td>xxxx</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				</form>
+				<div class="clearfix">&nbsp;</div>
 			</div>
 		</div>
-		<!--/.col (right) -->
+		<!-- /.box -->
+</div>
+</div>
+<!--/.col (right) -->
 </div>
 <!-- /.row -->
 </section>
@@ -461,15 +451,3 @@
 	});
 </script>
 <?php include( "footer.php"); ?>
-<script src="../dist/js/dataTables.buttons.min.js"></script>
-<script src="../dist/js/buttons.print.min.js"></script>
-<script type="text/javascript">
-	$(document).ready(function() {
-	    $('#example').DataTable( {
-	        dom: 'Bfrtip',
-	        buttons: [
-	            'print'
-	        ]
-	    } );
-	} );
-</script>

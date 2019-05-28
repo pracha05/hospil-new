@@ -96,17 +96,15 @@
 								<div class="form-group">
 									<div class="col-lg-12 text-center">
 										
-										<button type="submit" class="btn btn-primary toggle-vechile-info-btn" name="signup" value="Sign up">Add Authentication</button>
+										<button type="submit" class="btn btn-primary" name="signup" value="Sign up">Add Authentication</button>
 									</div>
 								</div>
-						</form>
-						<div style="display:none" id="toggle-vechile-info">
-							<div class="row table-responsive">
-								<div class="col-md-10 col-md-offset-1">
-									<table id="example" class="display" style="width:100%">
-										<thead>
-											<tr>
-												<th>&nbsp;</th>
+								<div class="clearfix">&nbsp;</div>
+				<div class="row">
+					<div class="col-md-12">
+						<table class="table table-bordered">
+							<tr>
+								<th>&nbsp;</th>
 												<th>SNO</th>
 												<th>Req No</th>
 												<th>Req Date</th>
@@ -118,11 +116,8 @@
 												<th>Status</th>
 												<th>TRF attachment</th>
 												<th>R attachment</th>
-												
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
+							</tr>
+							<tr>
 												<td><label class=" col-md-4">
 										  <input type="checkbox" value=""> 
 										</label></td>
@@ -158,12 +153,11 @@
 												<td>2011/01/25</td>
 												<td>2011/01/25</td>
 											</tr>
-										</tbody>
-									</table>
-								</div>
-							</div>
-						</div>
-						<div class="clearfix">&nbsp;</div>
+						</table>
+					</div>
+				</div>
+						</form>
+						
 						</div>
 					</div>
 					<!-- /.box -->
@@ -173,28 +167,6 @@
 		</div>
 		<!-- /.row -->
 	</section>
-	<script>
-		$(document).ready(function(){
-		  $(".toggle-vechile-info-btn").click(function(){
-		    $("#toggle-vechile-info").toggle();
-		  });
-		});
-	</script>
-	<script type="text/javascript">
-		var i=1;
-	     $("#add_row").click(function(){
-	      $('#addr'+i).html("<td>"+ (i+1) +"</td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Specialty Name' class='form-control input-md mt-2'  /></div></div> </td>");
-	
-	      $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
-	      i++; 
-	  });
-	     $("#delete_row").click(function(){
-	         if(i>1){
-	         $("#addr"+(i-1)).html('');
-	         i--;
-	         }
-	     });
-	</script>
 </div>
 <script type="text/javascript">
 	$(document).ready(function() {
