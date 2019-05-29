@@ -124,28 +124,21 @@
 										</div>
 									</div>
 									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Potency</label>
-										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter Potency" />
-										</div>
-									</div>
-								</div>
-								
-								<div class=" col-md-12 ">
-									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">ROL</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter ROL" />
 										</div>
 									</div>
+								</div>
+								
+								<div class=" col-md-12 ">
+									
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">ROQ</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter ROQ" />
 										</div>
 									</div>
-								</div>
-								<div class=" col-md-12 ">
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Method</label>
 										<div class="col-md-8">
@@ -158,6 +151,9 @@
 											</select>
 										</div>
 									</div>
+								</div>
+								<div class=" col-md-12 ">
+									
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">User Code</label>
 										<div class="col-md-8">
