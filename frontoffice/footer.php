@@ -3,6 +3,7 @@
 </footer>
 <script src="../dist/js/jquery.dataTables.min.js"></script>
 <script src="../dist/js/dataTables.bootstrap.min.js"></script>
+<script src="../dist/js/suggestion-box.min.js"></script>
 
 <script src="../dist/js/select2.full.min.js"></script>
 <script src="../dist/js/jquery.inputmask.js"></script>

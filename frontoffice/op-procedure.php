@@ -173,7 +173,7 @@
 							<div class="form-group col-md-6">
 								<label class="col-lg-4 control-label">Op</label>
 								<div class="col-md-8">
-									<input type="text" id="myInput" class="form-control" onkeyup="myFunction()" placeholder="Search by code..">
+									<input type="text" id="search" class="form-control">
 								</div>
 							</div>
 						</div>
@@ -296,6 +296,16 @@
 		</div>
 		<!-- /.row -->
 	</section>
+	<script>
+    $(document).ready(function () {
+        $('#search').suggestionBox({
+            filter: true,
+            widthAdjustment: -8,
+            leftOffset: 4,
+            topOffset: 0,
+        }).loadSuggestions('suggestions.json');
+    });
+</script>
 	<script type="text/javascript">
 		$("#patient-reg-btn").click(function(){
 		  $("#patient-reg").toggle();

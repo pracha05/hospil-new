@@ -201,11 +201,11 @@
 							<div class="clearfix">&nbsp;</div>
 							<div class="form-group pull-right">
 								<div class="col-lg-12">
-									<button type="submit" class="btn btn-primary " name="signup" value="Sign up">Sumbit</button>
+									<button type="submit" class="btn btn-primary " name="signup" value="Sign up">submit</button>
 								</div>
 							</div>
-							<div class="row">
-									<div class="col-md-12">
+							<div class="row ">
+									<div class="col-md-12 bg-white">
 									<table class="table table-bordered">
 										<tr>
 											<th>SLNo</th>
