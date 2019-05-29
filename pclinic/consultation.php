@@ -84,6 +84,14 @@
 								</div>
 								<div class=" col-md-12 ">
 									<div class="form-group col-md-12">
+										<label class="col-lg-2 control-label">Advice</label>
+										<div class="col-md-10">
+											<textarea class="form-control"></textarea>
+										</div>
+									</div>
+								</div>
+								<div class=" col-md-12 ">
+									<div class="form-group col-md-12">
 										<label class="col-lg-2 control-label">Medicine Name</label>
 										<div class="col-md-3">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter Medicine" />
@@ -92,20 +100,12 @@
 										<div class="col-md-2">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter Qty" />
 										</div>
-										<label class="col-lg-1 control-label">Mg</label>
-										<div class="col-md-2">
-											<input type="text" class="form-control" name="shopname" placeholder="Enter mg" />
-										</div>	<a href="" class="btn btn-primary ">Add</a>
+										<div class="col-md-3">
+											<a href="" class="btn btn-primary ">Add</a>
+											</div>
 									</div>
 								</div>
-								<div class=" col-md-12 ">
-									<div class="form-group col-md-12">
-										<label class="col-lg-2 control-label">Advice</label>
-										<div class="col-md-10">
-											<textarea class="form-control"></textarea>
-										</div>
-									</div>
-								</div>
+								
 							</div>
 					</div>
 					<div class=" row ">
