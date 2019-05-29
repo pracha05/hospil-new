@@ -174,7 +174,7 @@
 							<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Op</label>
 										<div class="col-md-8">
-											<input type="text" class="form-control" name="shopname" placeholder="Search....." />
+											<input type="text" id="myInput" class="form-control" onkeyup="myFunction()" placeholder="Search by code.." >
 										</div>
 									</div>
 					
@@ -182,9 +182,9 @@
 						<div class=" row bg-white">
 						
 						<div class=" col-md-12 ">
-							<table id="example" class="table table-bordered" style="width:100%">
+							<table id="myTable" class="table table-bordered" style="width:100%">
 								<thead>
-									<tr>
+									<tr class="header">
 										<th>SRNo</th>
 										<th>Investigation code</th>
 										<th>investigation name</th>
@@ -238,6 +238,25 @@
 										<td><a href="#">edit</a></td>
 										
 									</tr>
+									<tr>
+										<th>1</th>
+										<td>yyyyy</td>
+										<td>xxxxx</td>
+										<th>xxxxx</th>
+										<td><input type="text" class="form-control" placeholder="" /></td>
+										<td><input type="text" class="form-control" placeholder="" /></td>
+										<th><input type="text" class="form-control" placeholder="" /></th>
+										<td><input type="text" class="form-control" placeholder="" /></td>
+										<td><select class="form-control">
+																<option>Mode</option>
+																<option>normal</option>
+																<option>emergency</option>
+																<option>case type1</option>
+																<option>case type1</option>
+															</select></td>
+										<td><a href="#">edit</a></td>
+										
+									</tr>
 								</tbody>
 							</table>
 						</div>
@@ -256,19 +275,7 @@
 		$("#patient-reg-btn").click(function(){
 		  $("#patient-reg").toggle();
 		});
-			      var i=1;
-		     $("#add_row").click(function(){
-		      $('#addr'+i).html("<td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Op Procedure Field' class='form-control input-md mt-2'  /></div></div> </td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Quality' class='form-control input-md mt-2'  /></div></div> </td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Charge' class='form-control input-md mt-2'  /></div></div> </td>");
-		
-		      $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
-		      i++; 
-		  });
-		     $("#delete_row").click(function(){
-		         if(i>1){
-		         $("#addr"+(i-1)).html('');
-		         i--;
-		         }
-		     });
+			      
 	</script>
 </div>
 <script type="text/javascript">
@@ -497,5 +504,25 @@
 	        $('#defaultForm').data('bootstrapValidator').resetForm(true);
 	    });
 	});
+</script>
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
 </script>
 <?php include( "footer.php"); ?>
