@@ -170,10 +170,10 @@
 						</form>
 						<div class="clearfix">&nbsp;</div>
 						<div class="row">
-							<div class="form-group col-md-6">
-								<label class="col-lg-4 control-label">Op</label>
+							<div class="form-group col-md-6 ui-widget">
+								<label class="col-lg-4 control-label " for="tags">Op</label>
 								<div class="col-md-8">
-									<input type="text" id="search" class="form-control">
+									<input type="text" id="tags" class="form-control">
 								</div>
 							</div>
 						</div>
@@ -296,16 +296,37 @@
 		</div>
 		<!-- /.row -->
 	</section>
-	<script>
-    $(document).ready(function () {
-        $('#search').suggestionBox({
-            filter: true,
-            widthAdjustment: -8,
-            leftOffset: 4,
-            topOffset: 0,
-        }).loadSuggestions('suggestions.json');
+<script>
+  $( function() {
+    var availableTags = [
+      "ActionScript",
+      "AppleScript",
+      "Asp",
+      "BASIC",
+      "C",
+      "C++",
+      "Clojure",
+      "COBOL",
+      "ColdFusion",
+      "Erlang",
+      "Fortran",
+      "Groovy",
+      "Haskell",
+      "Java",
+      "JavaScript",
+      "Lisp",
+      "Perl",
+      "PHP",
+      "Python",
+      "Ruby",
+      "Scala",
+      "Scheme"
+    ];
+    $( "#tags" ).autocomplete({
+      source: availableTags
     });
-</script>
+  } );
+  </script>
 	<script type="text/javascript">
 		$("#patient-reg-btn").click(function(){
 		  $("#patient-reg").toggle();

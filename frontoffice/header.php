@@ -32,7 +32,7 @@
 	<link rel="stylesheet" href="../dist/css/blue.css">
 	<!-- Morris chart -->
 	<link rel="stylesheet" href="../dist/css/morris.css">
-	<link rel="stylesheet" href="../dist/css/suggestion-box.min.css">
+	<link rel="stylesheet" href="../dist/css/jquery-ui.css">
 	<!-- jvectormap -->
 	<link rel="stylesheet" href="../dist/css/jquery-jvectormap-1.2.2.css">
 	

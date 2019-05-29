@@ -15,7 +15,8 @@
 <script src="../dist/js/bootstrap-timepicker.min.js"></script>
 <script src="../dist/js/bootstrap-colorpicker.min.js"></script>
 <!-- Slimscroll -->
-<script src="../dist/js/jquery.slimscroll.min.js"></script>
+<script src="../dist/js/jquery-1.12.4.js"></script>
+<script src="../dist/js/jquery-ui.js"></script>
 <!-- FastClick -->
 <script src="../dist/js/fastclick.js"></script>
 <!-- AdminLTE App -->
