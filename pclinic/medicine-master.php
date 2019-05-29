@@ -46,19 +46,6 @@
 										</div>
 									</div>
 									<div class="form-group col-md-6">
-										<label class="col-lg-4 control-label">Medicine Dept</label>
-										<div class="col-md-8">
-											<select class="form-control">
-												<option>Department</option>
-												<option>Department</option>
-												<option>Department</option>
-												<option>Department</option>
-											</select>
-										</div>
-									</div>
-								</div>
-								<div class=" col-md-12 ">
-									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Medicine Type</label>
 										<div class="col-md-8">
 											<select class="form-control">
@@ -70,14 +57,15 @@
 											</select>
 										</div>
 									</div>
+								</div>
+								<div class=" col-md-12 ">
+									
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Schedule</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter Schedule" />
 										</div>
 									</div>
-								</div>
-								<div class=" col-md-12 ">
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Tax Caterogy</label>
 										<div class="col-md-8">
@@ -90,6 +78,9 @@
 											</select>
 										</div>
 									</div>
+								</div>
+								<div class=" col-md-12 ">
+									
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Manufacturer</label>
 										<div class="col-md-8">
@@ -101,65 +92,64 @@
 											</select>
 										</div>
 									</div>
-								</div>
-								<div class=" col-md-12 ">
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Code</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter Code" />
 										</div>
 									</div>
+								</div>
+								<div class=" col-md-12 ">
+									
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Hsn Code</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter Hsn Code" />
 										</div>
 									</div>
-								</div>
-								<div class=" col-md-12 ">
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Dosage</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter Dosage" />
 										</div>
 									</div>
+								</div>
+								<div class=" col-md-12 ">
+									
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">ROL</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter ROL" />
 										</div>
 									</div>
-								</div>
-								<div class=" col-md-12 ">
-									
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">ROQ</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="Enter ROQ" />
 										</div>
 									</div>
+								</div>
+								<div class=" col-md-12 ">
+									
+									
 									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">Method</label>
 										<div class="col-md-8">
 											<select class="form-control">
-												<option>method1</option>
-												<option>method1</option>
-												<option>method1</option>
-												<option>method1</option>
-												<option>method1</option>
+												<option>Select</option>
+												<option>FIFO</option>
+												<option>LIFO</option>
 											</select>
 										</div>
 									</div>
-									
-								</div>
-								<div class="col-md-12">
-								<div class="form-group col-md-6">
+									<div class="form-group col-md-6">
 										<label class="col-lg-4 control-label">User Code</label>
 										<div class="col-md-8">
 											<input type="text" class="form-control" name="shopname" placeholder="User Code" />
 										</div>
 									</div>
 								</div>
+								
 							</div>
 							<div class="clearfix">&nbsp;</div>
 							<div class="form-group">

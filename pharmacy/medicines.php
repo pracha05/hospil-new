@@ -143,11 +143,9 @@
 										<label class="col-lg-4 control-label">Method</label>
 										<div class="col-md-8">
 											<select class="form-control">
-												<option>method1</option>
-												<option>method1</option>
-												<option>method1</option>
-												<option>method1</option>
-												<option>method1</option>
+												<option>Select</option>
+												<option>FIFO</option>
+												<option>LIFO</option>
 											</select>
 										</div>
 									</div>

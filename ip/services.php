@@ -163,9 +163,9 @@
 									</div>
 								</div>
 								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Phone</label>
+									<label class="col-lg-4 control-label">Phone Number</label>
 									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Phone" />
+									<input type="text" class="form-control" name="shopname" placeholder="Enter Phone Number" />
 									</div>
 								</div>
 								<div class="form-group col-md-6">

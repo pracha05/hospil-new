@@ -86,10 +86,10 @@
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-md-4">
+									<div class="col-md-6">
 										<div class="form-group">
-											<label class="col-lg-6 control-label">Medicine Name</label>
-											<div class="col-md-6">
+											<label class="col-lg-4 control-label">Medicine Name</label>
+											<div class="col-md-8">
 												<select class="form-control">
 												<option>Name</option>
 												<option>Name</option>
@@ -99,7 +99,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-4">
+									<div class="col-md-6">
 										<div class="form-group ">
 											<label class="col-lg-6 control-label">Batch No</label>
 											<div class="col-md-6 bootstrap-timepicker">
@@ -107,7 +107,10 @@
 											</div>
 										</div>
 									</div>
-									<div class="col-md-4">
+									
+									</div>
+								<div class="row">
+								<div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-6 control-label">Manufacture By</label>
 											<div class="col-md-6">
@@ -115,8 +118,6 @@
 											</div>
 										</div>
 									</div>
-									</div>
-								<div class="row">
 									<div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-6 control-label">Required Quantity</label>
@@ -133,6 +134,9 @@
 											</div>
 										</div>
 									</div>
+									
+								</div>
+								<div class="row">
 									<div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-6 control-label">MRP</label>
@@ -141,9 +145,6 @@
 											</div>
 										</div>
 									</div>
-								</div>
-								<div class="row">
-									
 									<div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-6 control-label">Amount</label>
