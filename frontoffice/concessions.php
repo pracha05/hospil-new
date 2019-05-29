@@ -40,6 +40,8 @@ concessions
 									<input type="text" class="form-control" name="shopname" placeholder="Enter patient name" />
 									</div>
 								</div>
+								</div>
+								<div class=" col-md-12 ">
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">MRNO</label>
 									<div class="col-md-8">
@@ -52,6 +54,8 @@ concessions
 									<input type="text" class="form-control" name="shopname" placeholder="Enter op no" />
 									</div>
 								</div>
+								</div>
+								<div class=" col-md-12 ">
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Date of birth</label>
 									<div class="col-md-8">
@@ -66,6 +70,8 @@ concessions
 									<input type="text" class="form-control" name="shopname" placeholder="Enter Age" />
 									</div>
 								</div>
+								</div>
+								<div class=" col-md-12 ">
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Gender</label>
 									<div class="col-md-8">
@@ -83,6 +89,8 @@ concessions
 									<input type="text" class="form-control" name="shopname" placeholder="Total Amount" />
 									</div>
 								</div>
+								</div>
+								<div class=" col-md-12 ">
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Amount Paid</label>
 									<div class="col-md-8">
@@ -94,7 +102,9 @@ concessions
 									<div class="col-md-8">
 									<input type="text" class="form-control" name="shopname" placeholder="Balance" />
 									</div>
-								</div>	
+								</div>
+</div>
+<div class=" col-md-12 ">								
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Previous Concession </label>
 									<div class="col-md-8">
@@ -107,6 +117,8 @@ concessions
 									<input type="text" class="form-control" name="shopname" placeholder="Concession amount " />
 									</div>
 								</div>
+								</div>
+								<div class=" col-md-12 ">
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">Concession Given by </label>
 									<div class="col-md-8">
@@ -125,6 +137,8 @@ concessions
 									<input type="text" class="form-control" name="shopname" placeholder="Enter Reason" />
 									</div>
 								</div>
+								</div>
+								<div class=" col-md-12 ">
 								<div class="form-group col-md-6">
 									<label class="col-lg-4 control-label">User Code</label>
 									<div class="col-md-8 bootstrap-timepicker">

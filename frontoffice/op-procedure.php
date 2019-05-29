@@ -16,258 +16,261 @@
 			<div class="col-md-12">
 				<!-- general form elements -->
 				<div class=" ">
-				
 					<div style="padding:20px;">
 						<form id="defaultForm" method="post" class="form-horizontal" action="">
-							
-						<div class=" row ">
-							<div class=" col-md-12 ">
-								 <div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Patient Type</label>
-									<div class="col-md-8">
-									<select class="form-control">
-											<option>op</option>
-											<option>others </option>
-										
-										</select>
-										
-									</div>
-								</div> 
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">MRNO</label>
-									<div class="col-md-8">
-										<input type="text" class="form-control" name="shopname" placeholder="Enter MR no" />
-									</div>
-								</div>
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Op no</label>
-									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter op no" />
-									</div>
-								</div>
+							<div class=" row ">
+								<div class=" col-md-12 ">
 									<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Patient Name</label>
-									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Patient name" />
-									</div>
-								</div>
-								 <div class="form-group col-md-6">
-									<label class="col-lg-4 control-label"> Doctor</label>
-									<div class="col-md-8">
-									<select class="form-control">
-											<option>Doctor1</option>
-											<option>Doctor2 </option>
-										
-										</select>
-										
-									</div>
-								</div> 
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label"> specialty </label>
-									<div class="col-md-8">
-									<select class="form-control">
-											<option>specialty 1 </option>
-											<option>specialty 2 </option>
-										
-										</select>
-										
-									</div>
-								</div>
-								 
-							
-						
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Date of birth</label>
-									<div class="col-md-8">
-												
-                  <input type="text" class="form-control pull-right datepicker" >
-               
-							
-									</div>
-								</div>
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">age</label>
-									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Age" />
-									</div>
-								</div>
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Guardian</label>
-									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Guardian" />
-									</div>
-								</div>
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Phone </label>
-									<div class="col-md-8">
-									<input type="text" class="form-control" name="shopname" placeholder="Enter Phone" />
-									</div>
-								</div>
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">Address</label>
-									<div class="col-md-8">
-									<textarea class="form-control"></textarea>
-									</div>
-								</div>
-								
-							
-								
-								
-								
-								
-								
-						</div>
-				<div class="row">
-								<div class=" col-md-10 col-md-offset-1">
-									<table class="table table-bordered table-hover" id="tab_logic">
-										<thead>
-											<tr>
-												<th class="text-center bg-primary">Op Procedure Field</th>
-												<th class="text-center bg-primary">Quantity</th>
-												<th class="text-center bg-primary">Charge</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr id='addr0'>
-												<td><select class="form-control select2" style="width: 100%;">
-									  <option selected="selected">Alabama</option>
-									  <option>Alaska</option>
-									  <option>California</option>
-									  <option>Delaware</option>
-									  <option>Tennessee</option>
-									  <option>Texas</option>
-									  <option>Washington</option>
-									</select></td>
-												<td>
-													<div class="form-group col-md-12">
-														<div class="">
-															<input type="text" class="form-control" name="" placeholder="Enter Quality" />
-														</div>
-													</div>
-												</td>
-												<td>
-													<div class="form-group col-md-12">
-														<div class="">
-															<input type="text" class="form-control" name="shopname" placeholder="Enter Charge" />
-														</div>
-													</div>
-												</td>
-											</tr>
-											<tr id='addr1'></tr>
-										</tbody>
-									</table>
-								</div>
-							</div>
-							<div class=" row">
-								<div class=" col-md-10 col-md-offset-1 clearfix"> <a id="add_row" class="btn btn-primary pull-left text-white btn-xs">Add row</a>  <a id='delete_row' class="pull-right btn btn-danger text-white btn-xs">Delete row</a>
-								</div>
-							</div>
-								
-							
-						<div class="clearfix">&nbsp;</div>
-							<div class=" col-md-12 ">
-								<div class="modal-dialog" id="patient-reg" style="display:none">
-									<div class="modal-content">
-										<div class="modal-header bg-danger">
-											<button type="button" class="close" data-dismiss="modal">&times;</button>
-											<h4 class="modal-title text-center ">PATIENT REGISTRATION</h4>
-										</div>
-										<div class="modal-body">
-											<form>
-												<div class="row table_margin">
-													<div class="col-md-6">
-														<input type="text" class="form-control" placeholder="Total Amount" />
-													</div>
-													<div class="col-md-6">
-														<input type="text" class="form-control" placeholder="Concession" />
-													</div>
-												</div>
-												<div class="row table_margin">
-													<div class="col-md-6">
-														<input type="text" class="form-control" placeholder="Paid Amount" />
-													</div>
-													<div class="col-md-6">
-														<input type="text" class="form-control" placeholder="Balance" />
-													</div>
-												</div>
-												<div class="row table_margin">
-													<div class="col-md-6">
-														<input type="text" class="form-control" placeholder="Concession Reason" />
-													</div>
-													<div class="col-md-6">
-														<select class="form-control">
-												<option>Concession Given By</option>
-												<option>emergency</option>
-												<option>case type1</option>
-												<option>case type1</option>
+										<label class="col-lg-4 control-label">Patient Type</label>
+										<div class="col-md-8">
+											<select class="form-control">
+												<option>op</option>
+												<option>others</option>
 											</select>
-													</div>
-												</div>
-												<div class="row table_margin">
-													<div class="col-md-6">
-														<input type="text" class="form-control" placeholder="User Code" />
-													</div>
-													<div class="col-md-6">
-														<select class="form-control">
-												<option>Mode</option>
-												<option>normal</option>
-												<option>emergency</option>
-												<option>case type1</option>
-												<option>case type1</option>
-											</select>
-													</div>
-												</div>
-												<div class="row table_margin">
-													<div class="col-md-12 text-center">
-														<button type="button" class="btn btn-danger" >Register</button>
-													</div>
-													
-												</div>
-											</form>
-										</div>
-										<div class="modal-footer">
-											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
 										</div>
 									</div>
-								</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">MRNO</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter MR no" />
+										</div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Op no</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter op no" />
+										</div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Patient Name</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Patient name" />
+										</div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Doctor</label>
+										<div class="col-md-8">
+											<select class="form-control">
+												<option>Doctor1</option>
+												<option>Doctor2</option>
+											</select>
+										</div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">specialty</label>
+										<div class="col-md-8">
+											<select class="form-control">
+												<option>specialty 1</option>
+												<option>specialty 2</option>
+											</select>
+										</div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Date of birth</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control pull-right datepicker">
+										</div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">age</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Age" />
+										</div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Guardian</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Guardian" />
+										</div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Phone</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Phone" />
+										</div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Address</label>
+										<div class="col-md-8">
+											<textarea class="form-control"></textarea>
+										</div>
+									</div>
 								</div>
 								<div class="clearfix">&nbsp;</div>
-							<div class="form-group">
-								<div class="col-lg-12 text-center">	<a type="button" class="btn btn-primary " data-toggle="modal" data-target="#consult">Add Op</a> <a id="patient-reg-btn" style="color:blue;font-size:25px;cursor:pointer"><i class="fa fa-plus-circle" aria-hidden="true"></i> </a>
+								<div class=" col-md-12 ">
+									<div class="modal-dialog" id="patient-reg" style="display:none">
+										<div class="modal-content">
+											<div class="modal-header bg-danger">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												<h4 class="modal-title text-center ">PATIENT REGISTRATION</h4>
+											</div>
+											<div class="modal-body">
+												<form>
+													<div class="row table_margin">
+														<div class="col-md-6">
+															<input type="text" class="form-control" placeholder="Total Amount" />
+														</div>
+														<div class="col-md-6">
+															<input type="text" class="form-control" placeholder="Concession" />
+														</div>
+													</div>
+													<div class="row table_margin">
+														<div class="col-md-6">
+															<input type="text" class="form-control" placeholder="Paid Amount" />
+														</div>
+														<div class="col-md-6">
+															<input type="text" class="form-control" placeholder="Balance" />
+														</div>
+													</div>
+													<div class="row table_margin">
+														<div class="col-md-6">
+															<input type="text" class="form-control" placeholder="Concession Reason" />
+														</div>
+														<div class="col-md-6">
+															<select class="form-control">
+																<option>Concession Given By</option>
+																<option>emergency</option>
+																<option>case type1</option>
+																<option>case type1</option>
+															</select>
+														</div>
+													</div>
+													<div class="row table_margin">
+														<div class="col-md-6">
+															<input type="text" class="form-control" placeholder="User Code" />
+														</div>
+														<div class="col-md-6">
+															<select class="form-control">
+																<option>Mode</option>
+																<option>normal</option>
+																<option>emergency</option>
+																<option>case type1</option>
+																<option>case type1</option>
+															</select>
+														</div>
+													</div>
+													<div class="row table_margin">
+														<div class="col-md-12 text-center">
+															<button type="button" class="btn btn-danger">Register</button>
+														</div>
+													</div>
+												</form>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
 								</div>
-							</div>
+								<div class="clearfix">&nbsp;</div>
+								<div class="form-group">
+									<div class="col-lg-12 text-center">	<a type="button" class="btn btn-primary " data-toggle="modal" data-target="#consult">Add Op</a>  <a id="patient-reg-btn" style="color:blue;font-size:25px;cursor:pointer"><i class="fa fa-plus-circle" aria-hidden="true"></i> </a>
+									</div>
+								</div>
 						</form>
-						
-						
 						<div class="clearfix">&nbsp;</div>
+						<div class="row">
+						
+							<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Op</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Search....." />
+										</div>
+									</div>
+					
+						</div>
+						<div class=" row bg-white">
+						
+						<div class=" col-md-12 ">
+							<table id="example" class="table table-bordered" style="width:100%">
+								<thead>
+									<tr>
+										<th>SRNo</th>
+										<th>Investigation code</th>
+										<th>investigation name</th>
+										<th>rate</th>
+										<th>con amount</th>
+										<th>con reason</th>
+										<th>con %</th>
+										<th>Total Amount</th>
+										<th>Priority</th>
+										<th>&nbsp;</th>
+										
+									</tr>
+								</thead>
+								<tbody>
+									
+									<tr>
+										<th>1</th>
+										<td>xxxxx</td>
+										<td>xxxxx</td>
+										<th>xxxxx</th>
+										<td><input type="text" class="form-control" placeholder="" /></td>
+										<td><input type="text" class="form-control" placeholder="" /></td>
+										<th><input type="text" class="form-control" placeholder="" /></th>
+										<td><input type="text" class="form-control" placeholder="" /></td>
+										<td><select class="form-control">
+																<option>Mode</option>
+																<option>normal</option>
+																<option>emergency</option>
+																<option>case type1</option>
+																<option>case type1</option>
+															</select></td>
+										<td><a href="#">edit</a></td>
+										
+									</tr>
+									<tr>
+										<th>1</th>
+										<td>xxxxx</td>
+										<td>xxxxx</td>
+										<th>xxxxx</th>
+										<td><input type="text" class="form-control" placeholder="" /></td>
+										<td><input type="text" class="form-control" placeholder="" /></td>
+										<th><input type="text" class="form-control" placeholder="" /></th>
+										<td><input type="text" class="form-control" placeholder="" /></td>
+										<td><select class="form-control">
+																<option>Mode</option>
+																<option>normal</option>
+																<option>emergency</option>
+																<option>case type1</option>
+																<option>case type1</option>
+															</select></td>
+										<td><a href="#">edit</a></td>
+										
+									</tr>
+								</tbody>
+							</table>
+						</div>
 					</div>
+						<div class="clearfix">&nbsp;</div>
+						</div>
+					</div>
+					<!-- /.box -->
 				</div>
-				<!-- /.box -->
 			</div>
+			<!--/.col (right) -->
 		</div>
-		<!--/.col (right) -->
+		<!-- /.row -->
+	</section>
+	<script type="text/javascript">
+		$("#patient-reg-btn").click(function(){
+		  $("#patient-reg").toggle();
+		});
+			      var i=1;
+		     $("#add_row").click(function(){
+		      $('#addr'+i).html("<td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Op Procedure Field' class='form-control input-md mt-2'  /></div></div> </td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Quality' class='form-control input-md mt-2'  /></div></div> </td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Charge' class='form-control input-md mt-2'  /></div></div> </td>");
+		
+		      $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
+		      i++; 
+		  });
+		     $("#delete_row").click(function(){
+		         if(i>1){
+		         $("#addr"+(i-1)).html('');
+		         i--;
+		         }
+		     });
+	</script>
 </div>
-<!-- /.row -->
-</section> <script type="text/javascript">
-$("#patient-reg-btn").click(function(){
-  $("#patient-reg").toggle();
-});
-	      var i=1;
-     $("#add_row").click(function(){
-      $('#addr'+i).html("<td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Op Procedure Field' class='form-control input-md mt-2'  /></div></div> </td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Quality' class='form-control input-md mt-2'  /></div></div> </td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Charge' class='form-control input-md mt-2'  /></div></div> </td>");
-
-      $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
-      i++; 
-  });
-     $("#delete_row").click(function(){
-         if(i>1){
-         $("#addr"+(i-1)).html('');
-         i--;
-         }
-     });
-</script>
-</div>
-
 <script type="text/javascript">
 	$(document).ready(function() {
 		 //Timepicker

@@ -73,7 +73,7 @@
 									</div>
 								</div>
 								<div class="clearfix">&nbsp;</div>
-				<div class="row">
+				<div class="row bg-white">
 					<div class="col-md-12">
 						<table class="table table-bordered">
 							<tr>

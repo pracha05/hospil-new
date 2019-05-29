@@ -105,7 +105,7 @@
 						  <div class="form-group">
 							<label class="col-lg-4 control-label">limit </label>
 							<div class="col-lg-8">
-							<input type="text" class="form-control" name="shopname" placeholder="Enter Package Rate" />
+							<input type="text" class="form-control" name="shopname" placeholder="Enter Limit" />
 						  </div>
 						  </div>
 						  </div>
@@ -189,7 +189,7 @@
 						  <div class="form-group">
 							<label class="col-lg-4 control-label">limit </label>
 							<div class="col-lg-8">
-							<input type="text" class="form-control" name="shopname" placeholder="Enter Package Rate" />
+							<input type="text" class="form-control" name="shopname" placeholder="Enter Limit" />
 						  </div>
 						  </div>
 						  </div>
@@ -272,7 +272,7 @@
 						  <div class="form-group">
 							<label class="col-lg-4 control-label">limit </label>
 							<div class="col-lg-8">
-							<input type="text" class="form-control" name="shopname" placeholder="Enter Package Rate" />
+							<input type="text" class="form-control" name="shopname" placeholder="Enter Limit" />
 						  </div>
 						  </div>
 						  </div>
@@ -379,7 +379,7 @@
 						  <div class="form-group">
 							<label class="col-lg-4 control-label">limit </label>
 							<div class="col-lg-8">
-							<input type="text" class="form-control" name="shopname" placeholder="Enter Package Rate" />
+							<input type="text" class="form-control" name="shopname" placeholder="Enter Limit" />
 						  </div>
 						  </div>
 						  </div>
@@ -467,21 +467,7 @@
 		<!--/.col (right) -->
 </div>
 <!-- /.row -->
-</section> <script type="text/javascript">
-	      var i=1;
-     $("#add_row").click(function(){
-      $('#addr'+i).html("<td>"+ (i+1) +"</td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Specialty Name' class='form-control input-md mt-2'  /></div></div> </td>");
-
-      $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
-      i++; 
-  });
-     $("#delete_row").click(function(){
-         if(i>1){
-         $("#addr"+(i-1)).html('');
-         i--;
-         }
-     });
-</script>
+</section> 
 </div>
 
 <script type="text/javascript">

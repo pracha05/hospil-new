@@ -76,18 +76,6 @@
 									<input type="text" class="form-control" name="shopname" placeholder="user code" />
 									</div>
 								</div>	
-								<div class="form-group col-md-6">
-									<label class="col-lg-4 control-label">&nbsp;</label>
-									<div class="col-md-8">
-									<label class="checkbox-inline">
-										  <input type="checkbox" value="">Active
-										</label>
-									</div>
-								</div>
-								
-								
-								
-								
 						</div>
 				
 								

@@ -186,9 +186,8 @@
 							</span>
 						</a>
 						<ul class="treeview-menu" style="display: none;">
-							<li> <a href="consultation.php">consultation </a>
-							</li>
-							
+							<li> <a href="consultation.php">consultation </a></li>
+							<li> <a href="patient-reg.php">Registration </a></li>
 						</ul>
 					</li>
 					<li class="treeview">

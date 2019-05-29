@@ -139,7 +139,7 @@
 							<div class="form-group">
 								<div class="col-lg-12 text-center">
 							
-									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add Doctor</button>
+									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add payment</button>
 								</div>
 							</div>
 						</form>
