@@ -91,16 +91,32 @@
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-md-12">
-										<div class="form-group ">
-											<label class="col-lg-2 control-label">Medicine Name</label>
-											<div class="col-md-10">
+									<div class="col-md-4">
+										<div class="form-group">
+											<label class="col-lg-6 control-label">Medicine Name</label>
+											<div class="col-md-6">
 												<select class="form-control">
 												<option>Name</option>
 												<option>Name</option>
 												<option>Name</option>
 												<option>Name</option>
 											</select>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group ">
+											<label class="col-lg-6 control-label">Batch No</label>
+											<div class="col-md-6 bootstrap-timepicker">
+												<input type="text" class="form-control" name="shopname" placeholder="Batch No" />
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div class="form-group ">
+											<label class="col-lg-6 control-label">Manufacture By</label>
+											<div class="col-md-6">
+												<input type="text" class="form-control" name="shopname" placeholder="Manufacture By" />
 											</div>
 										</div>
 									</div>
@@ -124,22 +140,15 @@
 									</div>
 									<div class="col-md-4">
 										<div class="form-group ">
-											<label class="col-lg-6 control-label">Batch No</label>
-											<div class="col-md-6 bootstrap-timepicker">
-												<input type="text" class="form-control" name="shopname" placeholder="Batch No" />
-											</div>
-										</div>
-									</div>
-								</div>
-								<div class="row">
-									<div class="col-md-4">
-										<div class="form-group ">
 											<label class="col-lg-6 control-label">MRP</label>
 											<div class="col-md-6">
 												<input type="number" class="form-control" name="shopname" placeholder="Enter MRP" />
 											</div>
 										</div>
 									</div>
+								</div>
+								<div class="row">
+									
 									<div class="col-md-4">
 										<div class="form-group ">
 											<label class="col-lg-6 control-label">Amount</label>
@@ -159,14 +168,7 @@
 								</div>
 								<div class="row">
 									
-									<div class="col-md-4">
-										<div class="form-group ">
-											<label class="col-lg-6 control-label">Manufacture By</label>
-											<div class="col-md-6">
-												<input type="text" class="form-control" name="shopname" placeholder="Manufacture By" />
-											</div>
-										</div>
-									</div>
+									
 								</div>
 							
 							<div class="clearfix">&nbsp;</div>
