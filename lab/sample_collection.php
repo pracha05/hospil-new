@@ -58,74 +58,110 @@
 								<div class="col-md-12">
 									<div class="col-md-6">
 										<div class="form-group ">
-											<label class="col-lg-4 control-label">Sex</label>
+											<label class="col-lg-4 control-label">Gender</label>
 											<div class="col-md-8">
-												<input type="text" class="form-control" name="shopname" placeholder="Enter Sex  " />
+												<select class="form-control">
+												<option>Select</option>
+												<option>Male</option>
+												<option>Female</option>
+												<option>Others</option>
+												</select>
 											</div>
 										</div>
 									</div>
 									<div class="col-md-6">
 										<div class="form-group ">
-											<label class="col-lg-4 control-label">Doctor name /ref.by</label>
+											<label class="col-lg-4 control-label">Referal Doctor</label>
 											<div class="col-md-8 bootstrap-timepicker">
-												<input type="text" class="form-control" name="shopname" placeholder="Doctor name /ref.by" />
+												<input type="text" class="form-control" name="shopname" placeholder="referal Doctor" />
 											</div>
 										</div>
 									</div>
 								</div>
 								<div class="col-md-12">
+									
 									<div class="col-md-6">
 										<div class="form-group ">
-											<label class="col-lg-4 control-label">User code</label>
+											<label class="col-lg-4 control-label">collection instructions</label>
 											<div class="col-md-8 bootstrap-timepicker">
-												<input type="text" class="form-control" name="shopname" placeholder="User code" />
-											</div>
-										</div>
-									</div>
-									<div class="col-md-6">
-										<div class="form-group ">
-											<label class="col-lg-4 control-label">Sample collection instructions</label>
-											<div class="col-md-8 bootstrap-timepicker">
-												<input type="text" class="form-control" name="shopname" placeholder="Sample collection" />
+												<input type="text" class="form-control" name="shopname" placeholder=" collection instuctions" />
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="clearfix">&nbsp;</div>
-							<div class="form-group">
-								<div class="col-lg-12 text-center">
-									<button type="submit" class="btn btn-primary" name="signup" value="Sign up">Add Collection</button>
-								</div>
-							</div>
-							<div class="clearfix">&nbsp;</div>
-				<div class="row bg-white">
+							
+							
+				<div class="row bg-white" style="margin:15px;">
 					<div class="col-md-12">
 						<table class="table table-bordered">
 							<tr>
+								
 								<th>SNO</th>
-								<th>Req Date</th>
-								<th>Req No</th>
-								<th>Name</th>
 								<th>Investigation Name</th>
+								<th>Collection Date</th>
+								<th>Collection Time</th>
 								<th>Status</th>
-								<th>Coll Date</th>
-								<th>Coll Time</th>
-								<th>Action</th>
 							</tr>
 							<tr>
+								
 								<td>01</td>
 								<td>xxxx</td>
 								<td>xxxx</td>
 								<td>xxxx</td>
+								<td><select class="form-control">
+								<option></option>
+								<option>Accepted</option>
+								<option>Rejected</option>
+								<option>Postponed</option>
+								</select>
+								</td>
+							</tr>
+							<tr>
+							
+								<td>01</td>
 								<td>xxxx</td>
 								<td>xxxx</td>
 								<td>xxxx</td>
-								<td>xxxx</td>
-								<td>xxxx</td>
+								<td><select class="form-control">
+								<option></option>
+								<option>Accepted</option>
+								<option>Rejected</option>
+								<option>Postponed</option>
+								</select>
+								</td>
 							</tr>
 						</table>
 					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-md-12">
+									<div class=" col-md-5 ">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">No Of Code Labels</label>
+											<div class="col-md-8">
+												<input type="text" class="form-control " name="shopname" placeholder="Enter No Of Code Labels">
+											</div>
+										</div>
+									</div>
+									<div class="col-md-5">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Employee Code</label>
+											<div class="col-md-8">
+												<input type="text" class="form-control" name="shopname" placeholder="Employee Code" />
+											</div>
+										</div>
+									</div>
+									<div class="col-md-2">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">&nbsp;</label>
+											<div class="col-md-8">
+												<button type="submit" class="btn btn-primary " value="sign up" name="sign up">Submit</button>
+											</div>
+										</div>
+									</div>
+						</div>
 				</div>
 						</form>
 						
