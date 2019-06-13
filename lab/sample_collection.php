@@ -93,7 +93,7 @@
 							
 							
 				<div class="row bg-white" style="margin:15px;">
-					<div class="col-md-12">
+					<div class="col-md-12 table-responsive">
 						<table class="table table-bordered">
 							<tr>
 								
