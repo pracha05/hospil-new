@@ -177,6 +177,8 @@
 							<li><a href="add-speciality.php">speciality</a></li>
 							<li><a href="users.php">Users</a></li>
 							<li><a href="hospital-info.php">Hospital Info</a></li>
+							<li><a href="procedure_type.php">Procedure Type</a></li>
+							<li><a href="procedure.php">Procedure</a></li>
 						</ul>
 					</li>
 					<li class="treeview">
@@ -188,6 +190,7 @@
 						<ul class="treeview-menu" style="display: none;">
 							<li> <a href="consultation.php">consultation </a></li>
 							<li> <a href="patient-reg.php">Registration </a></li>
+							<li> <a href="op-procedure.php">Op Procedure </a></li>
 						</ul>
 					</li>
 					<li class="treeview">
@@ -227,7 +230,7 @@
 						<ul class="treeview-menu" style="display: none;">
 							<li> <a href="sale-report.php">Sale Report</a></li>
 							<li> <a href="purchasereport.php">Purchase Report</a></li>
-							<li><a href="payment.php">Day collection report</a></li>
+							<li><a href="daycollection.html">Day collection report</a></li>
 						</ul>
 					</li>
 				</ul>

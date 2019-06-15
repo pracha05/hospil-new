@@ -1,0 +1,277 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Dr Chary's</title>
+    
+    <style>
+    .invoice-box {
+        max-width: 800px;
+        margin: auto;
+        padding: 30px;
+        border: 1px solid #eee;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+        font-size: 16px;
+        line-height: 24px;
+        font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+        color: #555;
+    }
+    
+    .invoice-box table {
+        width: 100%;
+        line-height: inherit;
+        text-align: left;
+    }
+    
+    .invoice-box table td {
+        padding: 5px;
+        vertical-align: top;
+    }
+    
+    <!-- .invoice-box table tr td:nth-child(2) { -->
+        <!-- text-align: right; -->
+    <!-- } -->
+    
+    .invoice-box table tr.top table td {
+        padding-bottom: 0px;
+    }
+    
+    .invoice-box table tr.top table td.title {
+        font-size: 45px;
+        line-height: 45px;
+        color: #333;
+    }
+    
+    .invoice-box table tr.information table td {
+        padding-bottom: 40px;
+    }
+    
+    .invoice-box table tr.heading td {
+        background: #eee;
+        border-bottom: 1px solid #ddd;
+        font-weight: bold;
+    }
+    
+    .invoice-box table tr.details td {
+        padding-bottom: 20px;
+    }
+    
+    .invoice-box table tr.item td{
+        border-bottom: 1px solid #eee;
+    }
+    
+    .invoice-box table tr.item.last td {
+        border-bottom: none;
+    }
+    
+    .invoice-box table tr.total td:nth-child(2) {
+        border-top: 2px solid #eee;
+        font-weight: bold;
+    }
+    .table_border , table_row {
+	border:1px solid #333;
+	border-collapse: collapse;
+	}
+    @media only screen and (max-width: 600px) {
+        .invoice-box table tr.top table td {
+            width: 100%;
+            display: block;
+            text-align: center;
+        }
+        
+        .invoice-box table tr.information table td {
+            width: 100%;
+            display: block;
+            text-align: center;
+        }
+    }
+    
+    /** RTL **/
+    .rtl {
+        direction: rtl;
+        font-family: Tahoma, 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    }
+    
+    .rtl table {
+        text-align: right;
+    }
+    
+    .rtl table tr td:nth-child(2) {
+        text-align: left;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="invoice-box">
+        <table cellpadding="0" cellspacing="0">
+            <tr class="top">
+                <td colspan="2">
+                    <table>
+                        <tr>
+                            <td  style="width:250px;" class="title">
+                                <img src="../dist/img/drchary-logo.png" style="width:auto; padding:25px;max-height:100px;">
+                            </td>
+                            
+                            <td style="text-align:left">
+                               <h2>SKIN COSMETIC & LASAR HAIR CLINIC</h2>
+							   <p>Ground Floor , V.R.Enclave MIG 255 , Opp , Union Bank Of India , Road No . 4 , K.P.H.B Colony , Hyd -072</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+		
+		
+		<table cellpadding="0" cellspacing="0" style="border:1px solid #aaa;border-bottom:0px solid #fff;font-size:12px;width:100%;">
+            <tr >
+                <td colspan="2" style="text-align:center;font-size:16px;" >
+                  <h2 style="text-decoration:underline">SALES REPORT</h2>
+                </td>
+            </tr>
+			<tr class="top">
+                <td>
+				<table>
+                  <tr>
+						<th>Bill No Date</th>
+						<th>OPD No</th>
+						<th>Patient Name</th>
+						<th>Total Amount</th>
+						<th>Paid Amount</th>
+						<th>Amount Due</th>
+						<th>Disc Amount</th>
+				  </tr>
+				  <tr>
+						<td>1</td>
+						<td>&nbsp;</td>
+						<td> DOLO -650MG</td>
+						<td>MICRO</td>
+						<td> &nbsp;</td>
+						<td> DOBS1189</td>
+						<td> Jul-22</td>
+				  </tr> 
+				  <tr>
+						<td>2</td>
+						<td>&nbsp;</td>
+						<td>  DIGIBION SYP</td>
+						<td> USP LIFE SCIENCES</td>
+						<td>  H </td>
+						<td> NFMYO94 </td>
+						<td> Oct-19 </td>
+				  </tr>
+				  <tr>
+						<td>3 </td>
+						<td>&nbsp;</td>
+						<td> THYRONORM-SOMG</td>
+						<td>  ABOTT</td>
+						<td>  H</td>
+						<td>  AEOS011</td>
+						<td> Oct-19</td>
+				  </tr> 
+				   <tr>
+						<td>4</td>
+						<td>&nbsp;</td>
+						<td> STUGERON-25MG</td>
+						<td>JOHNSONSJOHNSON</td>
+						<td>&nbsp;</td>
+						<td>N697</td>
+						<td>Jan-21 </td>
+				  </tr> 
+				  <tr>
+				  
+				  </tr>
+				   	<tr class="hr">
+						<th>&nbsp;</th>
+						<th>&nbsp;</th>
+						<th>&nbsp;</th>
+						<th>1024.00</th>
+						<th>1000.00</th>
+						<th>24.00</th>
+						<th>0.00</th>
+				  </tr>			  
+				  </table>
+                </td>
+				 <td>
+				
+                </td>
+				
+            </tr>
+			
+        </table>
+		
+		<table cellpadding="0" cellspacing="0" style="border:1px solid #aaa;border-bottom:0px solid #fff;font-size:12px;width:100%;">
+           
+			<tr class="top">
+                <td>
+				<table>
+                  <tr>
+						<th>Bill No Date</th>
+						<th>OPD No</th>
+						<th>Patient Name</th>
+						<th>&nbsp;</th>
+						<th>&nbsp;</th>
+						<th>&nbsp;</th>
+						<th>&nbsp;</th>
+				  </tr>
+				   
+				   				  
+				  </table>
+                </td>
+				 <td>
+				
+                </td>
+				
+            </tr>
+			
+        </table>
+		
+		
+		<table cellpadding="0" cellspacing="0" style="border:1px solid #aaa;font-size:14px;">
+            <tr >
+                <td>
+					<table>
+					  <tr>
+						<th>Create By </th>
+						<td> : SOMIN</td>
+					  </tr>
+					  <tr>
+						<th>Printed By</th>
+						<td> : Sunny-Chinna</td>
+					  </tr>
+				  </table>
+                </td>
+				<td>
+					<table>
+					  <tr>
+						<td>PCLINIC</td>
+						<td>&nbsp;</td>
+						
+					  </tr>
+					  <tr>
+						<td>1</td>
+						<td>&nbsp;</td>
+						
+					  </tr>
+				  </table>
+                </td>
+				 <td>
+					<table>
+					  <tr>
+						<td> Create Date & Time</td>
+						<th>: 21-May-19 4:35:43 pm</th>
+			
+					  </tr>
+					  <tr>
+						<td>Print Date & Time</td>
+						<th>24-May-19 4:10.06 em</th>
+					
+					  </tr>
+				  </table>
+                </td>
+            </tr> 
+			
+        </table>
+    </div>
+</body>
+</html>

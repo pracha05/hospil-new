@@ -1,77 +1,89 @@
 <?php include( "header.php"); ?>
-<head>
-<link rel="stylesheet" href="../dist/css/jquery.dataTables.min.css">
-<link rel="stylesheet" href="../dist/css/buttons.dataTables.min.css">
-</head>
 <div class="content-wrapper">
-	
-	<section class="content ">
+	<section class="content-header">
+		<h1>
+       User Profile 
+      </h1>
+		<ol class="breadcrumb">
+			<li><a href="#"><i class="fa fa-dashboard"></i> Home</a>
+			</li>
+			<li class="active">Edit</li>
+		</ol>
+	</section>
+	<section class="content">
 		<div class="row">
 			<!-- left column -->
-			<div class="col-md-12 bg-white">
+			<div class="col-md-12">
 				<!-- general form elements -->
-				<div class=" ">
-					<div style="padding:20px;">
-					<div class="box-body table-responsive">
-									<table id="example" class="table  table-striped">
-        <thead>
-		
-            <tr>
-                <th>&nbsp;</th>
-                <th>Grand total</th>
-                <th>Concession</th>
-                <th>Credit Card</th>
-                <th>Cheque/DD</th>
-                <th>Refund</th>
-                <th>Dues</th>
-                <th>Cash</th>
-                <th>Previous Refunds</th>
-                <th>By Cash</th>
-                <th>By Card</th>
-                <th>By Cheque</th>
-                <th>Total Cash in hand</th>
-            </tr>
-			
-        </thead>
-        <tbody>
-           
-            <tr>
-                <th>Donna Snider</th>
-                <td>Customer Support</td>
-                <td>New York</td>
-                <td>27</td>
-                <td>2011/01/25</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-            </tr>
-        </tbody>
-
-    </table>	
-	</div>
-						<div class="clearfix">&nbsp;</div>
-						</div>
+				<div class="box box-primary">
+					<div class="box-header with-border">
+						<h3 class="box-title">Edit Profile</h3>
+						
 					</div>
-					<!-- /.box -->
+					<!-- /.box-header -->
+					<!-- form start -->
+					<div style="padding:20px;">
+						<form id="defaultForm" method="post" class="" action="add-student.php">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label class=" control-label"> Name</label>
+									<div class="">
+										<input type="text" class="form-control" name="shopname" placeholder="Enter Name" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label>Email Id</label>
+									<div class="">
+										<input type="text" class="form-control" name="ownername" placeholder="Enter Email Id" />
+									</div>
+								</div>
+								<div class="form-group ">
+									<label class=" control-label">Mobile Number</label>
+									<div class="">
+										<input type="text" class="form-control" name="mobilenumber" placeholder="Enter Mobile Number" />
+									</div>
+								</div>
+							</div>
+							<!--school details-->
+							<div class="col-md-6">
+								<div class="form-group">
+									<label class=" control-label">Qualification</label>
+									<div class="">
+										<input type="text" class="form-control" name="email" placeholder="Enter Quaalification" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label class=" control-label">Location</label>
+									<div class="">
+										<input type="text" class="form-control" name="address" placeholder="Enter Location" />
+									</div>
+								</div>
+								<div class="form-group">
+									<label class=" control-label">Profile Pic</label>
+									<div class="">
+										<input type="file" class="form-control" name="address" placeholder="Enter Address" />
+									</div>
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-lg-4 col-lg-offset-10">
+									<button type="submit" class="btn btn-primary" name="signup" value="Sign up">Edit</button>
+								</div>
+							</div>
+						</form>
+						<div class="clearfix">&nbsp;</div>
+					</div>
 				</div>
+				<!-- /.box -->
 			</div>
-			<!--/.col (right) -->
 		</div>
-		<!-- /.row -->
-	</section>
-	
+		<!--/.col (right) -->
+</div>
+<!-- /.row -->
+</section>
 </div>
 <script type="text/javascript">
 	$(document).ready(function() {
-		 //Timepicker
-	    $(".timepicker").timepicker({
-	      showInputs: false
-	    });
 	    // Generate a simple captcha
 	    function randomNumber(min, max) {
 	        return Math.floor(Math.random() * (max - min + 1) + min);
@@ -293,20 +305,4 @@
 	    });
 	});
 </script>
-
-
-
-
 <?php include( "footer.php"); ?>
-<script src="../dist/js/dataTables.buttons.min.js"></script>
-<script src="../dist/js/buttons.print.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-    $('#example').DataTable( {
-        dom: 'Bfrtip',
-        buttons: [
-            'print'
-        ]
-    } );
-} );
-</script>

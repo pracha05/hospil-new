@@ -1,70 +1,174 @@
 <?php include( "header.php"); ?>
-<head>
-<link rel="stylesheet" href="../dist/css/jquery.dataTables.min.css">
-<link rel="stylesheet" href="../dist/css/buttons.dataTables.min.css">
-</head>
 <div class="content-wrapper">
-	
-	<section class="content ">
+	<section class="content-header mb-4">
+		<h1>
+       Add Medicines
+      </h1>
+		<ol class="breadcrumb">
+			<li><a href="#"><i class="fa fa-dashboard"></i> Home</a>
+			</li>
+			<li class="active">Medicines</li>
+		</ol>
+	</section>
+	<section class="content">
 		<div class="row">
 			<!-- left column -->
-			<div class="col-md-12 bg-white">
+			<div class="col-md-12">
 				<!-- general form elements -->
 				<div class=" ">
 					<div style="padding:20px;">
-					<div class="box-body table-responsive">
-									<table id="example" class="table  table-striped">
-        <thead>
-		
-            <tr>
-                <th>&nbsp;</th>
-                <th>Grand total</th>
-                <th>Concession</th>
-                <th>Credit Card</th>
-                <th>Cheque/DD</th>
-                <th>Refund</th>
-                <th>Dues</th>
-                <th>Cash</th>
-                <th>Previous Refunds</th>
-                <th>By Cash</th>
-                <th>By Card</th>
-                <th>By Cheque</th>
-                <th>Total Cash in hand</th>
-            </tr>
-			
-        </thead>
-        <tbody>
-           
-            <tr>
-                <th>Donna Snider</th>
-                <td>Customer Support</td>
-                <td>New York</td>
-                <td>27</td>
-                <td>2011/01/25</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-            </tr>
-        </tbody>
-
-    </table>	
-	</div>
+						<form id="defaultForm" method="post" class="form-horizontal" action="">
+							<div class=" row ">
+								<div class=" col-md-12 ">
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Name</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Name" />
+										</div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Disease</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Disease Name" />
+										</div>
+									</div>
+								</div>
+								<div class=" col-md-12 ">
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Generic Name</label>
+										<div class="col-md-8">
+											<select class="form-control">
+												<option>Name</option>
+												<option>Name</option>
+												<option>Name</option>
+												<option>Name</option>
+											</select>
+										</div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Medicine Type</label>
+										<div class="col-md-8">
+											<select class="form-control">
+												<option>type</option>
+												<option>type</option>
+												<option>type</option>
+												<option>type</option>
+												<option>type</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class=" col-md-12 ">
+									
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Schedule</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Schedule" />
+										</div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Tax Caterogy</label>
+										<div class="col-md-8">
+											<select class="form-control">
+												<option>Caterogy</option>
+												<option>Caterogy</option>
+												<option>Caterogy</option>
+												<option>Caterogy</option>
+												<option>Caterogy</option>
+											</select>
+										</div>
+									</div>
+								</div>
+								<div class=" col-md-12 ">
+									
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Manufacturer</label>
+										<div class="col-md-8">
+											<select class="form-control">
+												<option>Manufacturer</option>
+												<option>Manufacturer</option>
+												<option>Manufacturer</option>
+												<option>Manufacturer</option>
+											</select>
+										</div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Code</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Code" />
+										</div>
+									</div>
+								</div>
+								<div class=" col-md-12 ">
+									
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Hsn Code</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Hsn Code" />
+										</div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Dosage</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Dosage" />
+										</div>
+									</div>
+								</div>
+								<div class=" col-md-12 ">
+									
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">ROL</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter ROL" />
+										</div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">ROQ</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter ROQ" />
+										</div>
+									</div>
+								</div>
+								<div class=" col-md-12 ">
+									
+									
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Method</label>
+										<div class="col-md-8">
+											<select class="form-control">
+												<option>Select</option>
+												<option>FIFO</option>
+												<option>LIFO</option>
+											</select>
+										</div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">User Code</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="User Code" />
+										</div>
+									</div>
+								</div>
+								
+							</div>
+							<div class="clearfix">&nbsp;</div>
+							<div class="form-group">
+								<div class="col-lg-12 text-center">
+									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add Medicine</button>
+								</div>
+							</div>
+						</form>
 						<div class="clearfix">&nbsp;</div>
-						</div>
 					</div>
-					<!-- /.box -->
 				</div>
+				<!-- /.box -->
 			</div>
-			<!--/.col (right) -->
 		</div>
-		<!-- /.row -->
-	</section>
-	
+		<!--/.col (right) -->
+</div>
+<!-- /.row -->
+</section>
+
 </div>
 <script type="text/javascript">
 	$(document).ready(function() {
@@ -293,20 +397,4 @@
 	    });
 	});
 </script>
-
-
-
-
 <?php include( "footer.php"); ?>
-<script src="../dist/js/dataTables.buttons.min.js"></script>
-<script src="../dist/js/buttons.print.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-    $('#example').DataTable( {
-        dom: 'Bfrtip',
-        buttons: [
-            'print'
-        ]
-    } );
-} );
-</script>

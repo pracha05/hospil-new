@@ -1,70 +1,173 @@
 <?php include( "header.php"); ?>
-<head>
-<link rel="stylesheet" href="../dist/css/jquery.dataTables.min.css">
-<link rel="stylesheet" href="../dist/css/buttons.dataTables.min.css">
-</head>
 <div class="content-wrapper">
-	
-	<section class="content ">
+	<section class="content-header mb-4">
+		<h1>
+     Purchase Payments
+      </h1>
+		<ol class="breadcrumb">
+			<li><a href="#"><i class="fa fa-dashboard"></i> Home</a>
+			</li>
+			<li class="active">Purchase Payments</li>
+		</ol>
+	</section>
+	<section class="content">
 		<div class="row">
 			<!-- left column -->
-			<div class="col-md-12 bg-white">
+			<div class="col-md-12">
 				<!-- general form elements -->
 				<div class=" ">
 					<div style="padding:20px;">
-					<div class="box-body table-responsive">
-									<table id="example" class="table  table-striped">
-        <thead>
-		
-            <tr>
-                <th>&nbsp;</th>
-                <th>Grand total</th>
-                <th>Concession</th>
-                <th>Credit Card</th>
-                <th>Cheque/DD</th>
-                <th>Refund</th>
-                <th>Dues</th>
-                <th>Cash</th>
-                <th>Previous Refunds</th>
-                <th>By Cash</th>
-                <th>By Card</th>
-                <th>By Cheque</th>
-                <th>Total Cash in hand</th>
-            </tr>
-			
-        </thead>
-        <tbody>
-           
-            <tr>
-                <th>Donna Snider</th>
-                <td>Customer Support</td>
-                <td>New York</td>
-                <td>27</td>
-                <td>2011/01/25</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-            </tr>
-        </tbody>
-
-    </table>	
-	</div>
-						<div class="clearfix">&nbsp;</div>
-						</div>
+						<form id="defaultForm" method="post" class="form-horizontal" action="view_samplecollection.php">
+							<div class=" row ">
+								<div class="col-md-12">
+									<div class=" col-md-6 ">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">From Date</label>
+											<div class="col-md-8">
+												<input type="text" class="form-control datepicker" >
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">To Date</label>
+											<div class="col-md-8">
+												<input type="text" class="form-control datepicker" >
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="col-md-6">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Supplier Name</label>
+											<div class="col-md-8">
+												<select class="form-control">
+												<option>Name</option>
+												<option>Name</option>
+												<option>Name</option>
+												<option>Name</option>
+											</select>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Total Amount</label>
+											<div class="col-md-8">
+												<input type="text" class="form-control" name="shopname" placeholder="Total Amount" />
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="col-md-6">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Paid Amount</label>
+											<div class="col-md-8">
+												<input type="text" class="form-control" name="shopname" placeholder="Paid Amount  " />
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Due Amount</label>
+											<div class="col-md-8 ">
+												<input type="text" class="form-control" name="shopname" placeholder="Due Amount  " />
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="col-md-6">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Current Payment</label>
+											<div class="col-md-8 ">
+												<input type="text" class="form-control" name="shopname" placeholder="Current Payment " />
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Current Due Amount</label>
+											<div class="col-md-8 bootstrap-timepicker">
+												<input type="text" class="form-control" name="shopname" placeholder="Required Quantity" />
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="col-md-6">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">Mode</label>
+											<div class="col-md-8 ">
+												<select class="form-control">
+												<option>Mode</option>
+												<option>Mode</option>
+												<option>Mode</option>
+												<option>Mode</option>
+											</select>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group ">
+											<label class="col-lg-4 control-label">User Code</label>
+											<div class="col-md-8 ">
+												<input type="text" class="form-control" name="shopname" placeholder="User Code" />
+											</div>
+										</div>
+									</div>
+								</div>
+								
+								
+							<div class="clearfix">&nbsp;</div>
+							<div class="form-group">
+								<div class="col-lg-12 text-center">
+									<button type="submit" class="btn btn-primary" name="signup" value="Sign up">Add Payment</button>
+								</div>
+							</div>
+							<div class="clearfix">&nbsp;</div>
+				<div class="row bg-white">
+					<div class="col-md-12">
+						<table class="table table-bordered">
+							<tr>
+								<th>SNO</th>
+								<th>Bill Date</th>
+								<th>Total Amount</th>
+								<th>Paid Amount</th>
+								<th>Due Amount</th>
+								<th>Current Paid Amount</th>
+								<th>Current Due Amount</th>
+								<th>Invoice No</th>
+								<th>Action</th>
+							</tr>
+							<tr>
+								<td>01</td>
+								<td>xxxx</td>
+								<td>xxxx</td>
+								<td>xxxx</td>
+								<td>xxxx</td>
+								<td>xxxx</td>
+								<td>xxxx</td>
+								<td>xxxx</td>
+								<td>xxxx</td>
+							</tr>
+						</table>
 					</div>
-					<!-- /.box -->
 				</div>
+						</form>
+						
+						<div class="clearfix">&nbsp;</div>
+					</div>
+				</div>
+				<!-- /.box -->
 			</div>
-			<!--/.col (right) -->
 		</div>
-		<!-- /.row -->
-	</section>
-	
+		<!--/.col (right) -->
+</div>
+<!-- /.row -->
+</section>
 </div>
 <script type="text/javascript">
 	$(document).ready(function() {
@@ -293,20 +396,4 @@
 	    });
 	});
 </script>
-
-
-
-
 <?php include( "footer.php"); ?>
-<script src="../dist/js/dataTables.buttons.min.js"></script>
-<script src="../dist/js/buttons.print.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-    $('#example').DataTable( {
-        dom: 'Bfrtip',
-        buttons: [
-            'print'
-        ]
-    } );
-} );
-</script>

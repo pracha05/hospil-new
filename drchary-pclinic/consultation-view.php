@@ -12,24 +12,19 @@
 				<!-- general form elements -->
 				<div class=" ">
 					<div style="padding:20px;">
-					<div class="box-body table-responsive">
-									<table id="example" class="table  table-striped">
+					<div class="row table-responsive">
+						<table id="example" class="display" style="width:100%">
         <thead>
 		
             <tr>
-                <th>&nbsp;</th>
-                <th>Grand total</th>
-                <th>Concession</th>
-                <th>Credit Card</th>
-                <th>Cheque/DD</th>
-                <th>Refund</th>
-                <th>Dues</th>
-                <th>Cash</th>
-                <th>Previous Refunds</th>
-                <th>By Cash</th>
-                <th>By Card</th>
-                <th>By Cheque</th>
-                <th>Total Cash in hand</th>
+                <th>Mr No</th>
+                <th>Patient Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Doctor Name</th>
+                <th>Doctor Amount</th>
+                <th>Phone Number</th>
+                <th>Advice</th>
             </tr>
 			
         </thead>
@@ -41,11 +36,6 @@
                 <td>New York</td>
                 <td>27</td>
                 <td>2011/01/25</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
                 <td>$112,000</td>
                 <td>$112,000</td>
                 <td>$112,000</td>
@@ -64,7 +54,6 @@
 		</div>
 		<!-- /.row -->
 	</section>
-	
 </div>
 <script type="text/javascript">
 	$(document).ready(function() {

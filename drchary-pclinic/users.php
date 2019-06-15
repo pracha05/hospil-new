@@ -1,71 +1,173 @@
 <?php include( "header.php"); ?>
-<head>
-<link rel="stylesheet" href="../dist/css/jquery.dataTables.min.css">
-<link rel="stylesheet" href="../dist/css/buttons.dataTables.min.css">
-</head>
 <div class="content-wrapper">
-	
-	<section class="content ">
+	<section class="content-header mb-4">
+		<h1>
+     Add Users
+      </h1>
+		<ol class="breadcrumb">
+			<li><a href="#"><i class="fa fa-dashboard"></i> Home</a>
+			</li>
+			<li class="active">Users</li>
+		</ol>
+	</section>
+	<section class="content">
 		<div class="row">
 			<!-- left column -->
-			<div class="col-md-12 bg-white">
+			<div class="col-md-12">
 				<!-- general form elements -->
 				<div class=" ">
+				
 					<div style="padding:20px;">
-					<div class="box-body table-responsive">
-									<table id="example" class="table  table-striped">
-        <thead>
-		
-            <tr>
-                <th>&nbsp;</th>
-                <th>Grand total</th>
-                <th>Concession</th>
-                <th>Credit Card</th>
-                <th>Cheque/DD</th>
-                <th>Refund</th>
-                <th>Dues</th>
-                <th>Cash</th>
-                <th>Previous Refunds</th>
-                <th>By Cash</th>
-                <th>By Card</th>
-                <th>By Cheque</th>
-                <th>Total Cash in hand</th>
-            </tr>
-			
-        </thead>
-        <tbody>
-           
-            <tr>
-                <th>Donna Snider</th>
-                <td>Customer Support</td>
-                <td>New York</td>
-                <td>27</td>
-                <td>2011/01/25</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-            </tr>
-        </tbody>
-
-    </table>	
-	</div>
-						<div class="clearfix">&nbsp;</div>
+						<form id="defaultForm" method="post" class="form-horizontal" action="">
+							
+						<div class=" row ">
+							<div class=" col-md-6 ">
+								 <div class="form-group ">
+									<label class="col-lg-4 control-label">User name</label>
+									<div class="col-md-8">
+										<input type="text" class="form-control" name="shopname" placeholder="Enter User name" />
+									</div>
+								</div> 
+							
+								<div class="form-group ">
+									<label class="col-lg-4 control-label">Phone Number</label>
+									<div class="col-md-8">
+									<input type="password" class="form-control" name="shopname" placeholder="Enter Phone Number" />
+									</div>
+								</div>
+								<div class="form-group ">
+									<label class="col-lg-4 control-label">User code</label>
+									<div class="col-md-8">
+									<input type="password" class="form-control" name="shopname" placeholder="Enter User code" />
+									</div>
+								</div>
+								<div class="form-group ">
+									<label class="col-lg-4 control-label">&nbsp;</label>
+									<div class="col-md-8">
+										<label class="checkbox-inline">
+										  <input type="checkbox" value=""> OP
+										</label>
+										<label class="checkbox-inline">
+										  <input type="checkbox" value=""> IP
+										</label>
+										<label class="checkbox-inline">
+										  <input type="checkbox" value=""> Diagnostic
+										</label>
+									</div>
+								</div>
+							
+							 
+							  	<div class="form-group ">
+								 <h4 class="text-center">User Privileges</h4>
+									<label class="col-lg-4 control-label">&nbsp;</label>
+									<div class="col-md-8">
+										<label class="checkbox-inline">
+										  <input type="checkbox" value="">Allow Multiple Concession
+										</label>
+									</div>
+								</div>
+							
+							 <div class="form-group ">
+									
+									<label class="col-lg-5 control-label">Max. Concession Allowed</label>
+									<div class="col-md-3">
+										<label class="checkbox-inline">
+										  <input type="text" value="" class="form-control">
+									</div>
+								</div>
 						</div>
+						<div class="col-md-6" >
+						  <div class="form-group" >
+						  
+							<div class="col-md-8" style="background-color:#fff;height:50%;-webkit-box-shadow: 0px -2px 15px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px -2px 15px 0px rgba(0,0,0,0.75);
+box-shadow: 0px -2px 15px 0px rgba(0,0,0,0.75);">
+							<table class="table">
+    <thead>
+      <tr>
+        <th>&nbsp;</th>
+        <th>Roll Name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>
+		<label class=" col-md-4">
+		<input type="checkbox" value="">
+		</label>
+		</td>
+        <td>Administrator</td>
+      </tr>
+      <tr>
+        <td>
+		<label class=" col-md-4">
+		<input type="checkbox" value="">
+		</label>
+		</td>
+        <td>Administrator</td>
+      </tr>
+      <tr>
+        <td>
+		<label class=" col-md-4">
+		<input type="checkbox" value="">
+		</label>
+		</td>
+        <td>Administrator</td>
+      </tr>
+	  <tr>
+        <td>
+		<label class=" col-md-4">
+		<input type="checkbox" value="">
+		</label>
+		</td>
+        <td>Administrator</td>
+      </tr>
+    </tbody>
+  </table>
+						  </div>
+						  <div class="col-md-4">&nbsp;</div>
+						  </div>
+						</div>
+				
+								
+							
+						<div class="clearfix">&nbsp;</div>
+							
+							<div class="form-group">
+								<div class="col-lg-6 text-center">
+							
+									<button type="submit" class="btn btn-primary  " name="signup" value="Sign up">Add User</button>
+								</div>
+							</div>
+						</form>
+						
+						
+						<div class="clearfix">&nbsp;</div>
 					</div>
-					<!-- /.box -->
 				</div>
+				<!-- /.box -->
 			</div>
-			<!--/.col (right) -->
 		</div>
-		<!-- /.row -->
-	</section>
-	
+		<!--/.col (right) -->
 </div>
+<!-- /.row -->
+</section> <script type="text/javascript">
+	      var i=1;
+     $("#add_row").click(function(){
+      $('#addr'+i).html("<td>"+ (i+1) +"</td><td><div class='form-group col-md-12'><div class=''><input name='user"+i+"' type='text' placeholder='Enter Specialty Name' class='form-control input-md mt-2'  /></div></div> </td>");
+
+      $('#tab_logic').append('<tr id="addr'+(i+1)+'"></tr>');
+      i++; 
+  });
+     $("#delete_row").click(function(){
+         if(i>1){
+         $("#addr"+(i-1)).html('');
+         i--;
+         }
+     });
+</script>
+</div>
+
 <script type="text/javascript">
 	$(document).ready(function() {
 		 //Timepicker
@@ -293,20 +395,4 @@
 	    });
 	});
 </script>
-
-
-
-
 <?php include( "footer.php"); ?>
-<script src="../dist/js/dataTables.buttons.min.js"></script>
-<script src="../dist/js/buttons.print.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-    $('#example').DataTable( {
-        dom: 'Bfrtip',
-        buttons: [
-            'print'
-        ]
-    } );
-} );
-</script>

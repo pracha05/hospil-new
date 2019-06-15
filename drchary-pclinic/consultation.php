@@ -1,70 +1,200 @@
 <?php include( "header.php"); ?>
-<head>
-<link rel="stylesheet" href="../dist/css/jquery.dataTables.min.css">
-<link rel="stylesheet" href="../dist/css/buttons.dataTables.min.css">
-</head>
 <div class="content-wrapper">
-	
-	<section class="content ">
+	<section class="content-header mb-4">
+		<h1>
+       Add Consultation
+      </h1>
+		<ol class="breadcrumb">
+			<li><a href="#"><i class="fa fa-dashboard"></i> Home</a>
+			</li>
+			<li class="active">Consultation</li>
+		</ol>
+	</section>
+	<section class="content">
 		<div class="row">
 			<!-- left column -->
-			<div class="col-md-12 bg-white">
+			<div class="col-md-12">
 				<!-- general form elements -->
 				<div class=" ">
 					<div style="padding:20px;">
-					<div class="box-body table-responsive">
-									<table id="example" class="table  table-striped">
-        <thead>
-		
-            <tr>
-                <th>&nbsp;</th>
-                <th>Grand total</th>
-                <th>Concession</th>
-                <th>Credit Card</th>
-                <th>Cheque/DD</th>
-                <th>Refund</th>
-                <th>Dues</th>
-                <th>Cash</th>
-                <th>Previous Refunds</th>
-                <th>By Cash</th>
-                <th>By Card</th>
-                <th>By Cheque</th>
-                <th>Total Cash in hand</th>
-            </tr>
-			
-        </thead>
-        <tbody>
-           
-            <tr>
-                <th>Donna Snider</th>
-                <td>Customer Support</td>
-                <td>New York</td>
-                <td>27</td>
-                <td>2011/01/25</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-                <td>$112,000</td>
-            </tr>
-        </tbody>
-
-    </table>	
-	</div>
-						<div class="clearfix">&nbsp;</div>
+						<form id="defaultForm" method="post" class="form-horizontal" action="">
+							<div class=" row ">
+								<div class=" col-md-12 ">
+									<div class="form-group col-md-6">
+										<div class="col-md-8"></div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-6 control-label"></label>
+										<!--<div class="col-md-6">	<a class="btn btn-primary btn-block text-white" href="consultation-view.php">History</a>-->
+										</div>
+									</div>
+								</div>
+								<div class=" col-md-12 ">
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Mr No</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Mr No" />
+										</div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Patient Name</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter patient name" />
+										</div>
+									</div>
+								</div>
+								<div class=" col-md-12 ">
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">age</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter age" />
+										</div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Gender</label>
+										<div class="col-md-8">
+											<label class="radio-inline">
+												<input type="radio" name="optradio" checked>Male</label>
+											<label class="radio-inline">
+												<input type="radio" name="optradio">Female</label>
+										</div>
+									</div>
+								</div>
+								<div class=" col-md-12 ">
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Doctor Name</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter doctor name" />
+										</div>
+									</div>
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Doctor Amount</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter doctor amount" />
+										</div>
+									</div>
+								</div>
+								<div class=" col-md-12 ">
+									<div class="form-group col-md-6">
+										<label class="col-lg-4 control-label">Phone Number</label>
+										<div class="col-md-8">
+											<input type="text" class="form-control" name="shopname" placeholder="Enter Phone" />
+										</div>
+									</div>
+								</div>
+								
+								
+							</div>
+					</div>
+					<div class=" row ">
+						<div class=" col-md-6 "></div>
+					</div>
+					<!--<div class=" row bg-white">
+						<div class=" col-md-12 ">
+							<table id="example" class="table table-bordered" style="width:100%">
+								<thead>
+									<tr>
+										<th>SRNo</th>
+										<th>Medicine name</th>
+										<th>Qty (pieces)</th>
+										
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<th>1</th>
+										<td>paracetamol</td>
+										<td>30</td>
+										
+									</tr>
+								</tbody>
+							</table>
+						</div>
+					</div>-->
+					<div class="clearfix">&nbsp;</div>
+					<div class="form-group">
+						<div class="col-lg-12 text-center">
+							
+							<div class="col-lg-12 text-center">	<a type="button" name="signup" value="sign up" class="btn btn-primary " data-toggle="modal" data-target="#consult">Add </a>  <a id="patient-reg-btn" style="color:blue;font-size:25px;cursor:pointer"><i class="fa fa-plus-circle" aria-hidden="true"></i> </a>
+									</div>
 						</div>
 					</div>
-					<!-- /.box -->
+					</form>
+						<div class="clearfix">&nbsp;</div>
+								<div class=" col-md-12 ">
+									<div class="modal-dialog modal-lg" id="patient-reg" style="display:none">
+										<div class="modal-content">
+											<div class="modal-header bg-danger">
+												<button type="button" class="close" data-dismiss="modal">&times;</button>
+												<h4 class="modal-title text-center ">PATIENT REGISTRATION</h4>
+											</div>
+											<div class="modal-body">
+												<form>
+													<div class="row table_margin">
+														<div class="col-md-4">
+															<input type="text" class="form-control" placeholder="Total Amount" />
+														</div>
+														<div class="col-md-4">
+															<input type="text" class="form-control" placeholder="Concession" />
+														</div>
+														<div class="col-md-4">
+															<input type="text" class="form-control" placeholder="Paid Amount" />
+														</div>
+													</div>
+													<div class="row table_margin">
+														
+														<div class="col-md-4">
+															<input type="text" class="form-control" placeholder="Balance" />
+														</div>
+														<div class="col-md-4">
+															<input type="text" class="form-control" placeholder="Concession Reason" />
+														</div>
+														<div class="col-md-4">
+															<select class="form-control">
+																<option>Concession Given By</option>
+																<option>emergency</option>
+																<option>case type1</option>
+																<option>case type1</option>
+															</select>
+														</div>
+													</div>
+												
+													<div class="row table_margin">
+														<div class="col-md-6">
+															<input type="text" class="form-control" placeholder="User Code" />
+														</div>
+														<div class="col-md-6">
+															<select class="form-control">
+																<option>Mode</option>
+																<option>normal</option>
+																<option>emergency</option>
+																<option>case type1</option>
+																<option>case type1</option>
+															</select>
+														</div>
+													</div>
+													<div class="row table_margin">
+														<div class="col-md-12 text-center">
+															<button type="button" class="btn btn-danger">Register</button>
+														</div>
+													</div>
+												</form>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
 				</div>
 			</div>
-			<!--/.col (right) -->
+			<!-- /.box -->
 		</div>
-		<!-- /.row -->
-	</section>
-	
+</div>
+<!--/.col (right) -->
+</div>
+<!-- /.row -->
+</section>
 </div>
 <script type="text/javascript">
 	$(document).ready(function() {
@@ -293,20 +423,9 @@
 	    });
 	});
 </script>
-
-
-
-
+	<script type="text/javascript">
+		$("#patient-reg-btn").click(function(){
+		  $("#patient-reg").toggle();
+		});
+	</script>
 <?php include( "footer.php"); ?>
-<script src="../dist/js/dataTables.buttons.min.js"></script>
-<script src="../dist/js/buttons.print.min.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-    $('#example').DataTable( {
-        dom: 'Bfrtip',
-        buttons: [
-            'print'
-        ]
-    } );
-} );
-</script>

@@ -1,0 +1,392 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Dr Chary's</title>
+    
+    <style>
+    .invoice-box {
+        max-width: 800px;
+        margin: auto;
+        padding: 30px;
+        border: 1px solid #eee;
+        box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+        font-size: 16px;
+        line-height: 24px;
+        font-family: 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+        color: #555;
+    }
+    
+    .invoice-box table {
+        width: 100%;
+        line-height: inherit;
+        text-align: left;
+    }
+    
+    .invoice-box table td {
+        padding: 5px;
+        vertical-align: top;
+    }
+    
+    <!-- .invoice-box table tr td:nth-child(2) { -->
+        <!-- text-align: right; -->
+    <!-- } -->
+    
+    .invoice-box table tr.top table td {
+        padding-bottom: 0px;
+    }
+    
+    .invoice-box table tr.top table td.title {
+        font-size: 45px;
+        line-height: 45px;
+        color: #333;
+    }
+    
+    .invoice-box table tr.information table td {
+        padding-bottom: 40px;
+    }
+    
+    .invoice-box table tr.heading td {
+        background: #eee;
+        border-bottom: 1px solid #ddd;
+        font-weight: bold;
+    }
+    
+    .invoice-box table tr.details td {
+        padding-bottom: 20px;
+    }
+    
+    .invoice-box table tr.item td{
+        border-bottom: 1px solid #eee;
+    }
+    
+    .invoice-box table tr.item.last td {
+        border-bottom: none;
+    }
+    
+    .invoice-box table tr.total td:nth-child(2) {
+        border-top: 2px solid #eee;
+        font-weight: bold;
+    }
+    .table_border , table_row {
+	border:1px solid #333;
+	border-collapse: collapse;
+	}
+    @media only screen and (max-width: 600px) {
+        .invoice-box table tr.top table td {
+            width: 100%;
+            display: block;
+            text-align: center;
+        }
+        
+        .invoice-box table tr.information table td {
+            width: 100%;
+            display: block;
+            text-align: center;
+        }
+    }
+    
+    /** RTL **/
+    .rtl {
+        direction: rtl;
+        font-family: Tahoma, 'Helvetica Neue', 'Helvetica', Helvetica, Arial, sans-serif;
+    }
+    
+    .rtl table {
+        text-align: right;
+    }
+    
+    .rtl table tr td:nth-child(2) {
+        text-align: left;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="invoice-box">
+        <table cellpadding="0" cellspacing="0">
+            <tr class="top">
+                <td colspan="2">
+                    <table>
+                         <tr>
+                            <td  style="width:250px;" class="title">
+                                <img src="../dist/img/drchary-logo.png" style="width:auto; padding:25px;max-height:100px;">
+                            </td>
+                            
+                            <td style="text-align:left">
+                               <h2>SKIN COSMETIC & LASAR HAIR CLINIC</h2>
+							   <p>Ground Floor , V.R.Enclave MIG 255 , Opp , Union Bank Of India , Road No . 4 , K.P.H.B Colony , Hyd -072</p>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+		
+		
+		<table cellpadding="0" cellspacing="0" style="border:1px solid #aaa;border-bottom:0px solid #fff;font-size:12px;width:100%;">
+            <tr >
+                <td colspan="2" style="text-align:center;" >
+                  <h2 style="text-decoration:underline">DAY COLLECTION REPORT</h2>
+                </td>
+            </tr> 
+			<tr class="top">
+                <td>
+				<table>
+                  <tr class="text-align:center">
+						<th>SNo</th>
+						<th>BillNo</th>
+						<th>Date</th>
+						<th>Patient Name</th>
+						<th>UserName</th>
+						<th>TotalAmt</th>
+						<th>PaidAmt</th>
+						<th>DiscountAmt</th>
+						<th>DueAmt</th>
+				  </tr>
+				  
+				   				  
+				  </table>
+                </td>
+				
+				
+            </tr>
+			<tr class="top">
+			 <td>
+				<table>
+                <tr>
+						<td>1</td>
+						<td>6494</td>
+						<td>15/06/19</td>
+						<td>Srimatha</td>
+						<td>Duplaic oral</td>
+						
+						<td>  0.00</td>
+						<td> 117.94</td>
+						<td>   154.40</td>
+						<td>   740.40</td>
+				  </tr> 
+				  <tr>
+						<td>1</td>
+						<td>6494</td>
+						<td>15/06/19</td>
+						<td>Srimatha</td>
+						<td>Duplaic oral</td>
+						
+						<td>  0.00</td>
+						<td> 117.94</td>
+						<td>   154.40</td>
+						<td>   740.40</td>
+				  </tr>
+				  <tr>
+						<td>1</td>
+						<td>6494</td>
+						<td>15/06/19</td>
+						<td>Srimatha</td>
+						<td>Duplaic oral</td>
+						
+						<td>  0.00</td>
+						<td> 117.94</td>
+						<td>   154.40</td>
+						<td>   740.40</td>
+				  </tr> 
+				   <tr>
+						<td>1</td>
+						<td>6494</td>
+						<td>15/06/19</td>
+						<td>Srimatha</td>
+						<td>Duplaic oral</td>
+					
+						<td>  0.00</td>
+						<td> 117.94</td>
+						<td>   154.40</td>
+						<td>   740.40</td>
+				  </tr> 
+				 <tr>
+						<td>1</td>
+						<td>6494</td>
+						<td>15/06/19</td>
+						<td>Srimatha</td>
+						<td>Duplaic oral</td>
+						
+						<td>  0.00</td>
+						<td> 117.94</td>
+						<td>   154.40</td>
+						<td>   740.40</td>
+				  </tr> 
+				  <tr>
+						<td>1</td>
+						<td>6494</td>
+						<td>15/06/19</td>
+						<td>Srimatha</td>
+						<td>Duplaic oral</td>
+						
+						<td>  0.00</td>
+						<td> 117.94</td>
+						<td>   154.40</td>
+						<td>   740.40</td>
+				  </tr>
+				  <tr>
+						<td>1</td>
+						<td>6494</td>
+						<td>15/06/19</td>
+						<td>Srimatha</td>
+						<td>Duplaic oral</td>
+						
+						<td>  0.00</td>
+						<td> 117.94</td>
+						<td>   154.40</td>
+						<td>   740.40</td>
+				  </tr> 
+				   <tr>
+						<td>1</td>
+						<td>6494</td>
+						<td>15/06/19</td>
+						<td>Srimatha</td>
+						<td>Duplaic oral</td>
+						
+						<td>  0.00</td>
+						<td> 117.94</td>
+						<td>   154.40</td>
+						<td>   740.40</td>
+				  </tr> 
+				 <tr>
+						<td>1</td>
+						<td>6494</td>
+						<td>15/06/19</td>
+						<td>Srimatha</td>
+						<td>Duplaic oral</td>
+						
+						<td>  0.00</td>
+						<td> 117.94</td>
+						<td>   154.40</td>
+						<td>   740.40</td>
+				  </tr> 
+				  <tr>
+						<td>1</td>
+						<td>6494</td>
+						<td>15/06/19</td>
+						<td>Srimatha</td>
+						<td>Duplaic oral</td>
+						
+						<td>  0.00</td>
+						<td> 117.94</td>
+						<td>   154.40</td>
+						<td>   740.40</td>
+				  </tr>
+				  <tr>
+						<td>1</td>
+						<td>6494</td>
+						<td>15/06/19</td>
+						<td>Srimatha</td>
+						<td>Duplaic oral</td>
+						
+						<td>  0.00</td>
+						<td> 117.94</td>
+						<td>   154.40</td>
+						<td>   740.40</td>
+				  </tr> 
+				 <tr>
+						<td>1</td>
+						<td>6494</td>
+						<td>15/06/19</td>
+						<td>Srimatha</td>
+						<td>Duplaic oral</td>
+						
+						<td>  0.00</td>
+						<td> 117.94</td>
+						<td>   154.40</td>
+						<td>   740.40</td>
+				  </tr> 
+				  <tr>
+						<td>1</td>
+						<td>6494</td>
+						<td>15/06/19</td>
+						<td>Srimatha</td>
+						<td>Duplaic oral</td>
+						
+						<td>  0.00</td>
+						<td> 117.94</td>
+						<td>   154.40</td>
+						<td>   740.40</td>
+				  </tr>
+				  <tr>
+						<td>1</td>
+						<td>6494</td>
+						<td>15/06/19</td>
+						<td>Srimatha</td>
+						<td>Duplaic oral</td>
+						
+						<td>  0.00</td>
+						<td> 117.94</td>
+						<td>   154.40</td>
+						<td>   740.40</td>
+				  </tr> 
+				  </table>
+                </td>
+				</tr>
+				
+        </table>
+		
+		
+		
+		
+		<table cellpadding="0" cellspacing="0" style="border:1px solid #aaa;font-size:14px;">
+            <tr >
+                <td>
+					<table>
+					  <tr>
+						<th>Create By </th>
+						<td> : SOMIN</td>
+					  </tr>
+					  <tr>
+						<th>Printed By</th>
+						<td> : Sunny-Chinna</td>
+					  </tr>
+				  </table>
+                </td>
+				<td>
+					<table>
+					  <tr>
+						<td>Grand Total </td>
+						<th>: xxxxx</th>
+						
+					  </tr>
+					  <tr>
+						<td>1</td>
+						<td>&nbsp;</td>
+						
+					  </tr>
+				  </table>
+                </td>
+				 <td>
+					<table>
+					  <tr>
+						<td>Total Amount </td>
+						<th>: xxxxxx</th>
+			
+					  </tr>
+					  <tr>
+						<td>Paid Amount</td>
+						<th>: xxxxxx</th>
+					
+					  </tr>
+					  <tr>
+						<td> Concession Amount</td>
+						<th>: xxxxxxx</th>
+			
+					  </tr>
+					  <tr>
+						<td>Due Amount </td>
+						<th>: xxxxxx</th>
+					
+					  </tr>
+				  </table>
+                </td>
+            </tr> 
+			
+        </table>
+    </div>
+</body>
+</html>
+	
