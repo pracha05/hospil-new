@@ -113,22 +113,23 @@
 					</div>-->
 					<div class="clearfix">&nbsp;</div>
 					<div class="form-group">
-						<div class="col-lg-12 text-center">
+						<div class="col-lg-12" style="text-align:right;">
 							
-							<div class="col-lg-12 text-center">	<a type="button" name="signup" value="sign up" class="btn btn-primary " data-toggle="modal" data-target="#consult">Add </a>  <a id="patient-reg-btn" style="color:blue;font-size:25px;cursor:pointer"><i class="fa fa-plus-circle" aria-hidden="true"></i> </a>
+							 
+							<button class="btn btn-default" name="signup" value="sign up" id="patient-reg-btn" style="color:#333">More <a  style="color:#333;font-size:15px;cursor:pointer"><i class="fa fa-plus"></i></a></button>
 									</div>
 						</div>
 					</div>
 					</form>
 						<div class="clearfix">&nbsp;</div>
 								<div class=" col-md-12 ">
-									<div class="modal-dialog modal-lg" id="patient-reg" style="display:none">
-										<div class="modal-content">
-											<div class="modal-header bg-danger">
-												<button type="button" class="close" data-dismiss="modal">&times;</button>
+									<div class="" id="patient-reg" style="display:none">
+										<div class="">
+											<div class="modal-header bg-default">
+												
 												<h4 class="modal-title text-center ">PATIENT REGISTRATION</h4>
 											</div>
-											<div class="modal-body">
+											<div class="">
 												<form>
 													<div class="row table_margin">
 														<div class="col-md-4">
@@ -175,14 +176,12 @@
 													</div>
 													<div class="row table_margin">
 														<div class="col-md-12 text-center">
-															<button type="button" class="btn btn-danger">Register</button>
+															<button type="button" class="btn btn-danger">save</button>
 														</div>
 													</div>
 												</form>
 											</div>
-											<div class="modal-footer">
-												<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-											</div>
+											
 										</div>
 									</div>
 								</div>
